@@ -3,7 +3,7 @@
 @custom-variant dark (&:is(.dark *));
 
 /* ================================================================== */
-/*  Business Portugal — Design System « Atelier »                     */
+/*  Business Portugal, Design System « Atelier »                     */
 /*  Éditorial · archivistique · sobre. Papier bone, encre, pétrole    */
 /*  atlantique, laiton vieilli en accent fil-de-fer. Zéro dégradé.    */
 /* ================================================================== */
@@ -102,7 +102,25 @@
 }
 
 /* ------------------------------------------------------------------ */
-/*  Éléments de marque — filets fins, petites capitales, pas de kitsch */
+/*  Gabarit canonique, source UNIQUE de largeur + gouttières.         */
+/*  Header, footer et tout cadre de contenu plein l'utilisent, pour    */
+/*  empêcher les max-w-* de diverger (cf. DESIGN-SYSTEM.md §Layout).    */
+/* ------------------------------------------------------------------ */
+
+.site-frame {
+  margin-inline: auto;
+  max-width: 1400px;
+  padding-inline: 1.25rem; /* = px-5 */
+}
+
+@media (min-width: 1024px) {
+  .site-frame {
+    padding-inline: 2rem; /* = lg:px-8 */
+  }
+}
+
+/* ------------------------------------------------------------------ */
+/*  Éléments de marque, filets fins, petites capitales, pas de kitsch */
 /* ------------------------------------------------------------------ */
 
 .eyebrow {
@@ -126,7 +144,7 @@
 }
 
 /* ------------------------------------------------------------------ */
-/*  Révélations au scroll — n'activées QUE si JS présent (.js).        */
+/*  Révélations au scroll, n'activées QUE si JS présent (.js).        */
 /*  Sans JS, le contenu reste visible.                                 */
 /* ------------------------------------------------------------------ */
 
@@ -161,7 +179,7 @@
 }
 
 /* ------------------------------------------------------------------ */
-/*  Animation d'arrivée — rideau pétrole qui se lève.                  */
+/*  Animation d'arrivée, rideau pétrole qui se lève.                  */
 /*  Masqué instantanément pour reduced-motion / visite déjà vue       */
 /*  (.bp-intro-skip ajouté par le script <head>).                      */
 /* ------------------------------------------------------------------ */
@@ -174,7 +192,6 @@
   place-items: center;
   background-color: var(--primary);
   color: var(--primary-foreground);
-  cursor: pointer;
   animation: bp-curtain 0.95s cubic-bezier(0.76, 0, 0.24, 1) 1.45s forwards;
 }
 
@@ -242,7 +259,7 @@
 }
 
 /* ------------------------------------------------------------------ */
-/*  Reduced motion — neutralise tout mouvement.                        */
+/*  Reduced motion, neutralise tout mouvement.                        */
 /* ------------------------------------------------------------------ */
 
 @media (prefers-reduced-motion: reduce) {

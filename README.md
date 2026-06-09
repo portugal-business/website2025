@@ -48,8 +48,9 @@ messages/                      # fr.json, en.json (contenu réel)
 
 ## Statut
 
-- ✅ **Phase 1 — Fondations** : scaffold, design system, i18n /fr+/en (SSG), layout, home de démonstration, dark mode, build + Biome verts.
-- ⏳ **Phase 2** : pages À propos (Audrey), Création de société, Réseau partenaires, FAQ, Contact (formulaire qualif → Brevo + Calendly), Blog (migration des 6 articles corrigés), pages légales (cf. `../docs/legal/`).
-- 🔴 **Bloquants** : domaine définitif + DNS, email pro, logo HD, photo Audrey (cf. `../docs/BRIEF-CONTENU-CLIENTE.md` §13).
+- ✅ **Phase 1 — Fondations** : design system « Atelier », i18n /fr+/en (SSG), layout, animation d'arrivée, home premium, dark mode.
+- ✅ **Phase 2 — Pages** : Accueil, À propos (Audrey + Person schema), Création de société (Service+Breadcrumb), FAQ (FAQPage), Contact (formulaire Server Action Zod + Brevo + Calendly), Blog + 6 articles migrés/corrigés (BlogPosting), Mentions légales, Confidentialité.
+- ✅ **SEO** : JSON-LD global dans le layout, `sitemap.ts` (slugs réels + hreflang), `robots.ts`. Build + Biome verts (44 fichiers).
+- 🔴 **À lever (Audrey)** : domaine définitif + DNS, email pro, logo HD, photo Audrey, `BREVO_API_KEY` (env) ; validation fiscale 2026 ; vrais avis. Cf. `../docs/BRIEF-CONTENU-CLIENTE.md` §13. Placeholders `TODO` en place dans le code.
 
 > Le contenu et le positionnement suivent `../docs/BRIEF-CONTENU-CLIENTE.md` ; le SEO/GEO et la conformité YMYL suivent `../docs/SEO-GEO/`.

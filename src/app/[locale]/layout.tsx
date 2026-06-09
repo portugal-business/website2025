@@ -1,13 +1,16 @@
 import type { Metadata } from "next";
 import { EB_Garamond, Schibsted_Grotesk } from "next/font/google";
+import { notFound } from "next/navigation";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { getMessages, setRequestLocale } from "next-intl/server";
-import { notFound } from "next/navigation";
 import type { ReactNode } from "react";
+import { StructuredData } from "@/components/seo/structured-data";
+import { CookieBanner } from "@/components/site/cookie-banner";
 import { Footer } from "@/components/site/footer";
 import { IntroCurtain } from "@/components/site/intro-curtain";
 import { Navbar } from "@/components/site/navbar";
 import { routing } from "@/i18n/routing";
+import { ogLocaleFor, SITE_URL } from "@/lib/site";
 import "../globals.css";
 
 const ebGaramond = EB_Garamond({
@@ -22,14 +25,29 @@ const schibsted = Schibsted_Grotesk({
   display: "swap",
 });
 
-export const metadata: Metadata = {
-  title: {
-    default: "Business Portugal — Créer sa société au Portugal, accompagné·e",
-    template: "%s · Business Portugal",
-  },
-  description:
-    "Cabinet d'accompagnement à la création et l'implantation d'entreprise au Portugal : NIF, société, compte bancaire, réseau de partenaires comptables et fiscaux. Par Audrey Marques, à Lisbonne.",
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  return {
+    metadataBase: new URL(SITE_URL),
+    title: {
+      default: "Business Portugal, Créer sa société au Portugal, accompagné·e",
+      template: "%s · Business Portugal",
+    },
+    description:
+      "Accompagnement francophone à la création et l'implantation d'entreprise au Portugal : NIF, société, compte bancaire, réseau de partenaires comptables et fiscaux. Par Audrey Marques, à Lisbonne.",
+    openGraph: {
+      siteName: "Business Portugal",
+      type: "website",
+      images: ["/og-image.jpg"],
+      ...ogLocaleFor(locale),
+    },
+    twitter: { card: "summary_large_image" },
+  };
+}
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -62,6 +80,14 @@ export default async function LocaleLayout({
       <body className="min-h-dvh">
         {/* biome-ignore lint/security/noDangerouslySetInnerHtml: init synchrone (thème + animations) anti-FOUC */}
         <script dangerouslySetInnerHTML={{ __html: initScript }} />
+        <StructuredData />
+        {process.env.NEXT_PUBLIC_PLAUSIBLE_DOMAIN ? (
+          <script
+            defer
+            data-domain={process.env.NEXT_PUBLIC_PLAUSIBLE_DOMAIN}
+            src="https://plausible.io/js/script.outbound-links.js"
+          />
+        ) : null}
         <NextIntlClientProvider messages={messages}>
           <IntroCurtain />
           <a
@@ -73,6 +99,7 @@ export default async function LocaleLayout({
           <Navbar />
           <main id="main">{children}</main>
           <Footer />
+          <CookieBanner locale={locale} />
         </NextIntlClientProvider>
       </body>
     </html>

@@ -5,6 +5,7 @@ import { routing } from "./i18n/routing";
 export default createMiddleware(routing);
 
 export const config = {
-  // Toutes les routes sauf API, fichiers internes Next et fichiers statiques.
-  matcher: ["/((?!api|_next|_vercel|.*\\..*).*)"],
+  // Toutes les routes sauf : API, fichiers internes Next, fichiers statiques,
+  // et les espaces de la PLATEFORME (app/portal/admin) qui ne passent pas par l'i18n next-intl.
+  matcher: ["/((?!api|_next|_vercel|app|portal|admin|launch|.*\\..*).*)"],
 };

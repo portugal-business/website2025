@@ -1,8 +1,14 @@
 {
   "nav": {
+    "home": "Home",
+    "create": "Formation",
+    "services": "Services",
+    "tools": "Tools",
     "method": "The method",
     "network": "The network",
     "about": "About",
+    "guarantees": "Reviews & guarantees",
+    "faq": "FAQ",
     "blog": "Blog",
     "contact": "Contact",
     "cta": "Free assessment"
@@ -11,7 +17,7 @@
     "eyebrow": "Company formation & business setup in Portugal",
     "title": "Set up your company in Portugal,",
     "titleAccent": "guided by a real person.",
-    "subtitle": "From your tax number to opening your bank account, Audrey Marques coordinates every step with a trusted network of partners. Not a company spun up in 2 hours — real, human support from start to finish.",
+    "subtitle": "From your tax number to opening your bank account, Audrey Marques coordinates every step with a trusted network of partners. Not a company spun up in 2 hours, real, human support from start to finish.",
     "ctaPrimary": "Book a free assessment",
     "ctaSecondary": "See the method",
     "trust": "Over 75 French-speaking entrepreneurs supported since 2025.",
@@ -31,18 +37,18 @@
   "trust": {
     "items": [
       { "value": "75+", "label": "entrepreneurs supported since 2025" },
-      { "value": "24–48 h", "label": "Certidão Permanente after registration" },
+      { "value": "24-48 h", "label": "Certidão Permanente after registration" },
       { "value": "100% remote", "label": "NIF and formalities handled from abroad" }
     ]
   },
   "positioning": {
     "eyebrow": "What sets us apart",
     "title": "The real challenge isn't speed. It's getting it right.",
-    "body": "Many promise a company \"in 2 hours.\" But a poorly designed structure — run from France, with no real substance — exposes you to tax reclassification. Business Portugal is neither an accounting firm nor a tax adviser: it's your single point of contact, coordinating the right specialists to build a solid, lasting setup.",
+    "body": "Many promise a company \"in 2 hours.\" But a poorly designed structure, run from France, with no real substance, exposes you to tax reclassification. Business Portugal is neither an accounting firm nor a tax adviser: it's your single point of contact, coordinating the right specialists to build a solid, lasting setup.",
     "points": [
       "A single, French-speaking contact based in Lisbon",
       "A vetted partner network: accountants, bank, tax advisers",
-      "Transparency on what's included — no hidden fees",
+      "Transparency on what's included, no hidden fees",
       "We tell you the truth, even when it's inconvenient"
     ]
   },
@@ -61,7 +67,7 @@
       },
       {
         "title": "Company formation",
-        "description": "On-site registration and Certidão Permanente within 24–48 h."
+        "description": "On-site registration and Certidão Permanente within 24-48 h."
       },
       {
         "title": "RCBE & compliance",
@@ -77,7 +83,7 @@
   "network": {
     "eyebrow": "Beyond formation",
     "title": "One network, one point of contact",
-    "subtitle": "Once your company is set up, Audrey connects you with the right specialists — and stays your point of contact.",
+    "subtitle": "Once your company is set up, Audrey connects you with the right specialists, and stays your point of contact.",
     "items": [
       {
         "title": "Accounting",
@@ -100,17 +106,35 @@
   },
   "cta": {
     "title": "Let's talk about your project.",
-    "subtitle": "The first conversation is free and with no commitment. We'll look together at whether Portugal is the right move — and whether we're the right fit.",
+    "subtitle": "The first conversation is free and with no commitment. We'll look together at whether Portugal is the right move, and whether we're the right fit.",
     "button": "Book my free assessment",
     "reassurance": "30 minutes • in French • no commitment"
   },
   "footer": {
     "tagline": "Company formation and business setup in Portugal. Human support, from your NIF to your bank account.",
     "navTitle": "Navigation",
+    "nav": {
+      "services": "Services",
+      "creation": "Create my company",
+      "depuisLetranger": "Set up from abroad",
+      "tools": "Tools",
+      "profils": "Profiles",
+      "comparatifs": "Comparisons",
+      "ifici": "IFICI 2026 guide",
+      "guarantees": "Reviews & guarantees",
+      "faq": "FAQ",
+      "blog": "Blog"
+    },
     "legalTitle": "Information",
     "contactTitle": "Contact",
     "legal": { "notice": "Legal notice", "privacy": "Privacy policy" },
-    "entity": "Business Portugal is a trading name of Lovelyparallel, Lda · NIF 518354750 · Lisbon, Portugal",
-    "copyright": "All rights reserved."
+    "entity": "Lovelyparallel, Lda · NIF 518354750 · Lisbon, Portugal",
+    "copyright": "All rights reserved.",
+    "madeBy": "Crafted with passion by Propul'SEO",
+    "expertiseTitle": "Support",
+    "resourcesTitle": "Resources",
+    "contactRole": "Your single point of contact, based in Lisbon",
+    "location": "Lisbon, Portugal",
+    "bookCall": "Book a free assessment"
   }
 }

@@ -1,8 +1,14 @@
 {
   "nav": {
+    "home": "Accueil",
+    "create": "Création",
+    "services": "Services",
+    "tools": "Outils",
     "method": "La méthode",
     "network": "Le réseau",
     "about": "À propos",
+    "guarantees": "Avis & garanties",
+    "faq": "FAQ",
     "blog": "Blog",
     "contact": "Contact",
     "cta": "Diagnostic gratuit"
@@ -11,7 +17,7 @@
     "eyebrow": "Création & implantation d'entreprise au Portugal",
     "title": "Créez votre société au Portugal,",
     "titleAccent": "accompagné·e par une vraie personne.",
-    "subtitle": "Du numéro fiscal à l'ouverture de votre compte bancaire, Audrey Marques coordonne chaque étape avec un réseau de partenaires de confiance. Pas une société « créée en 2 h » — un accompagnement humain, du début à la fin.",
+    "subtitle": "Du numéro fiscal à l'ouverture de votre compte bancaire, Audrey Marques coordonne chaque étape avec un réseau de partenaires de confiance. Pas une société « créée en 2 h », un accompagnement humain, du début à la fin.",
     "ctaPrimary": "Réserver un diagnostic gratuit",
     "ctaSecondary": "Découvrir la méthode",
     "trust": "Plus de 75 entrepreneurs francophones accompagnés depuis 2025.",
@@ -31,18 +37,18 @@
   "trust": {
     "items": [
       { "value": "75+", "label": "entrepreneurs accompagnés depuis 2025" },
-      { "value": "24–48 h", "label": "Certidão Permanente après immatriculation" },
+      { "value": "24-48 h", "label": "Certidão Permanente après immatriculation" },
       { "value": "100 % à distance", "label": "NIF et démarches gérés depuis l'étranger" }
     ]
   },
   "positioning": {
     "eyebrow": "Notre différence",
     "title": "Le vrai enjeu n'est pas de créer vite. C'est de créer juste.",
-    "body": "Beaucoup promettent une société « en 2 heures ». Mais une structure mal pensée — pilotée depuis la France, sans substance réelle — vous expose à une requalification fiscale. Business Portugal n'est ni un cabinet comptable, ni un fiscaliste : c'est votre interlocutrice unique, qui coordonne les bons spécialistes pour construire une implantation solide et durable.",
+    "body": "Beaucoup promettent une société « en 2 heures ». Mais une structure mal pensée, pilotée depuis la France, sans substance réelle, vous expose à une requalification fiscale. Business Portugal n'est ni un cabinet comptable, ni un fiscaliste : c'est votre interlocutrice unique, qui coordonne les bons spécialistes pour construire une implantation solide et durable.",
     "points": [
       "Une interlocutrice unique, francophone, basée à Lisbonne",
       "Un réseau de partenaires vérifiés : comptables, banque, fiscalistes",
-      "La transparence sur ce qui est inclus — sans frais cachés",
+      "La transparence sur ce qui est inclus, sans frais cachés",
       "On vous dit la vérité, même quand elle dérange"
     ]
   },
@@ -61,7 +67,7 @@
       },
       {
         "title": "Création de la société",
-        "description": "Immatriculation sur place et Certidão Permanente sous 24–48 h."
+        "description": "Immatriculation sur place et Certidão Permanente sous 24-48 h."
       },
       {
         "title": "RCBE & conformité",
@@ -77,7 +83,7 @@
   "network": {
     "eyebrow": "Au-delà de la création",
     "title": "Un réseau, une seule interlocutrice",
-    "subtitle": "Une fois votre société créée, Audrey vous oriente vers les bons spécialistes — et reste votre point de contact.",
+    "subtitle": "Une fois votre société créée, Audrey vous oriente vers les bons spécialistes, et reste votre point de contact.",
     "items": [
       {
         "title": "Comptabilité",
@@ -100,17 +106,35 @@
   },
   "cta": {
     "title": "Parlons de votre projet.",
-    "subtitle": "Le premier échange est gratuit et sans engagement. On regarde ensemble si le Portugal est la bonne option — et si c'est avec nous.",
+    "subtitle": "Le premier échange est gratuit et sans engagement. On regarde ensemble si le Portugal est la bonne option, et si c'est avec nous.",
     "button": "Réserver mon diagnostic gratuit",
     "reassurance": "30 minutes • en français • sans engagement"
   },
   "footer": {
     "tagline": "Création et implantation d'entreprise au Portugal. Accompagnement humain, du NIF au compte bancaire.",
     "navTitle": "Navigation",
+    "nav": {
+      "services": "Services",
+      "creation": "Créer ma société",
+      "depuisLetranger": "Créer depuis l'étranger",
+      "tools": "Outils",
+      "profils": "Profils",
+      "comparatifs": "Comparatifs",
+      "ifici": "Guide IFICI 2026",
+      "guarantees": "Avis & garanties",
+      "faq": "FAQ",
+      "blog": "Blog"
+    },
     "legalTitle": "Informations",
     "contactTitle": "Contact",
     "legal": { "notice": "Mentions légales", "privacy": "Politique de confidentialité" },
-    "entity": "Business Portugal est le nom commercial de Lovelyparallel, Lda · NIF 518354750 · Lisbonne, Portugal",
-    "copyright": "Tous droits réservés."
+    "entity": "Lovelyparallel, Lda · NIF 518354750 · Lisbonne, Portugal",
+    "copyright": "Tous droits réservés.",
+    "madeBy": "Fait avec passion par Propul'SEO",
+    "expertiseTitle": "Accompagnement",
+    "resourcesTitle": "Ressources",
+    "contactRole": "Votre interlocutrice unique, basée à Lisbonne",
+    "location": "Lisbonne, Portugal",
+    "bookCall": "Réserver un diagnostic gratuit"
   }
 }
