@@ -1,0 +1,263 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+/* ================================================================== */
+/*  Business Portugal — Design System « Atelier »                     */
+/*  Éditorial · archivistique · sobre. Papier bone, encre, pétrole    */
+/*  atlantique, laiton vieilli en accent fil-de-fer. Zéro dégradé.    */
+/* ================================================================== */
+
+:root {
+  --background: #f2ede3; /* papier bone */
+  --foreground: #16140f; /* encre */
+  --card: #f8f4ea;
+  --card-foreground: #16140f;
+  --muted: #e7dfd0;
+  --muted-foreground: #6b6253;
+  --primary: #123b3a; /* vert-pétrole atlantique */
+  --primary-foreground: #f2ede3;
+  --accent: #9a7b3f; /* laiton / or vieilli */
+  --accent-foreground: #16140f;
+  --border: #d8cdb8;
+  --input: #d8cdb8;
+  --ring: #9a7b3f;
+  --radius: 0.25rem;
+}
+
+.dark {
+  --background: #0e1c1b; /* nuit pétrole */
+  --foreground: #ece5d6;
+  --card: #14302e;
+  --card-foreground: #ece5d6;
+  --muted: #1c3a37;
+  --muted-foreground: #9fb1ac;
+  --primary: #1f4d49;
+  --primary-foreground: #ece5d6;
+  --accent: #bfa063; /* laiton clair pour le contraste */
+  --accent-foreground: #14140f;
+  --border: #28524d;
+  --input: #28524d;
+  --ring: #bfa063;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --font-serif: var(--font-eb-garamond), ui-serif, Georgia, serif;
+  --font-sans: var(--font-schibsted), ui-sans-serif, system-ui, sans-serif;
+
+  --radius-sm: var(--radius);
+  --radius-md: calc(var(--radius) + 2px);
+  --radius-lg: calc(var(--radius) + 6px);
+}
+
+@layer base {
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-serif);
+    font-size: 1.0625rem;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    letter-spacing: -0.012em;
+    line-height: 1.08;
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  ::selection {
+    background-color: var(--color-accent);
+    color: var(--color-accent-foreground);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-ring);
+    outline-offset: 3px;
+  }
+}
+
+/* ------------------------------------------------------------------ */
+/*  Éléments de marque — filets fins, petites capitales, pas de kitsch */
+/* ------------------------------------------------------------------ */
+
+.eyebrow {
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+}
+
+.rule-brass {
+  height: 1px;
+  background-color: var(--color-accent);
+}
+
+/* Chiffres romains / index éditoriaux */
+.index-num {
+  font-family: var(--font-serif);
+  font-variant-numeric: tabular-nums;
+}
+
+/* ------------------------------------------------------------------ */
+/*  Révélations au scroll — n'activées QUE si JS présent (.js).        */
+/*  Sans JS, le contenu reste visible.                                 */
+/* ------------------------------------------------------------------ */
+
+.js .bp-reveal {
+  opacity: 0;
+  transform: translateY(1.4rem);
+  transition:
+    opacity 0.85s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.85s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: opacity, transform;
+}
+
+.js .bp-reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+/* Révélation de titres ligne par ligne (clip) */
+.js .bp-line {
+  display: block;
+  overflow: hidden;
+}
+
+.js .bp-line > * {
+  display: block;
+  transform: translateY(110%);
+  transition: transform 0.9s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.js .bp-line.is-visible > * {
+  transform: none;
+}
+
+/* ------------------------------------------------------------------ */
+/*  Animation d'arrivée — rideau pétrole qui se lève.                  */
+/*  Masqué instantanément pour reduced-motion / visite déjà vue       */
+/*  (.bp-intro-skip ajouté par le script <head>).                      */
+/* ------------------------------------------------------------------ */
+
+.bp-intro {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  display: grid;
+  place-items: center;
+  background-color: var(--primary);
+  color: var(--primary-foreground);
+  cursor: pointer;
+  animation: bp-curtain 0.95s cubic-bezier(0.76, 0, 0.24, 1) 1.45s forwards;
+}
+
+.bp-intro-skip .bp-intro {
+  display: none !important;
+}
+
+.bp-intro__inner {
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.bp-intro__eyebrow {
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: color-mix(in srgb, var(--accent) 85%, white);
+  opacity: 0;
+  animation: bp-fade-up 0.9s ease 0.7s both;
+}
+
+.bp-intro__word {
+  margin-top: 1.1rem;
+  font-family: var(--font-serif);
+  font-weight: 500;
+  font-size: clamp(2.2rem, 7vw, 4rem);
+  line-height: 1;
+  letter-spacing: -0.02em;
+  opacity: 0;
+  animation: bp-fade-up 1s cubic-bezier(0.22, 1, 0.36, 1) 0.15s both;
+}
+
+.bp-intro__line {
+  margin: 1.4rem auto 0;
+  width: min(38vw, 220px);
+  height: 1px;
+  background-color: color-mix(in srgb, var(--accent) 90%, white);
+  transform: scaleX(0);
+  transform-origin: center;
+  animation: bp-line 0.9s cubic-bezier(0.76, 0, 0.24, 1) 0.55s both;
+}
+
+@keyframes bp-fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(1.2rem);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes bp-line {
+  to {
+    transform: scaleX(1);
+  }
+}
+
+@keyframes bp-curtain {
+  to {
+    transform: translateY(-100%);
+  }
+}
+
+/* ------------------------------------------------------------------ */
+/*  Reduced motion — neutralise tout mouvement.                        */
+/* ------------------------------------------------------------------ */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .js .bp-reveal,
+  .js .bp-line > * {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
