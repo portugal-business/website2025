@@ -294,3 +294,117 @@ export interface BillingEvent {
   status: "pending" | "invoiced" | "paid";
   createdAt: ISODate;
 }
+
+// ---------------------------------------------------------------------
+//  CMS « Mon site » — contenu du site vitrine éditable par le consultant.
+//  Workflow brouillon → publication. En phase mock, la publication
+//  alimente l'aperçu interne ; le câblage vers le site public (SSG)
+//  arrive avec la migration Supabase (tables site_contents/site_posts).
+// ---------------------------------------------------------------------
+
+/** Texte bilingue, miroir des deux locales du site vitrine. */
+export interface Localized {
+  fr: string;
+  en: string;
+}
+
+export interface SiteIdentity {
+  brandName: string;
+  tagline: Localized;
+  legalName: string;
+  nipc: string;
+  phone: string;
+  email: string;
+  calendlyUrl: string;
+  linkedinUrl: string;
+}
+
+export interface SiteHero {
+  eyebrow: Localized;
+  title: Localized;
+  titleAccent: Localized;
+  subtitle: Localized;
+  ctaPrimary: Localized;
+  ctaSecondary: Localized;
+  trustLine: Localized;
+}
+
+export interface SiteService {
+  id: ID;
+  name: Localized;
+  description: Localized;
+  priceNote: Localized;
+  /** prestation réalisée par un partenaire (mise en relation) */
+  viaPartner: boolean;
+}
+
+export interface SiteStat {
+  id: ID;
+  value: Localized; // ex. « 75+ », « 100 % à distance »
+  label: Localized;
+}
+
+/** Avis : uniquement réels, nommés et vérifiables (règle YMYL du site). */
+export interface SiteTestimonial {
+  id: ID;
+  author: string;
+  role: Localized;
+  quote: Localized;
+}
+
+export interface SiteFaqItem {
+  id: ID;
+  question: Localized;
+  answer: Localized;
+}
+
+export interface SiteContent {
+  identity: SiteIdentity;
+  hero: SiteHero;
+  services: SiteService[];
+  stats: SiteStat[];
+  testimonials: SiteTestimonial[];
+  faqs: SiteFaqItem[];
+}
+
+export type SiteSectionKey = keyof SiteContent;
+
+export interface SitePublication {
+  id: ID;
+  orgId: ID;
+  publishedAt: ISODate;
+  publishedBy: string;
+  /** sections dont le contenu a changé dans cette publication */
+  sections: SiteSectionKey[];
+}
+
+export interface SiteContentState {
+  orgId: ID;
+  draft: SiteContent;
+  published: SiteContent;
+  /** sections du brouillon qui diffèrent de la version publiée */
+  dirtySections: SiteSectionKey[];
+  updatedAt: ISODate;
+  publishedAt?: ISODate;
+  publications: SitePublication[];
+}
+
+// --- Blog (articles gérés depuis la plateforme) ----------------------
+
+export type SitePostStatus = "draft" | "published";
+
+export interface SitePost {
+  id: ID;
+  orgId: ID;
+  slug: string;
+  status: SitePostStatus;
+  title: Localized;
+  excerpt: Localized;
+  /** corps en Markdown simple (## titres, listes, paragraphes) */
+  body: Localized;
+  category: string;
+  readingMinutes: number;
+  createdAt: ISODate;
+  updatedAt: ISODate;
+  publishedAt?: ISODate;
+}

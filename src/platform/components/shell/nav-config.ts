@@ -6,6 +6,7 @@ export type IconKey =
   | "clients"
   | "missions"
   | "documents"
+  | "site"
   | "settings"
   | "home"
   | "files"
@@ -29,6 +30,7 @@ export const CONSULTANT_NAV: NavItem[] = [
   { label: "Clients", href: "/app/clients", icon: "clients" },
   { label: "Missions", href: "/app/missions", icon: "missions" },
   { label: "Documents", href: "/app/documents", icon: "documents" },
+  { label: "Mon site", href: "/app/site", icon: "site" },
   { label: "Réglages", href: "/app/settings", icon: "settings" },
 ];
 
