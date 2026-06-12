@@ -7,6 +7,7 @@ import { buttonVariants } from "@/components/ui/button";
 import { Link } from "@/i18n/navigation";
 import { cn } from "@/lib/utils";
 import { LocaleSwitcher } from "./locale-switcher";
+import { LoginMenu } from "./login-menu";
 import { ThemeToggle } from "./theme-toggle";
 
 const linkCls =
@@ -45,6 +46,9 @@ export function Navbar() {
         <div className="hidden items-center gap-1 lg:flex">
           <LocaleSwitcher />
           <ThemeToggle />
+          <div className="ml-2">
+            <LoginMenu />
+          </div>
           <Link
             href="/contact"
             className={cn(buttonVariants({ variant: "primary", size: "sm" }), "ml-2")}
@@ -81,6 +85,7 @@ export function Navbar() {
             <div className="mt-3 flex items-center gap-2">
               <LocaleSwitcher />
               <ThemeToggle />
+              <LoginMenu onNavigate={() => setOpen(false)} />
               <Link
                 href="/contact"
                 onClick={() => setOpen(false)}
