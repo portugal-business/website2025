@@ -1,4 +1,4 @@
-import { ArrowRight, Building2, Eye, LayoutDashboard, UserRound } from "lucide-react";
+import { ArrowRight, Eye, LayoutDashboard, UserRound } from "lucide-react";
 import type { Metadata } from "next";
 import Link from "next/link";
 
@@ -21,13 +21,6 @@ const ENTRIES = [
     desc: "Suivi d'avancement de la création de société, documents à signer, upload des pièces demandées.",
     icon: UserRound,
   },
-  {
-    href: "/admin",
-    label: "Plateforme",
-    sub: "Propul'SEO · admin",
-    desc: "Consultants (orgs), facturation abonnement + fee par client signé, attribution des leads inbound.",
-    icon: Building2,
-  },
 ];
 
 export default function LaunchPage() {
@@ -47,7 +40,7 @@ export default function LaunchPage() {
           </p>
         </div>
 
-        <div className="grid gap-4 sm:grid-cols-3">
+        <div className="grid gap-4 sm:grid-cols-2">
           {ENTRIES.map((e) => {
             const Icon = e.icon;
             return (

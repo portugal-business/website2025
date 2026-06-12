@@ -9,10 +9,7 @@ export type IconKey =
   | "site"
   | "settings"
   | "home"
-  | "files"
-  | "orgs"
-  | "billing"
-  | "attribution";
+  | "files";
 
 export interface NavItem {
   label: string;
@@ -22,7 +19,7 @@ export interface NavItem {
   exact?: boolean;
 }
 
-export type SpaceKey = "app" | "portal" | "admin";
+export type SpaceKey = "app" | "portal";
 
 export const CONSULTANT_NAV: NavItem[] = [
   { label: "Tableau de bord", href: "/app", icon: "dashboard", exact: true },
@@ -40,13 +37,6 @@ export const PORTAL_NAV: NavItem[] = [
   { label: "Mes pièces", href: "/portal/pieces", icon: "files" },
 ];
 
-export const ADMIN_NAV: NavItem[] = [
-  { label: "Vue d'ensemble", href: "/admin", icon: "dashboard", exact: true },
-  { label: "Consultants", href: "/admin/orgs", icon: "orgs" },
-  { label: "Facturation", href: "/admin/billing", icon: "billing" },
-  { label: "Attribution", href: "/admin/attribution", icon: "attribution" },
-];
-
 export const SPACES: { key: SpaceKey; label: string; href: string; desc: string }[] = [
   {
     key: "app",
@@ -55,10 +45,4 @@ export const SPACES: { key: SpaceKey; label: string; href: string; desc: string 
     desc: "Espace d'Audrey, CRM, missions, documents",
   },
   { key: "portal", label: "Client", href: "/portal", desc: "Portail du client final" },
-  {
-    key: "admin",
-    label: "Plateforme",
-    href: "/admin",
-    desc: "Admin Propul'SEO, orgs & facturation",
-  },
 ];

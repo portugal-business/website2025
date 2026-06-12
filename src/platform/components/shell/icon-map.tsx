@@ -1,6 +1,4 @@
 import {
-  Banknote,
-  Building2,
   FileSignature,
   FileText,
   FolderUp,
@@ -10,7 +8,6 @@ import {
   LayoutDashboard,
   Settings,
   Sparkles,
-  Target,
   Users,
 } from "lucide-react";
 import type { ComponentType } from "react";
@@ -26,9 +23,6 @@ export const ICONS: Record<IconKey, ComponentType<{ className?: string }>> = {
   settings: Settings,
   home: Home,
   files: FolderUp,
-  orgs: Building2,
-  billing: Banknote,
-  attribution: Target,
 };
 
 export const FALLBACK_ICON = Gauge;
