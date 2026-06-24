@@ -15,13 +15,13 @@ const COPY: { fr: SpokeCopy; en: SpokeCopy } = {
   fr: {
     metaTitle: "Créer sa société au Portugal depuis la Belgique : convention, taxe Caïman (2026)",
     metaDesc:
-      "Résident belge ? Créer une société au Portugal à distance, comprendre la convention belgo-portugaise, la taxe Caïman et la résidence fiscale belge. Le vrai risque n'est pas portugais, il est belge. Service en français.",
+      "Résident belge ? Créer une société au Portugal : le NIF se prépare à distance, mais les statuts et le compte bancaire se signent en personne à Lisbonne. Comprendre la convention belgo-portugaise, la taxe Caïman et la résidence fiscale belge. Le vrai risque n'est pas portugais, il est belge. Service en français.",
     countryName: "Belgique",
 
-    eyebrow: "Depuis la Belgique · À distance",
+    eyebrow: "Depuis la Belgique · Préparation à distance, venue sur place",
     title: "Créer sa société au Portugal",
     titleAccent: "depuis la Belgique",
-    lead: "Vous êtes résident belge et vous envisagez une société au Portugal ? La création se fait à distance, en français. Mais le sujet décisif n'est pas portugais : c'est votre situation en Belgique (résidence, taxe Caïman, double imposition) qui détermine si l'opération est saine ou risquée. Voici les repères, datés 2026, à valider avec un fiscaliste.",
+    lead: "Vous êtes résident belge et vous envisagez une société au Portugal ? Le NIF se prépare à distance, mais la signature des statuts et l'ouverture du compte bancaire se font en personne lors d'une venue à Lisbonne — une implantation réelle, pas une coquille à distance. Et le sujet décisif n'est pas portugais : c'est votre situation en Belgique (résidence, taxe Caïman, double imposition) qui détermine si l'opération est saine ou risquée. Voici les repères, datés 2026, à valider avec un fiscaliste.",
     ctaPrimary: "Réserver un diagnostic gratuit",
     ctaSecondary: "Voir le vrai risque",
     trust: "75+ entrepreneurs accompagnés depuis 2025 · Service en français · Lisbonne, Portugal",
@@ -69,29 +69,30 @@ const COPY: { fr: SpokeCopy; en: SpokeCopy } = {
     ],
 
     remoteEyebrow: "Votre parcours",
-    remoteTitle: "Créer à distance depuis la Belgique",
+    remoteTitle:
+      "Créer depuis la Belgique : ce qui se prépare à distance, ce qui demande une venue",
     remoteBody:
-      "En tant que résident d'un État de l'Union européenne, vos démarches portugaises se font à distance, en français. Nous les coordonnons depuis le Portugal ; les modalités exactes (notamment bancaires) dépendent de votre profil.",
+      "En tant que résident d'un État de l'Union européenne, vous préparez l'essentiel à distance, en français : seul le NIF du particulier est une démarche entièrement à distance, via un représentant fiscal. La signature des statuts et l'ouverture du compte bancaire, elles, se font en personne au Portugal lors d'une venue à Lisbonne. Nous coordonnons l'ensemble depuis le Portugal et organisons cette venue.",
     remoteSteps: [
       {
-        term: "Obtenir le NIF",
+        term: "Obtenir le NIF à distance",
         value:
-          "Le NIF (numéro fiscal portugais du particulier) s'obtient sans déplacement. À ne pas confondre avec le NIPC, le numéro fiscal de la future société.",
-      },
-      {
-        term: "Donner procuration",
-        value:
-          "Une procuration permet d'accomplir les formalités d'immatriculation en votre nom ; signature électronique qualifiée ou légalisation, sans voyage.",
+          "Le NIF (numéro fiscal portugais du particulier) est la seule démarche entièrement à distance : il s'obtient via un représentant fiscal, sans déplacement. À ne pas confondre avec le NIPC, le numéro fiscal de la future société.",
       },
       {
         term: "Cadrer la structure en visio",
         value:
-          "Choix entre ENI, Unipessoal Lda ou Lda (capital à partir de 1 € par associé) et cohérence avec votre situation belge, lors d'un échange en français.",
+          "Choix entre ENI, Unipessoal Lda ou Lda (capital à partir de 1 € par associé) et cohérence avec votre situation belge, lors d'un échange en français — cette étape de préparation se fait à distance.",
       },
       {
-        term: "Immatriculer et ouvrir le compte",
+        term: "Signer les statuts sur place",
         value:
-          "Immatriculation coordonnée (statuts, RCBE, Certidão Permanente, Segurança Social) ; ouverture du compte professionnel souvent amorçable à distance selon la banque. La comptabilité est ensuite assurée par un Contabilista Certificado partenaire.",
+          "La signature des statuts se fait en personne au Portugal, lors de votre venue à Lisbonne. Juste après l'immatriculation, l'avocat partenaire déclare le RCBE (registre des bénéficiaires effectifs) une fois la Certidão Permanente obtenue, soit 24 à 48 h après.",
+      },
+      {
+        term: "Ouvrir le compte bancaire en agence",
+        value:
+          "L'ouverture du compte professionnel se fait en personne, en agence, lors de cette même venue : ce n'est pas une démarche à distance et aucune visio ne s'y substitue. La comptabilité est ensuite assurée par un Contabilista Certificado partenaire.",
       },
     ],
 
@@ -99,9 +100,9 @@ const COPY: { fr: SpokeCopy; en: SpokeCopy } = {
     relatedTitle: "Les pages utiles avant de décider",
     related: [
       {
-        label: "Créer depuis l'étranger : le guide à distance",
+        label: "Créer depuis l'étranger : le guide complet",
         href: "/creer-societe-portugal-depuis-letranger",
-        desc: "Le tronc commun des démarches à distance, valable où que vous viviez.",
+        desc: "Le tronc commun des démarches — ce qui se prépare à distance et ce qui demande une venue sur place — valable où que vous viviez.",
       },
       {
         label: "IFICI 2026 : le régime ciblé",
@@ -125,7 +126,7 @@ const COPY: { fr: SpokeCopy; en: SpokeCopy } = {
     faq: [
       {
         q: "Puis-je créer une société au Portugal en restant résident belge ?",
-        a: "Oui, c'est possible et la création se fait à distance. Mais tant que vous restez résident fiscal belge, vous demeurez imposable en Belgique sur vos revenus mondiaux, et certains revenus d'une structure portugaise peuvent être visés par la taxe Caïman. L'opération n'est saine que si elle est cadrée en amont avec un fiscaliste.",
+        a: "Oui, c'est possible. Le NIF se prépare à distance via un représentant fiscal, mais la signature des statuts et l'ouverture du compte bancaire se font en personne lors d'une venue à Lisbonne. Et tant que vous restez résident fiscal belge, vous demeurez imposable en Belgique sur vos revenus mondiaux, et certains revenus d'une structure portugaise peuvent être visés par la taxe Caïman. L'opération n'est saine que si elle est cadrée en amont avec un fiscaliste.",
       },
       {
         q: "La taxe Caïman s'applique-t-elle à ma société portugaise ?",
@@ -137,7 +138,7 @@ const COPY: { fr: SpokeCopy; en: SpokeCopy } = {
       },
       {
         q: "Dois-je m'installer au Portugal pour que ce soit propre ?",
-        a: "La façon la plus sûre de relever de la fiscalité portugaise est d'y transférer réellement votre résidence et votre activité, avec une présence réelle. Une société portugaise pilotée depuis la Belgique, sans substance sur place, expose à une requalification. Mieux vaut cadrer ce point avant de créer.",
+        a: "La façon la plus sûre de relever de la fiscalité portugaise est d'y transférer réellement votre résidence et votre activité, avec une présence réelle. Un pilotage depuis la Belgique reste envisageable avec une adresse de domiciliation au Portugal et une partie de l'activité justifiée en local, mais une société portugaise dirigée depuis la Belgique sans aucune substance sur place expose à une requalification au titre de la direction effective. Mieux vaut cadrer ce point avant de créer.",
       },
     ],
 
@@ -158,13 +159,13 @@ const COPY: { fr: SpokeCopy; en: SpokeCopy } = {
   en: {
     metaTitle: "Setting up a Portuguese company from Belgium: treaty, Cayman tax (2026)",
     metaDesc:
-      "Belgian resident? Set up a company in Portugal remotely, understand the Belgium-Portugal treaty, the Cayman tax and Belgian tax residence. The real risk is not Portuguese, it is Belgian. Service in French.",
+      "Belgian resident? Set up a company in Portugal: the NIF is prepared remotely, but the articles and the bank account are signed in person in Lisbon. Understand the Belgium-Portugal treaty, the Cayman tax and Belgian tax residence. The real risk is not Portuguese, it is Belgian. Service in French.",
     countryName: "Belgique",
 
-    eyebrow: "From Belgium · Remotely",
+    eyebrow: "From Belgium · Prepared remotely, signed in person",
     title: "Set up your company in Portugal",
     titleAccent: "from Belgium",
-    lead: "You are a Belgian resident considering a company in Portugal? Incorporation is done remotely, in French. But the decisive issue is not Portuguese: it is your situation in Belgium (residence, Cayman tax, double taxation) that determines whether the operation is sound or risky. Here are the markers, dated 2026, to validate with a tax adviser.",
+    lead: "You are a Belgian resident considering a company in Portugal? The NIF is prepared remotely, but signing the articles and opening the bank account are done in person during a trip to Lisbon — a real setup, not a remote shell. And the decisive issue is not Portuguese: it is your situation in Belgium (residence, Cayman tax, double taxation) that determines whether the operation is sound or risky. Here are the markers, dated 2026, to validate with a tax adviser.",
     ctaPrimary: "Book a free assessment",
     ctaSecondary: "See the real risk",
     trust: "75+ entrepreneurs supported since 2025 · Service in French · Lisbon, Portugal",
@@ -212,29 +213,29 @@ const COPY: { fr: SpokeCopy; en: SpokeCopy } = {
     ],
 
     remoteEyebrow: "Your process",
-    remoteTitle: "Setting up remotely from Belgium",
+    remoteTitle: "Setting up from Belgium: what is prepared remotely, what requires a trip",
     remoteBody:
-      "As a resident of a European Union State, your Portuguese formalities are done remotely, in French. We coordinate them from Portugal; the exact terms (banking in particular) depend on your profile.",
+      "As a resident of a European Union State, you prepare the essentials remotely, in French: only the individual's NIF is a fully remote step, via a tax representative. Signing the articles and opening the bank account, however, are done in person in Portugal during a trip to Lisbon. We coordinate the whole process from Portugal and organise that trip.",
     remoteSteps: [
       {
-        term: "Obtain the NIF",
+        term: "Obtain the NIF remotely",
         value:
-          "The NIF (individual Portuguese tax number) is obtained without travelling. Not to be confused with the NIPC, the future company's tax number.",
-      },
-      {
-        term: "Grant a power of attorney",
-        value:
-          "A power of attorney allows the registration formalities to be carried out in your name; qualified electronic signature or legalisation, with no trip.",
+          "The NIF (individual Portuguese tax number) is the only fully remote step: it is obtained via a tax representative, without travelling. Not to be confused with the NIPC, the future company's tax number.",
       },
       {
         term: "Frame the structure by video",
         value:
-          "Choice between ENI, Unipessoal Lda or Lda (capital from €1 per partner) and consistency with your Belgian situation, during a call in French.",
+          "Choice between ENI, Unipessoal Lda or Lda (capital from €1 per partner) and consistency with your Belgian situation, during a call in French — this preparation step is done remotely.",
       },
       {
-        term: "Incorporate and open the account",
+        term: "Sign the articles in person",
         value:
-          "Coordinated incorporation (articles, RCBE, Certidão Permanente, Segurança Social); opening the business account can often be started remotely depending on the bank. Accounting is then handled by a partner Contabilista Certificado.",
+          "Signing the articles is done in person in Portugal, during your trip to Lisbon. Right after incorporation, the partner lawyer files the RCBE (beneficial ownership register) once the Certidão Permanente is issued, i.e. 24 to 48 hours later.",
+      },
+      {
+        term: "Open the bank account at the branch",
+        value:
+          "Opening the business account is done in person, at the branch, during that same trip: it is not a remote step and no video call replaces it. Accounting is then handled by a partner Contabilista Certificado.",
       },
     ],
 
@@ -242,9 +243,9 @@ const COPY: { fr: SpokeCopy; en: SpokeCopy } = {
     relatedTitle: "Useful pages before you decide",
     related: [
       {
-        label: "Setting up from abroad: the remote guide",
+        label: "Setting up from abroad: the complete guide",
         href: "/creer-societe-portugal-depuis-letranger",
-        desc: "The common backbone of remote formalities, valid wherever you live.",
+        desc: "The common backbone of the formalities — what is prepared remotely and what requires a trip on site — valid wherever you live.",
       },
       {
         label: "IFICI 2026: the targeted regime",
@@ -268,7 +269,7 @@ const COPY: { fr: SpokeCopy; en: SpokeCopy } = {
     faq: [
       {
         q: "Can I set up a company in Portugal while remaining a Belgian resident?",
-        a: "Yes, it is possible and incorporation is done remotely. But as long as you remain a Belgian tax resident, you stay taxable in Belgium on your worldwide income, and some income from a Portuguese structure may be caught by the Cayman tax. The operation is only sound if framed upfront with a tax adviser.",
+        a: "Yes, it is possible. The NIF is prepared remotely via a tax representative, but signing the articles and opening the bank account are done in person during a trip to Lisbon. And as long as you remain a Belgian tax resident, you stay taxable in Belgium on your worldwide income, and some income from a Portuguese structure may be caught by the Cayman tax. The operation is only sound if framed upfront with a tax adviser.",
       },
       {
         q: "Does the Cayman tax apply to my Portuguese company?",
@@ -280,7 +281,7 @@ const COPY: { fr: SpokeCopy; en: SpokeCopy } = {
       },
       {
         q: "Do I need to move to Portugal for this to be clean?",
-        a: "The safest way to come under Portuguese taxation is to genuinely move your residence and activity there, with a real presence. A Portuguese company run from Belgium, with no substance on the ground, exposes you to reclassification. Better to settle this before setting up.",
+        a: "The safest way to come under Portuguese taxation is to genuinely move your residence and activity there, with a real presence. Running it from Belgium remains conceivable with a registered address in Portugal and part of the activity justified locally, but a Portuguese company managed from Belgium with no substance on the ground exposes you to reclassification on place-of-effective-management grounds. Better to settle this before setting up.",
       },
     ],
 

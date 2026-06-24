@@ -7,7 +7,7 @@
  *  - Capital Lda / Unipessoal = 1 €/associé (l'ancienne valeur « 5 000 € » était FAUSSE).
  *  - Fiscalité : l'ancien RNH est terminé → IFICI (ex-« RNH 2.0 »). Les RETRAITÉS sont EXCLUS.
  *    Aucune promesse « 0 impôt / 0 risque / garanti ».
- *  - Étude de cas Alénia : salaire minimum PT 2026 ≈ 870 €/mois (et non 820 €).
+ *  - Étude de cas Alénia : salaire minimum PT 2026 ≈ 920 €/mois (et non 820 €).
  *  - Audrey = consultante en implantation/création (jamais comptable/fiscaliste/avocate) ;
  *    la comptabilité réglementée est assurée par un Contabilista Certificado partenaire ;
  *    la fiscalité fine relève d'une mise en relation avec un fiscaliste partenaire.
@@ -407,7 +407,7 @@ const legacyArticles: Article[] = [
   },
 
   /* ------------------------------------------------------------------ */
-  /*  5. Étude de cas Alénia (CORRIGÉ : salaire min. ≈ 870 €)           */
+  /*  5. Étude de cas Alénia (CORRIGÉ : salaire min. ≈ 920 €)           */
   /* ------------------------------------------------------------------ */
   {
     id: "success-story-alenia",

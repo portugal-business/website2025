@@ -30,7 +30,7 @@ const COPY: { fr: Copy; en: Copy } = {
       },
       {
         q: "Un Français peut-il gérer sa société portugaise depuis la France ?",
-        a: "C'est exactement là qu'est le vrai risque. Si la société est réellement dirigée depuis la France, l'administration peut l'imposer en France (siège de direction effective, établissement stable). Le danger n'est pas la création, simple, mais la requalification fiscale ultérieure.",
+        a: "Oui, c'est possible : il faut une adresse de domiciliation au Portugal et, le plus souvent, pouvoir justifier d'une partie de l'activité en local. Le point de vigilance reste la direction effective : si la société est réellement pilotée depuis la France sans aucune substance au Portugal, l'administration peut l'imposer en France. Le danger n'est pas la création, simple, mais la requalification fiscale ultérieure, c'est précisément ce que nous aidons à cadrer.",
       },
       {
         q: "Audrey est-elle comptable ou fiscaliste ?",
@@ -61,7 +61,7 @@ const COPY: { fr: Copy; en: Copy } = {
       },
       {
         q: "Can a French resident run their Portuguese company from France?",
-        a: "That's exactly where the real risk lies. If the company is genuinely run from France, the authorities may tax it in France (place of effective management, permanent establishment). The danger isn't setting up, that's simple, but the later tax reclassification.",
+        a: "Yes, it's possible: you need a registered address in Portugal and, most often, to be able to show part of the activity takes place locally. The key point to watch is effective management: if the company is genuinely run from France with no substance in Portugal, the authorities may tax it in France. The danger isn't setting up, that's simple, but the later tax reclassification, which is exactly what we help you frame.",
       },
       {
         q: "Is Audrey an accountant or tax adviser?",

@@ -15,13 +15,13 @@ const COPY: { fr: SpokeCopy; en: SpokeCopy } = {
   fr: {
     metaTitle: "Créer sa société au Portugal depuis le Luxembourg : convention, CFC ATAD (2026)",
     metaDesc:
-      "Résident luxembourgeois ? Créer une société au Portugal à distance, comprendre la convention Luxembourg-Portugal, les règles CFC issues de l'ATAD et la résidence fiscale luxembourgeoise. Le vrai risque n'est pas portugais, il est luxembourgeois. Service en français.",
+      "Résident luxembourgeois ? Préparer sa société au Portugal depuis le Luxembourg (NIF à distance), puis venir signer les statuts et ouvrir le compte sur place. Comprendre la convention Luxembourg-Portugal, les règles CFC issues de l'ATAD et la résidence fiscale luxembourgeoise. Le vrai risque n'est pas portugais, il est luxembourgeois. Service en français.",
     countryName: "Luxembourg",
 
-    eyebrow: "Depuis le Luxembourg · À distance",
+    eyebrow: "Depuis le Luxembourg · NIF à distance, venue sur place",
     title: "Créer sa société au Portugal",
     titleAccent: "depuis le Luxembourg",
-    lead: "Vous résidez au Luxembourg et vous envisagez une société au Portugal ? La création se fait à distance, en français. Mais le sujet décisif n'est pas portugais : c'est votre situation luxembourgeoise (résidence, règles CFC issues de l'ATAD, siège de direction effective) qui détermine si l'opération est saine ou risquée. Voici les repères, datés 2026, à valider avec un fiscaliste.",
+    lead: "Vous résidez au Luxembourg et vous envisagez une société au Portugal ? La préparation se fait à distance, en français : le NIF s'obtient via un représentant fiscal, sans déplacement. Mais la signature des statuts et l'ouverture du compte bancaire se font en personne, lors d'une venue à Lisbonne. Et le sujet décisif n'est pas portugais : c'est votre situation luxembourgeoise (résidence, règles CFC issues de l'ATAD, siège de direction effective) qui détermine si l'opération est saine ou risquée. Voici les repères, datés 2026, à valider avec un fiscaliste.",
     ctaPrimary: "Réserver un diagnostic gratuit",
     ctaSecondary: "Voir le vrai risque",
     trust: "75+ entrepreneurs accompagnés depuis 2025 · Service en français · Lisbonne, Portugal",
@@ -69,29 +69,29 @@ const COPY: { fr: SpokeCopy; en: SpokeCopy } = {
     ],
 
     remoteEyebrow: "Votre parcours",
-    remoteTitle: "Créer à distance depuis le Luxembourg",
+    remoteTitle: "Préparer depuis le Luxembourg, finaliser sur place",
     remoteBody:
-      "En tant que résident d'un État de l'Union européenne, vos démarches portugaises se font à distance, en français. Nous les coordonnons depuis le Portugal ; les modalités exactes (notamment bancaires) dépendent de votre profil.",
+      "En tant que résident d'un État de l'Union européenne, la préparation se fait à distance, en français : le NIF s'obtient via un représentant fiscal, sans déplacement. La signature des statuts et l'ouverture du compte bancaire se font ensuite en personne, lors d'une venue à Lisbonne. Nous coordonnons l'ensemble depuis le Portugal.",
     remoteSteps: [
       {
-        term: "Obtenir le NIF",
+        term: "Obtenir le NIF (à distance)",
         value:
-          "Le NIF (numéro fiscal portugais du particulier) s'obtient sans déplacement. À ne pas confondre avec le NIPC, le numéro fiscal de la future société.",
-      },
-      {
-        term: "Donner procuration",
-        value:
-          "Une procuration permet d'accomplir les formalités d'immatriculation en votre nom ; signature électronique qualifiée ou légalisation, sans voyage.",
+          "Le NIF (numéro fiscal portugais du particulier) est la seule démarche entièrement à distance : il s'obtient via un représentant fiscal, sans déplacement. À ne pas confondre avec le NIPC, le numéro fiscal de la future société.",
       },
       {
         term: "Cadrer la structure en visio",
         value:
-          "Choix entre ENI, Unipessoal Lda ou Lda (capital à partir de 1 € par associé) et cohérence avec votre situation luxembourgeoise, lors d'un échange en français.",
+          "Choix entre ENI, Unipessoal Lda ou Lda (capital à partir de 1 € par associé) et cohérence avec votre situation luxembourgeoise, lors d'un échange en français. Préparation du dossier en amont de votre venue.",
       },
       {
-        term: "Immatriculer et ouvrir le compte",
+        term: "Signer les statuts sur place",
         value:
-          "Immatriculation coordonnée (statuts, RCBE, Certidão Permanente, Segurança Social) ; ouverture du compte professionnel souvent amorçable à distance selon la banque. La comptabilité est ensuite assurée par un Contabilista Certificado partenaire.",
+          "La signature des statuts se fait en personne au Portugal, lors d'une venue à Lisbonne. Le RCBE est ensuite déclaré par l'avocat partenaire juste après l'obtention de la Certidão Permanente (24 à 48 h après l'immatriculation).",
+      },
+      {
+        term: "Ouvrir le compte en agence",
+        value:
+          "L'ouverture du compte bancaire professionnel se fait en personne, en agence, lors de cette même venue. La comptabilité est ensuite assurée par un Contabilista Certificado partenaire.",
       },
     ],
 
@@ -125,7 +125,7 @@ const COPY: { fr: SpokeCopy; en: SpokeCopy } = {
     faq: [
       {
         q: "Puis-je créer une société au Portugal en restant résident luxembourgeois ?",
-        a: "Oui, c'est possible et la création se fait à distance. Mais tant que vous restez résident fiscal luxembourgeois, vous demeurez imposable au Luxembourg sur vos revenus mondiaux, et une structure portugaise contrôlée peut, sous conditions, être visée par les règles CFC issues de l'ATAD. L'opération n'est saine que si elle est cadrée en amont avec un fiscaliste.",
+        a: "Oui, c'est possible. La préparation se fait à distance (le NIF s'obtient via un représentant fiscal, sans déplacement), mais la signature des statuts et l'ouverture du compte bancaire se font en personne, lors d'une venue à Lisbonne. Et tant que vous restez résident fiscal luxembourgeois, vous demeurez imposable au Luxembourg sur vos revenus mondiaux, et une structure portugaise contrôlée peut, sous conditions, être visée par les règles CFC issues de l'ATAD. L'opération n'est saine que si elle est cadrée en amont avec un fiscaliste.",
       },
       {
         q: "Les règles CFC s'appliquent-elles à ma société portugaise ?",
@@ -137,7 +137,7 @@ const COPY: { fr: SpokeCopy; en: SpokeCopy } = {
       },
       {
         q: "Dois-je m'installer au Portugal pour que ce soit propre ?",
-        a: "La façon la plus sûre de relever de la fiscalité portugaise est d'y transférer réellement votre résidence et votre activité, avec une présence réelle. Une société portugaise pilotée depuis le Luxembourg, sans substance sur place, expose à une requalification au titre du siège de direction effective. Mieux vaut cadrer ce point avant de créer.",
+        a: "La façon la plus sûre de relever de la fiscalité portugaise est d'y transférer réellement votre résidence et votre activité, avec une présence réelle. Un pilotage depuis le Luxembourg reste envisageable avec une adresse de domiciliation au Portugal et une partie de l'activité réellement justifiée en local, mais une société portugaise sans substance sur place expose à une requalification au titre du siège de direction effective et, sous conditions, aux règles CFC issues de l'ATAD. Mieux vaut cadrer ce point avec un fiscaliste avant de créer.",
       },
     ],
 
@@ -158,13 +158,13 @@ const COPY: { fr: SpokeCopy; en: SpokeCopy } = {
   en: {
     metaTitle: "Setting up a Portuguese company from Luxembourg: treaty, CFC ATAD (2026)",
     metaDesc:
-      "Luxembourg resident? Set up a company in Portugal remotely, understand the Luxembourg-Portugal treaty, the ATAD-based CFC rules and Luxembourg tax residence. The real risk is not Portuguese, it is Luxembourgish. Service in French.",
+      "Luxembourg resident? Prepare your Portuguese company from Luxembourg (NIF remotely), then come in person to sign the articles and open the bank account. Understand the Luxembourg-Portugal treaty, the ATAD-based CFC rules and Luxembourg tax residence. The real risk is not Portuguese, it is Luxembourgish. Service in French.",
     countryName: "Luxembourg",
 
-    eyebrow: "From Luxembourg · Remotely",
+    eyebrow: "From Luxembourg · NIF remotely, then on-site visit",
     title: "Set up your company in Portugal",
     titleAccent: "from Luxembourg",
-    lead: "You live in Luxembourg and are considering a company in Portugal? Incorporation is done remotely, in French. But the decisive issue is not Portuguese: it is your Luxembourg situation (residence, ATAD-based CFC rules, place of effective management) that determines whether the operation is sound or risky. Here are the markers, dated 2026, to validate with a tax adviser.",
+    lead: "You live in Luxembourg and are considering a company in Portugal? The preparation is done remotely, in French: the NIF is obtained through a tax representative, with no trip. But signing the articles and opening the bank account are done in person, during a visit to Lisbon. And the decisive issue is not Portuguese: it is your Luxembourg situation (residence, ATAD-based CFC rules, place of effective management) that determines whether the operation is sound or risky. Here are the markers, dated 2026, to validate with a tax adviser.",
     ctaPrimary: "Book a free assessment",
     ctaSecondary: "See the real risk",
     trust: "75+ entrepreneurs supported since 2025 · Service in French · Lisbon, Portugal",
@@ -212,29 +212,29 @@ const COPY: { fr: SpokeCopy; en: SpokeCopy } = {
     ],
 
     remoteEyebrow: "Your process",
-    remoteTitle: "Setting up remotely from Luxembourg",
+    remoteTitle: "Prepare from Luxembourg, finalise on site",
     remoteBody:
-      "As a resident of a European Union State, your Portuguese formalities are done remotely, in French. We coordinate them from Portugal; the exact terms (banking in particular) depend on your profile.",
+      "As a resident of a European Union State, the preparation is done remotely, in French: the NIF is obtained through a tax representative, with no trip. Signing the articles and opening the bank account are then done in person, during a visit to Lisbon. We coordinate the whole process from Portugal.",
     remoteSteps: [
       {
-        term: "Obtain the NIF",
+        term: "Obtain the NIF (remotely)",
         value:
-          "The NIF (individual Portuguese tax number) is obtained without travelling. Not to be confused with the NIPC, the future company's tax number.",
-      },
-      {
-        term: "Grant a power of attorney",
-        value:
-          "A power of attorney allows the registration formalities to be carried out in your name; qualified electronic signature or legalisation, with no trip.",
+          "The NIF (individual Portuguese tax number) is the only fully remote step: it is obtained through a tax representative, without travelling. Not to be confused with the NIPC, the future company's tax number.",
       },
       {
         term: "Frame the structure by video",
         value:
-          "Choice between ENI, Unipessoal Lda or Lda (capital from €1 per partner) and consistency with your Luxembourg situation, during a call in French.",
+          "Choice between ENI, Unipessoal Lda or Lda (capital from €1 per partner) and consistency with your Luxembourg situation, during a call in French. The file is prepared ahead of your visit.",
       },
       {
-        term: "Incorporate and open the account",
+        term: "Sign the articles on site",
         value:
-          "Coordinated incorporation (articles, RCBE, Certidão Permanente, Segurança Social); opening the business account can often be started remotely depending on the bank. Accounting is then handled by a partner Contabilista Certificado.",
+          "Signing the articles is done in person in Portugal, during a visit to Lisbon. The RCBE is then declared by the partner lawyer right after the Certidão Permanente is issued (24 to 48 hours after incorporation).",
+      },
+      {
+        term: "Open the account in branch",
+        value:
+          "Opening the business bank account is done in person, in branch, during the same visit. Accounting is then handled by a partner Contabilista Certificado.",
       },
     ],
 
@@ -268,7 +268,7 @@ const COPY: { fr: SpokeCopy; en: SpokeCopy } = {
     faq: [
       {
         q: "Can I set up a company in Portugal while remaining a Luxembourg resident?",
-        a: "Yes, it is possible and incorporation is done remotely. But as long as you remain a Luxembourg tax resident, you stay taxable in Luxembourg on your worldwide income, and a controlled Portuguese structure may, under conditions, be caught by the ATAD-based CFC rules. The operation is only sound if framed upfront with a tax adviser.",
+        a: "Yes, it is possible. The preparation is done remotely (the NIF is obtained through a tax representative, with no trip), but signing the articles and opening the bank account are done in person, during a visit to Lisbon. And as long as you remain a Luxembourg tax resident, you stay taxable in Luxembourg on your worldwide income, and a controlled Portuguese structure may, under conditions, be caught by the ATAD-based CFC rules. The operation is only sound if framed upfront with a tax adviser.",
       },
       {
         q: "Do the CFC rules apply to my Portuguese company?",
@@ -280,7 +280,7 @@ const COPY: { fr: SpokeCopy; en: SpokeCopy } = {
       },
       {
         q: "Do I need to move to Portugal for this to be clean?",
-        a: "The safest way to come under Portuguese taxation is to genuinely move your residence and activity there, with a real presence. A Portuguese company run from Luxembourg, with no substance on the ground, exposes you to reclassification on the basis of the place of effective management. Better to settle this before setting up.",
+        a: "The safest way to come under Portuguese taxation is to genuinely move your residence and activity there, with a real presence. Running it from Luxembourg remains conceivable with a domiciliation address in Portugal and part of the activity genuinely justified locally, but a Portuguese company with no substance on the ground exposes you to reclassification on the basis of the place of effective management and, under conditions, to the ATAD-based CFC rules. Better to settle this with a tax adviser before setting up.",
       },
     ],
 

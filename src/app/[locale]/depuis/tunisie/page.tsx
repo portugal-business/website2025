@@ -22,10 +22,10 @@ const COPY: { fr: SpokeCopy; en: SpokeCopy } = {
       "Ressortissant tunisien ? Créer une société au Portugal à distance, comprendre le visa D2, le contrôle des changes de la BCT et la convention Tunisie-Portugal. Le vrai préalable n'est pas fiscal, il est le change et le visa. Service en français.",
     countryName: "Tunisie",
 
-    eyebrow: "Depuis la Tunisie · À distance",
+    eyebrow: "Depuis la Tunisie · Démarches",
     title: "Créer sa société au Portugal",
     titleAccent: "depuis la Tunisie",
-    lead: "Vous êtes résident tunisien et vous envisagez une société au Portugal ? La société peut se créer à distance, en français. Mais le sujet décisif n'est pas la fiscalité portugaise : c'est le contrôle des changes tunisien (transférer des devises et investir à l'étranger restent encadrés) et, si vous voulez vivre et diriger sur place, le visa de résidence. Voici les repères, datés mi-2026 et à valider impérativement avec un professionnel.",
+    lead: "Vous êtes résident tunisien et vous envisagez une société au Portugal ? Le NIF s'obtient à distance, mais la signature des statuts et l'ouverture du compte bancaire se font en personne, lors d'une venue à Lisbonne. Le tout en français. Et le sujet décisif n'est pas la fiscalité portugaise : c'est le contrôle des changes tunisien (transférer des devises et investir à l'étranger restent encadrés) et, si vous voulez vivre et diriger sur place, le visa de résidence. Voici les repères, datés mi-2026 et à valider impérativement avec un professionnel.",
     ctaPrimary: "Réserver un diagnostic gratuit",
     ctaSecondary: "Voir le vrai obstacle",
     trust: "75+ entrepreneurs accompagnés depuis 2025 · Service en français · Lisbonne, Portugal",
@@ -65,7 +65,7 @@ const COPY: { fr: SpokeCopy; en: SpokeCopy } = {
       {
         term: "Visa D2 si vous vous installez",
         value:
-          "La société peut être créée à distance, mais vivre et diriger depuis le Portugal en tant que non-UE suppose un titre de séjour : le visa D2 (entrepreneur/indépendant). Conditions indicatives 2026, à confirmer.",
+          "La société se crée avec une venue à Lisbonne (signature des statuts et ouverture du compte en personne), mais vivre et diriger depuis le Portugal en tant que non-UE suppose un titre de séjour : le visa D2 (entrepreneur/indépendant). Conditions indicatives 2026, à confirmer.",
       },
       {
         term: "Spécificité : le contrôle des changes",
@@ -80,19 +80,19 @@ const COPY: { fr: SpokeCopy; en: SpokeCopy } = {
     ],
 
     remoteEyebrow: "Votre parcours",
-    remoteTitle: "Créer à distance depuis la Tunisie",
+    remoteTitle: "Créer depuis la Tunisie : le NIF à distance, le reste à Lisbonne",
     remoteBody:
-      "En tant que ressortissant non-UE, votre parcours combine des démarches portugaises (NIF, procuration, immatriculation) et, en amont, le cadrage du change tunisien et, le cas échéant, du visa. Nous coordonnons le volet portugais depuis le Portugal et vous orientons vers les bons interlocuteurs pour le reste.",
+      "En tant que ressortissant non-UE, votre parcours combine des démarches portugaises (NIF à distance, puis signature des statuts et ouverture du compte en personne à Lisbonne) et, en amont, le cadrage du change tunisien et, le cas échéant, du visa. Nous coordonnons le volet portugais depuis le Portugal et vous orientons vers les bons interlocuteurs pour le reste.",
     remoteSteps: [
       {
-        term: "Obtenir un NIF non-résident",
+        term: "Obtenir un NIF non-résident (à distance)",
         value:
-          "Le NIF (numéro fiscal portugais du particulier) s'obtient sans déplacement, via un représentant fiscal au Portugal puisque vous résidez hors UE. À ne pas confondre avec le NIPC, le numéro fiscal de la future société.",
+          "Le NIF (numéro fiscal portugais du particulier) est la seule démarche entièrement à distance : il s'obtient sans déplacement, via un représentant fiscal au Portugal puisque vous résidez hors UE. À ne pas confondre avec le NIPC, le numéro fiscal de la future société.",
       },
       {
-        term: "Donner procuration (création possible à distance)",
+        term: "Signer les statuts à Lisbonne (en personne)",
         value:
-          "Une procuration permet d'accomplir l'immatriculation en votre nom, sans voyage : la société peut être créée à distance avant toute installation. Signature légalisée ou apostillée selon le cas.",
+          "La signature des statuts se fait en personne au Portugal, lors d'une venue à Lisbonne. Le RCBE (registre des bénéficiaires effectifs) est ensuite déclaré par l'avocat partenaire juste après l'obtention de la Certidão Permanente, 24 à 48 h après l'immatriculation.",
       },
       {
         term: "Cadrer le contrôle des changes",
@@ -105,9 +105,9 @@ const COPY: { fr: SpokeCopy; en: SpokeCopy } = {
           "Si l'objectif est de vous installer au Portugal et d'y diriger la société, le visa D2 (entrepreneur/indépendant non-UE) est le titre de séjour à viser. Conditions indicatives 2026 : moyens de subsistance de l'ordre du salaire minimum portugais, justificatif d'épargne/de dépôt, plan d'affaires crédible — à confirmer.",
       },
       {
-        term: "Immatriculer et ouvrir le compte",
+        term: "Ouvrir le compte bancaire en agence (en personne)",
         value:
-          "Immatriculation coordonnée (statuts, RCBE, Certidão Permanente, Segurança Social) puis ouverture du compte professionnel, dont les modalités dépendent de la banque et de votre profil non-résident. La comptabilité est ensuite assurée par un Contabilista Certificado partenaire.",
+          "L'ouverture du compte professionnel se fait en personne, en agence, lors de la même venue à Lisbonne — pas à distance. Ses modalités dépendent de la banque et de votre profil non-résident. La comptabilité est ensuite assurée par un Contabilista Certificado partenaire.",
       },
     ],
 
@@ -115,9 +115,9 @@ const COPY: { fr: SpokeCopy; en: SpokeCopy } = {
     relatedTitle: "Les pages utiles avant de décider",
     related: [
       {
-        label: "Créer depuis l'étranger : le guide à distance",
+        label: "Créer depuis l'étranger : le guide des démarches",
         href: "/creer-societe-portugal-depuis-letranger",
-        desc: "Le tronc commun des démarches à distance, valable où que vous viviez.",
+        desc: "Le tronc commun des démarches (NIF à distance, statuts et compte en personne), valable où que vous viviez.",
       },
       {
         label: "Création de société au Portugal",
@@ -141,19 +141,19 @@ const COPY: { fr: SpokeCopy; en: SpokeCopy } = {
     faq: [
       {
         q: "Puis-je détenir une société au Portugal en restant résident tunisien ?",
-        a: "Oui, la société peut être créée à distance. Mais en restant résident en Tunisie, vos obligations tunisiennes demeurent et, surtout, la détention d'avoirs à l'étranger et l'investissement hors de Tunisie sont encadrés par le contrôle des changes : à la mi-2026, cela reste largement soumis à autorisation de la BCT. Ce point, évolutif, doit être daté et validé avec un professionnel avant d'engager quoi que ce soit.",
+        a: "Oui, la société peut être détenue depuis la Tunisie (la création suppose toutefois une venue à Lisbonne pour signer les statuts et ouvrir le compte). Mais en restant résident en Tunisie, vos obligations tunisiennes demeurent et, surtout, la détention d'avoirs à l'étranger et l'investissement hors de Tunisie sont encadrés par le contrôle des changes : à la mi-2026, cela reste largement soumis à autorisation de la BCT. Ce point, évolutif, doit être daté et validé avec un professionnel avant d'engager quoi que ce soit.",
       },
       {
         q: "Ai-je besoin d'un visa pour créer ma société au Portugal ?",
-        a: "Pour créer la société à distance, non : une procuration suffit. En revanche, si vous voulez vivre au Portugal et y diriger la société, vous avez besoin d'un titre de séjour, le visa D2 (entrepreneur/indépendant non-UE). Ses conditions 2026 (moyens de subsistance de l'ordre du salaire minimum portugais, épargne, plan d'affaires) sont indicatives et à confirmer.",
+        a: "Pour créer la société, non : la venue à Lisbonne pour signer les statuts et ouvrir le compte se fait avec un simple visa de court séjour, pas un titre de séjour. En revanche, si vous voulez vivre au Portugal et y diriger la société, vous avez besoin d'un titre de séjour, le visa D2 (entrepreneur/indépendant non-UE). Ses conditions 2026 (moyens de subsistance de l'ordre du salaire minimum portugais, épargne, plan d'affaires) sont indicatives et à confirmer.",
       },
       {
         q: "Puis-je transférer des fonds et des devises vers le Portugal ?",
         a: "C'est le point le plus sensible. Le transfert de devises et la détention d'avoirs à l'étranger sont encadrés par le code des changes tunisien ; à la mi-2026, l'investissement à l'étranger par un résident reste largement soumis à autorisation de la BCT. Le code est en cours de libéralisation, donc la situation est évolutive : faites vérifier la règle applicable, selon votre statut de résident ou non-résident, avec un professionnel avant tout transfert.",
       },
       {
-        q: "La création à distance est-elle vraiment possible ?",
-        a: "Oui. Avec un NIF non-résident obtenu via un représentant fiscal et une procuration, la société portugaise peut être immatriculée sans que vous vous déplaciez. Vivre et diriger sur place est une étape distincte qui suppose, elle, le visa de résidence. Nous coordonnons le volet portugais et vous orientons pour le change et le visa.",
+        q: "Quelles démarches puis-je faire à distance, et lesquelles exigent ma présence ?",
+        a: "À distance : le NIF non-résident, obtenu via un représentant fiscal — c'est la seule démarche entièrement à distance. En personne, lors d'une venue à Lisbonne : la signature des statuts puis l'ouverture du compte bancaire, en agence. Le RCBE est ensuite déclaré par l'avocat partenaire juste après la Certidão Permanente (24 à 48 h après l'immatriculation). Vivre et diriger sur place est une étape distincte qui suppose, elle, le visa de résidence. Nous coordonnons le volet portugais et vous orientons pour le change et le visa.",
       },
     ],
 
@@ -174,13 +174,13 @@ const COPY: { fr: SpokeCopy; en: SpokeCopy } = {
   en: {
     metaTitle: "Setting up a Portuguese company from Tunisia: D2 visa, exchange controls (2026)",
     metaDesc:
-      "Tunisian national? Set up a company in Portugal remotely, understand the D2 visa, Tunisia's BCT exchange controls and the Tunisia-Portugal treaty. The real prerequisite is not tax, it is exchange controls and the visa. Service in French.",
+      "Tunisian national? Set up a company in Portugal: NIF obtained remotely, but articles signed and bank account opened in person in Lisbon. Understand the D2 visa, Tunisia's BCT exchange controls and the Tunisia-Portugal treaty. The real prerequisite is not tax, it is exchange controls and the visa. Service in French.",
     countryName: "Tunisia",
 
-    eyebrow: "From Tunisia · Remotely",
+    eyebrow: "From Tunisia · The formalities",
     title: "Set up your company in Portugal",
     titleAccent: "from Tunisia",
-    lead: "You are a Tunisian resident considering a company in Portugal? The company can be set up remotely, in French. But the decisive issue is not Portuguese tax: it is Tunisia's exchange controls (transferring currency and investing abroad remain regulated) and, if you want to live and run it on site, the residence visa. Here are the markers, dated mid-2026 and to be validated without fail with a professional.",
+    lead: "You are a Tunisian resident considering a company in Portugal? The NIF is obtained remotely, but signing the articles and opening the bank account are done in person, during a trip to Lisbon. All in French. And the decisive issue is not Portuguese tax: it is Tunisia's exchange controls (transferring currency and investing abroad remain regulated) and, if you want to live and run it on site, the residence visa. Here are the markers, dated mid-2026 and to be validated without fail with a professional.",
     ctaPrimary: "Book a free assessment",
     ctaSecondary: "See the real obstacle",
     trust: "75+ entrepreneurs supported since 2025 · Service in French · Lisbon, Portugal",
@@ -220,7 +220,7 @@ const COPY: { fr: SpokeCopy; en: SpokeCopy } = {
       {
         term: "D2 visa if you settle in",
         value:
-          "The company can be set up remotely, but living and running it from Portugal as a non-EU national requires a residence permit: the D2 visa (entrepreneur/independent). Indicative 2026 conditions, to be confirmed.",
+          "The company is set up with a trip to Lisbon (articles signed and account opened in person), but living and running it from Portugal as a non-EU national requires a residence permit: the D2 visa (entrepreneur/independent). Indicative 2026 conditions, to be confirmed.",
       },
       {
         term: "Specificity: exchange controls",
@@ -235,19 +235,19 @@ const COPY: { fr: SpokeCopy; en: SpokeCopy } = {
     ],
 
     remoteEyebrow: "Your process",
-    remoteTitle: "Setting up remotely from Tunisia",
+    remoteTitle: "Setting up from Tunisia: NIF remotely, the rest in Lisbon",
     remoteBody:
-      "As a non-EU national, your process combines Portuguese formalities (NIF, power of attorney, incorporation) and, upfront, the framing of Tunisian exchange controls and, where relevant, the visa. We coordinate the Portuguese side from Portugal and point you to the right contacts for the rest.",
+      "As a non-EU national, your process combines Portuguese formalities (NIF remotely, then signing the articles and opening the account in person in Lisbon) and, upfront, the framing of Tunisian exchange controls and, where relevant, the visa. We coordinate the Portuguese side from Portugal and point you to the right contacts for the rest.",
     remoteSteps: [
       {
-        term: "Obtain a non-resident NIF",
+        term: "Obtain a non-resident NIF (remotely)",
         value:
-          "The NIF (individual Portuguese tax number) is obtained without travelling, via a tax representative in Portugal since you reside outside the EU. Not to be confused with the NIPC, the future company's tax number.",
+          "The NIF (individual Portuguese tax number) is the only fully remote formality: it is obtained without travelling, via a tax representative in Portugal since you reside outside the EU. Not to be confused with the NIPC, the future company's tax number.",
       },
       {
-        term: "Grant a power of attorney (remote setup possible)",
+        term: "Sign the articles in Lisbon (in person)",
         value:
-          "A power of attorney allows incorporation to be carried out in your name, with no trip: the company can be set up remotely before any relocation. Legalised or apostilled signature depending on the case.",
+          "Signing the articles of association is done in person in Portugal, during a trip to Lisbon. The RCBE (beneficial-ownership register) is then declared by the partner lawyer just after the Certidão Permanente is issued, 24 to 48 h after incorporation.",
       },
       {
         term: "Frame the exchange controls",
@@ -260,9 +260,9 @@ const COPY: { fr: SpokeCopy; en: SpokeCopy } = {
           "If the goal is to settle in Portugal and run the company there, the D2 visa (non-EU entrepreneur/independent) is the residence permit to target. Indicative 2026 conditions: means of subsistence of the order of the Portuguese minimum wage, proof of savings/deposit, a credible business plan — to be confirmed.",
       },
       {
-        term: "Incorporate and open the account",
+        term: "Open the bank account at a branch (in person)",
         value:
-          "Coordinated incorporation (articles, RCBE, Certidão Permanente, Segurança Social) then opening the business account, whose terms depend on the bank and your non-resident profile. Accounting is then handled by a partner Contabilista Certificado.",
+          "Opening the business account is done in person, at a branch, during the same trip to Lisbon — not remotely. Its terms depend on the bank and your non-resident profile. Accounting is then handled by a partner Contabilista Certificado.",
       },
     ],
 
@@ -270,9 +270,9 @@ const COPY: { fr: SpokeCopy; en: SpokeCopy } = {
     relatedTitle: "Useful pages before you decide",
     related: [
       {
-        label: "Setting up from abroad: the remote guide",
+        label: "Setting up from abroad: the formalities guide",
         href: "/creer-societe-portugal-depuis-letranger",
-        desc: "The common backbone of remote formalities, valid wherever you live.",
+        desc: "The common backbone of the formalities (NIF remotely, articles and account in person), valid wherever you live.",
       },
       {
         label: "Company formation in Portugal",
@@ -296,19 +296,19 @@ const COPY: { fr: SpokeCopy; en: SpokeCopy } = {
     faq: [
       {
         q: "Can I own a company in Portugal while remaining a Tunisian resident?",
-        a: "Yes, the company can be set up remotely. But by remaining a resident in Tunisia, your Tunisian obligations remain and, above all, holding assets abroad and investing outside Tunisia are regulated by exchange controls: as of mid-2026, this remains largely subject to BCT authorisation. This evolving point must be dated and validated with a professional before committing anything.",
+        a: "Yes, the company can be owned from Tunisia (setting it up does, however, require a trip to Lisbon to sign the articles and open the account). But by remaining a resident in Tunisia, your Tunisian obligations remain and, above all, holding assets abroad and investing outside Tunisia are regulated by exchange controls: as of mid-2026, this remains largely subject to BCT authorisation. This evolving point must be dated and validated with a professional before committing anything.",
       },
       {
         q: "Do I need a visa to set up my company in Portugal?",
-        a: "To set up the company remotely, no: a power of attorney is enough. However, if you want to live in Portugal and run the company there, you need a residence permit, the D2 visa (non-EU entrepreneur/independent). Its 2026 conditions (means of subsistence of the order of the Portuguese minimum wage, savings, business plan) are indicative and to be confirmed.",
+        a: "To set up the company, no: the trip to Lisbon to sign the articles and open the account is made on a simple short-stay visa, not a residence permit. However, if you want to live in Portugal and run the company there, you need a residence permit, the D2 visa (non-EU entrepreneur/independent). Its 2026 conditions (means of subsistence of the order of the Portuguese minimum wage, savings, business plan) are indicative and to be confirmed.",
       },
       {
         q: "Can I transfer funds and currency to Portugal?",
         a: "This is the most sensitive point. Currency transfers and holding assets abroad are regulated by the Tunisian exchange code; as of mid-2026, investment abroad by a resident remains largely subject to BCT authorisation. The code is being liberalised, so the situation is evolving: have the applicable rule checked, depending on your resident or non-resident status, with a professional before any transfer.",
       },
       {
-        q: "Is remote setup really possible?",
-        a: "Yes. With a non-resident NIF obtained via a tax representative and a power of attorney, the Portuguese company can be incorporated without you travelling. Living and running it on site is a separate step that does require the residence visa. We coordinate the Portuguese side and point you in the right direction for exchange controls and the visa.",
+        q: "Which formalities can I do remotely, and which require my presence?",
+        a: "Remotely: the non-resident NIF, obtained via a tax representative — that is the only fully remote formality. In person, during a trip to Lisbon: signing the articles, then opening the bank account at a branch. The RCBE is then declared by the partner lawyer just after the Certidão Permanente (24 to 48 h after incorporation). Living and running it on site is a separate step that does require the residence visa. We coordinate the Portuguese side and point you in the right direction for exchange controls and the visa.",
       },
     ],
 

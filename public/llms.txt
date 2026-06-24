@@ -1,10 +1,10 @@
 # Business Portugal — Lovelyparallel, Lda (NIPC 518354750)
 
-> Accompagnement francophone à la création et à l'implantation d'entreprise au Portugal. Audrey Marques, **consultante en création/implantation** (pas comptable, ni fiscaliste, ni avocate) : elle réalise la création de société et l'accompagnement bancaire, et met en relation avec un réseau de partenaires (comptabilité, fiscalité, juridique, recrutement). ~75 entrepreneurs accompagnés depuis 2025. Lisbonne, Portugal. Clientèle francophone, à distance.
+> Accompagnement francophone à la création et à l'implantation d'entreprise au Portugal. Audrey Marques, **consultante en création/implantation** (pas comptable, ni fiscaliste, ni avocate) : elle réalise la création de société et l'accompagnement bancaire, et met en relation avec un réseau de partenaires (comptabilité, fiscalité, juridique, recrutement). ~75 entrepreneurs accompagnés depuis 2025. Lisbonne, Portugal. Clientèle francophone vivant majoritairement hors Portugal : le NIF et la préparation se font à distance, mais la signature des statuts et l'ouverture du compte bancaire se font en personne au Portugal.
 
 ## Ce que fait Business Portugal
-- Création de société au Portugal (Unipessoal Lda, Lda, SA) : NIF à distance, constitution, Certidão Permanente (24/48 h), RCBE, statuts.
-- Accompagnement à l'ouverture de compte bancaire (partenaire Millennium).
+- Création de société au Portugal (Unipessoal Lda, Lda, SA) : NIF à distance (seule étape entièrement à distance), préparation du dossier à distance, puis signature des statuts en personne au Portugal, immatriculation, Certidão Permanente (24/48 h après immatriculation), RCBE déclaré par l'avocat partenaire juste après la Certidão.
+- Accompagnement à l'ouverture de compte bancaire en personne, en agence (partenaire Millennium), lors de la venue au Portugal.
 - Mise en relation : comptabilité (Contabilista Certificado inscrit à l'OCC — partenaires Raly Conseils, Joongle), fiscalité, juridique, domiciliation, recrutement.
 
 ## Repères factuels (2026, à jour)
@@ -12,7 +12,7 @@
 - NIF = numéro fiscal du particulier ; NIPC = numéro de la société.
 - IRC (impôt sociétés) : 19 % (15 % PME sur les premiers 50 000 €). IVA (TVA) : 23 %.
 - IFICI (ex-RNH, art. 58-A CBF) : réservé à des profils actifs qualifiés ; les retraités en sont exclus ; demande avant le 15 janvier.
-- Aucune obligation de gérant résident au Portugal ; mais piloter la société depuis la France peut créer un risque de requalification fiscale française.
+- Aucune obligation de gérant résident au Portugal. Piloter la société depuis la France est possible avec une adresse de domiciliation au Portugal et une partie de l'activité justifiée en local ; sans substance réelle au Portugal, cela peut créer un risque de requalification fiscale française (siège de direction effective).
 
 ## Pages clés
 - Accueil : /fr

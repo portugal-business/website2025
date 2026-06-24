@@ -79,53 +79,48 @@ type Copy = {
 
 const COPY: { fr: Copy; en: Copy } = {
   fr: {
-    metaTitle: "Créer sa société au Portugal depuis l'étranger : le guide à distance",
+    metaTitle: "Créer sa société au Portugal depuis l'étranger : le guide honnête",
     metaDesc:
-      "Vous vivez en France, en Belgique, en Suisse, au Luxembourg ou au Maghreb ? Créez votre société au Portugal à distance : NIF par représentant fiscal, procuration, signature électronique, accompagnement bancaire. Service en français, depuis chez vous.",
-    eyebrow: "À distance · Depuis l'étranger",
+      "Vous vivez en France, en Belgique, en Suisse, au Luxembourg ou au Maghreb ? NIF et préparation à distance, puis une venue à Lisbonne pour signer les statuts et ouvrir le compte bancaire. Service en français, sans coquille à distance.",
+    eyebrow: "Depuis l'étranger · Présence requise",
     title: "Créer sa société au Portugal",
-    titleAccent: "depuis l'étranger, à distance",
-    lead: "La plupart des entrepreneurs que nous accompagnons ne vivent pas (encore) au Portugal : ils nous écrivent de France, de Belgique, de Suisse, du Luxembourg ou du Maghreb. La bonne nouvelle, c'est que l'essentiel des démarches se fait à distance, en français. Voici le tronc commun, valable où que vous soyez, puis l'orientation propre à votre pays, car le vrai sujet n'est pas « comment créer au Portugal », c'est « que devient ma situation dans mon pays de résidence ».",
+    titleAccent: "depuis l'étranger, sans coquille à distance",
+    lead: "La plupart des entrepreneurs que nous accompagnons ne vivent pas (encore) au Portugal : ils nous écrivent de France, de Belgique, de Suisse, du Luxembourg ou du Maghreb. La préparation se fait à distance, en français (NIF, cadrage du projet), mais la signature des statuts et l'ouverture du compte bancaire se font en personne au Portugal : c'est ce qui fait une implantation réelle, pas une coquille. Voici le tronc commun, valable où que vous soyez, puis l'orientation propre à votre pays, car le vrai sujet n'est pas « comment créer au Portugal », c'est « que devient ma situation dans mon pays de résidence ».",
     ctaPrimary: "Réserver un diagnostic gratuit",
-    ctaSecondary: "Voir les étapes à distance",
+    ctaSecondary: "Voir les étapes",
     trust: "75+ entrepreneurs accompagnés depuis 2025 · Service en français · Lisbonne, Portugal",
 
     stepsEyebrow: "Le tronc commun",
-    stepsTitle: "Ce qui se fait à distance, sans vous déplacer",
+    stepsTitle: "Ce qui se prépare à distance, et ce qui demande votre présence",
     stepsBody:
-      "Créer une société portugaise depuis l'étranger ne suppose pas, en règle générale, de venir sur place. Les étapes ci-dessous sont la colonne vertébrale du parcours, quel que soit votre pays. Les modalités exactes (notamment bancaires) dépendent de votre situation et de l'établissement choisi : nous les cadrons ensemble.",
+      "Une partie du parcours se fait à distance (NIF, cadrage du projet), mais la signature des statuts et l'ouverture du compte bancaire se font en personne au Portugal. Comptez en général une venue à Lisbonne, que nous préparons pour qu'elle soit unique et efficace. Les étapes ci-dessous sont la colonne vertébrale du parcours, quel que soit votre pays.",
     steps: [
       {
-        term: "Obtenir le NIF",
+        term: "Obtenir le NIF (à distance)",
         value:
-          "Le NIF (numéro fiscal portugais du particulier) est le préalable à tout. Un non-résident l'obtient via un représentant fiscal au Portugal, sans déplacement. À ne pas confondre avec le NIPC, le numéro fiscal de la future société, attribué à l'immatriculation.",
+          "Le NIF (numéro fiscal portugais du particulier) est le préalable à tout. Un non-résident l'obtient via un représentant fiscal au Portugal, sans déplacement : c'est la seule démarche entièrement à distance. À ne pas confondre avec le NIPC, le numéro fiscal de la future société, attribué à l'immatriculation.",
       },
       {
-        term: "Donner procuration",
+        term: "Cadrer le projet en visio (à distance)",
         value:
-          "Une procuration permet de faire réaliser les formalités d'immatriculation en votre nom, à distance. Selon les cas, une signature électronique qualifiée ou une légalisation auprès d'un notaire / consulat suffit, sans voyage.",
+          "Le choix de la structure (ENI, Unipessoal Lda, Lda), de l'objet social et du capital se cadre lors d'un échange en visioconférence, en français. C'est là qu'on vérifie aussi la cohérence avec votre situation dans votre pays de résidence, et qu'on prépare votre venue.",
       },
       {
-        term: "Cadrer le projet en visio",
+        term: "Signer les statuts (sur place)",
         value:
-          "Le choix de la structure (ENI, Unipessoal Lda, Lda), de l'objet social et du capital se cadre lors d'un échange en visioconférence, en français. C'est là qu'on vérifie aussi la cohérence avec votre situation dans votre pays de résidence.",
+          "La signature des statuts et l'immatriculation (RCBE des bénéficiaires effectifs déclaré par notre avocat partenaire, Certidão Permanente sous 24-48 h, inscription Segurança Social) se font en personne au Portugal, avec Audrey. La comptabilité, une fois la société créée, est assurée par un Contabilista Certificado partenaire.",
       },
       {
-        term: "Immatriculer la société",
+        term: "Ouvrir le compte bancaire (sur place)",
         value:
-          "L'immatriculation (statuts, RCBE des bénéficiaires effectifs, Certidão Permanente, inscription Segurança Social) est coordonnée pour vous. La comptabilité, une fois la société créée, est assurée par un Contabilista Certificado partenaire.",
-      },
-      {
-        term: "Ouvrir le compte bancaire",
-        value:
-          "L'ouverture d'un compte professionnel portugais peut souvent s'amorcer à distance ; certaines banques demandent une vérification d'identité (visio ou, parfois, un passage). Nous vous orientons vers les interlocuteurs adaptés à un dossier de non-résident.",
+          "L'ouverture d'un compte professionnel portugais se fait en personne, en agence, lors de votre venue. Nous préparons le dossier de non-résident en amont et vous accompagnons à l'ouverture auprès de notre partenaire bancaire.",
       },
     ],
 
     countriesEyebrow: "Selon votre pays",
     countriesTitle: "D'où nous écrivez-vous ?",
     countriesBody:
-      "Le parcours à distance est commun, mais le risque, lui, dépend de votre pays de résidence : c'est là, et non au Portugal, que se joue l'essentiel (rester imposable chez vous, société étrangère contrôlée, siège de direction effective, contrôle des changes pour le Maghreb). Chaque page pays traite ce point honnêtement.",
+      "Le parcours est commun, mais le risque, lui, dépend de votre pays de résidence : c'est là, et non au Portugal, que se joue l'essentiel (rester imposable chez vous, société étrangère contrôlée, siège de direction effective, contrôle des changes pour le Maghreb). Chaque page pays traite ce point honnêtement.",
     countries: [
       {
         country: "France",
@@ -190,19 +185,19 @@ const COPY: { fr: Copy; en: Copy } = {
     ],
 
     faqEyebrow: "Questions fréquentes",
-    faqTitle: "Créer à distance : ce qu'on me demande",
+    faqTitle: "Créer depuis l'étranger : ce qu'on me demande",
     faq: [
       {
-        q: "Peut-on vraiment créer une société au Portugal à distance, depuis l'étranger ?",
-        a: "Oui, dans la très grande majorité des cas, sans vous déplacer. L'obtention du NIF, la procuration, le cadrage en visio et l'immatriculation se font à distance, en français. Seule l'ouverture du compte bancaire peut, selon la banque, demander une vérification d'identité (souvent en visio). Nous coordonnons l'ensemble depuis le Portugal.",
+        q: "Peut-on vraiment créer une société au Portugal sans venir sur place ?",
+        a: "Pas entièrement. Le NIF et le cadrage du projet se font à distance, en français ; mais la signature des statuts et l'ouverture du compte bancaire se font en personne au Portugal. Comptez en général une venue à Lisbonne, que nous préparons pour qu'elle soit unique. C'est ce qui distingue une implantation réelle d'une simple coquille à distance.",
       },
       {
         q: "Faut-il un représentant fiscal pour obtenir le NIF ?",
-        a: "Pour un non-résident d'un pays hors UE, un représentant fiscal au Portugal est en principe requis pour obtenir le NIF. Pour un résident de l'UE, les modalités sont plus souples mais un accompagnement local reste utile pour aller vite et éviter les erreurs. Nous organisons cette étape pour vous.",
+        a: "Pour un non-résident d'un pays hors UE, un représentant fiscal au Portugal est en principe requis pour obtenir le NIF. Pour un résident de l'UE, les modalités sont plus souples mais un accompagnement local reste utile pour aller vite et éviter les erreurs. Nous organisons cette étape pour vous, à distance.",
       },
       {
         q: "Peut-on ouvrir le compte bancaire portugais sans venir au Portugal ?",
-        a: "Souvent, l'ouverture peut s'amorcer à distance, mais cela dépend de l'établissement et de votre profil : certaines banques acceptent une vérification d'identité en visioconférence, d'autres demandent un passage. Pour un dossier de non-résident, le choix de la bonne banque change tout : c'est précisément ce sur quoi nous vous orientons.",
+        a: "Non, en pratique l'ouverture d'un compte professionnel se fait en personne, en agence, lors de votre venue au Portugal. Nous préparons le dossier de non-résident en amont et vous accompagnons le jour J auprès de notre partenaire bancaire pour que tout soit fluide.",
       },
       {
         q: "Le service et l'accompagnement sont-ils en français ?",
@@ -216,11 +211,11 @@ const COPY: { fr: Copy; en: Copy } = {
 
     disclaimerLabel: "Avertissement",
     disclaimer:
-      "Cette page a une vocation informative et générale ; elle ne constitue pas un conseil juridique, comptable ou fiscal personnalisé. Les modalités à distance (NIF, représentant fiscal, ouverture bancaire) dépendent de votre pays de résidence, de votre profil et des établissements concernés, et peuvent évoluer. La question de votre imposition dans votre pays relève de règles complexes appréciées au cas par cas. Business Portugal est consultante en création et implantation, et non cabinet comptable, fiscal ou d'avocats : pour toute décision, faites valider votre situation par un professionnel compétent. Prenez rendez-vous pour cadrer votre projet.",
+      "Cette page a une vocation informative et générale ; elle ne constitue pas un conseil juridique, comptable ou fiscal personnalisé. Les modalités (NIF à distance, représentant fiscal, venue sur place pour les statuts et la banque) dépendent de votre pays de résidence, de votre profil et des établissements concernés, et peuvent évoluer. La question de votre imposition dans votre pays relève de règles complexes appréciées au cas par cas. Business Portugal est consultante en création et implantation, et non cabinet comptable, fiscal ou d'avocats : pour toute décision, faites valider votre situation par un professionnel compétent. Prenez rendez-vous pour cadrer votre projet.",
 
     ctaTitle: "Parlons de votre projet, depuis là où vous êtes",
     ctaBody:
-      "Un premier échange gratuit et sans engagement, en visio et en français, pour cadrer votre création à distance et, surtout, votre situation dans votre pays de résidence. Si un fiscaliste est nécessaire, on vous met en relation avec le bon partenaire.",
+      "Un premier échange gratuit et sans engagement, en visio et en français, pour cadrer votre projet, préparer votre venue au Portugal et, surtout, votre situation dans votre pays de résidence. Si un fiscaliste est nécessaire, on vous met en relation avec le bon partenaire.",
     ctaButton: "Réserver un diagnostic gratuit",
     ctaReassurance: "Sans engagement · En visio · Service en français · Lisbonne, Portugal",
 
@@ -228,53 +223,48 @@ const COPY: { fr: Copy; en: Copy } = {
     breadcrumbCurrent: "Créer depuis l'étranger",
   },
   en: {
-    metaTitle: "Setting up a Portuguese company from abroad: the remote guide",
+    metaTitle: "Setting up a Portuguese company from abroad: the honest guide",
     metaDesc:
-      "Living in France, Belgium, Switzerland, Luxembourg or the Maghreb? Set up your company in Portugal remotely: NIF via a tax representative, power of attorney, electronic signature, banking support. Service in French, from where you are.",
-    eyebrow: "Remotely · From abroad",
+      "Living in France, Belgium, Switzerland, Luxembourg or the Maghreb? NIF and preparation handled remotely, then one trip to Lisbon to sign the articles and open the bank account. Service in French, no remote shell company.",
+    eyebrow: "From abroad · Visit required",
     title: "Set up your company in Portugal",
-    titleAccent: "from abroad, remotely",
-    lead: "Most of the entrepreneurs we support do not (yet) live in Portugal: they write to us from France, Belgium, Switzerland, Luxembourg or the Maghreb. The good news is that most of the process can be done remotely, in French. Here is the common backbone, valid wherever you are, then the orientation specific to your country, because the real issue is not « how to set up in Portugal », it is « what happens to my situation in my country of residence ».",
+    titleAccent: "from abroad, with no remote shell",
+    lead: "Most of the entrepreneurs we support do not (yet) live in Portugal: they write to us from France, Belgium, Switzerland, Luxembourg or the Maghreb. Preparation is done remotely, in French (NIF, project framing), but signing the articles and opening the bank account happen in person in Portugal: that is what makes a real setup, not a shell. Here is the common backbone, valid wherever you are, then the orientation specific to your country, because the real issue is not « how to set up in Portugal », it is « what happens to my situation in my country of residence ».",
     ctaPrimary: "Book a free assessment",
-    ctaSecondary: "See the remote steps",
+    ctaSecondary: "See the steps",
     trust: "75+ entrepreneurs supported since 2025 · Service in French · Lisbon, Portugal",
 
     stepsEyebrow: "The common backbone",
-    stepsTitle: "What can be done remotely, without travelling",
+    stepsTitle: "What is prepared remotely, and what requires your presence",
     stepsBody:
-      "Setting up a Portuguese company from abroad does not, as a rule, require coming on site. The steps below are the backbone of the process, whatever your country. The exact terms (banking in particular) depend on your situation and the chosen institution: we frame them together.",
+      "Part of the process is done remotely (NIF, project framing), but signing the articles and opening the bank account happen in person in Portugal. Plan, as a rule, for one trip to Lisbon, which we prepare so it is single and efficient. The steps below are the backbone of the process, whatever your country.",
     steps: [
       {
-        term: "Obtain the NIF",
+        term: "Obtain the NIF (remotely)",
         value:
-          "The NIF (individual Portuguese tax number) is the prerequisite for everything. A non-resident obtains it through a tax representative in Portugal, without travelling. Not to be confused with the NIPC, the future company's tax number, assigned at incorporation.",
+          "The NIF (individual Portuguese tax number) is the prerequisite for everything. A non-resident obtains it through a tax representative in Portugal, without travelling: it is the only fully remote step. Not to be confused with the NIPC, the future company's tax number, assigned at incorporation.",
       },
       {
-        term: "Grant a power of attorney",
+        term: "Frame the project by video call (remotely)",
         value:
-          "A power of attorney allows the registration formalities to be carried out in your name, remotely. Depending on the case, a qualified electronic signature or a legalisation before a notary / consulate is enough, with no trip required.",
+          "The choice of structure (ENI, Unipessoal Lda, Lda), business object and capital is framed during a video call, in French. This is also where we check consistency with your situation in your country of residence and prepare your trip.",
       },
       {
-        term: "Frame the project by video call",
+        term: "Sign the articles (on site)",
         value:
-          "The choice of structure (ENI, Unipessoal Lda, Lda), business object and capital is framed during a video call, in French. This is also where we check consistency with your situation in your country of residence.",
+          "Signing the articles and incorporation (RCBE beneficial-owner declaration filed by our partner lawyer, Certidão Permanente within 24-48 h, Segurança Social registration) happen in person in Portugal, with Audrey. Accounting, once the company is created, is handled by a partner Contabilista Certificado.",
       },
       {
-        term: "Incorporate the company",
+        term: "Open the bank account (on site)",
         value:
-          "Incorporation (articles, RCBE beneficial-owner declaration, Certidão Permanente, Segurança Social registration) is coordinated for you. Accounting, once the company is created, is handled by a partner Contabilista Certificado.",
-      },
-      {
-        term: "Open the bank account",
-        value:
-          "Opening a Portuguese business account can often be started remotely; some banks require identity verification (by video or, sometimes, an in-person visit). We point you towards the right contacts for a non-resident file.",
+          "Opening a Portuguese business account is done in person, at the branch, during your visit. We prepare the non-resident file beforehand and support you at the opening with our banking partner.",
       },
     ],
 
     countriesEyebrow: "Depending on your country",
     countriesTitle: "Where are you writing from?",
     countriesBody:
-      "The remote process is common, but the risk depends on your country of residence: that is where the essentials play out, not in Portugal (remaining taxable at home, controlled foreign company, place of effective management, exchange controls for the Maghreb). Each country page addresses this honestly.",
+      "The process is common, but the risk depends on your country of residence: that is where the essentials play out, not in Portugal (remaining taxable at home, controlled foreign company, place of effective management, exchange controls for the Maghreb). Each country page addresses this honestly.",
     countries: [
       {
         country: "France",
@@ -339,19 +329,19 @@ const COPY: { fr: Copy; en: Copy } = {
     ],
 
     faqEyebrow: "Frequently asked questions",
-    faqTitle: "Setting up remotely: what people ask me",
+    faqTitle: "Setting up from abroad: what people ask me",
     faq: [
       {
-        q: "Can you really set up a company in Portugal remotely, from abroad?",
-        a: "Yes, in the vast majority of cases, without travelling. Obtaining the NIF, the power of attorney, the video framing call and the incorporation are done remotely, in French. Only opening the bank account may, depending on the bank, require identity verification (often by video). We coordinate the whole thing from Portugal.",
+        q: "Can you really set up a company in Portugal without coming on site?",
+        a: "Not entirely. The NIF and project framing are done remotely, in French; but signing the articles and opening the bank account happen in person in Portugal. Plan, as a rule, for one trip to Lisbon, which we prepare so it is single. That is what sets a real setup apart from a mere remote shell.",
       },
       {
         q: "Do you need a tax representative to obtain the NIF?",
-        a: "For a non-resident from a non-EU country, a tax representative in Portugal is generally required to obtain the NIF. For an EU resident, the rules are more flexible, but local support still helps to move fast and avoid mistakes. We arrange this step for you.",
+        a: "For a non-resident from a non-EU country, a tax representative in Portugal is generally required to obtain the NIF. For an EU resident, the rules are more flexible, but local support still helps to move fast and avoid mistakes. We arrange this step for you, remotely.",
       },
       {
         q: "Can you open the Portuguese bank account without coming to Portugal?",
-        a: "Often, opening can be started remotely, but it depends on the institution and your profile: some banks accept identity verification by video call, others require a visit. For a non-resident file, choosing the right bank changes everything: that is precisely what we guide you on.",
+        a: "No, in practice a business account is opened in person, at the branch, during your visit to Portugal. We prepare the non-resident file beforehand and support you on the day with our banking partner so everything goes smoothly.",
       },
       {
         q: "Are the service and support in French?",
@@ -365,11 +355,11 @@ const COPY: { fr: Copy; en: Copy } = {
 
     disclaimerLabel: "Disclaimer",
     disclaimer:
-      "This page is for general information only; it does not constitute personalised legal, accounting or tax advice. The remote terms (NIF, tax representative, bank-account opening) depend on your country of residence, your profile and the institutions involved, and may change. The question of your taxation in your country depends on complex rules assessed case by case. Business Portugal is a consultant in company formation and setup, not an accounting, tax or law firm: for any decision, have your situation validated by a competent professional. Book a meeting to frame your project.",
+      "This page is for general information only; it does not constitute personalised legal, accounting or tax advice. The terms (remote NIF, tax representative, on-site signing of the articles and bank-account opening) depend on your country of residence, your profile and the institutions involved, and may change. The question of your taxation in your country depends on complex rules assessed case by case. Business Portugal is a consultant in company formation and setup, not an accounting, tax or law firm: for any decision, have your situation validated by a competent professional. Book a meeting to frame your project.",
 
     ctaTitle: "Let's talk about your project, from where you are",
     ctaBody:
-      "A first free conversation, with no commitment, by video and in French, to frame your remote incorporation and, above all, your situation in your country of residence. If a tax adviser is needed, we connect you with the right partner.",
+      "A first free conversation, with no commitment, by video and in French, to frame your project, prepare your trip to Portugal and, above all, your situation in your country of residence. If a tax adviser is needed, we connect you with the right partner.",
     ctaButton: "Book a free assessment",
     ctaReassurance: "No commitment · By video · Service in French · Lisbon, Portugal",
 
@@ -412,7 +402,7 @@ export default async function DepuisLetrangerHubPage({ params }: Props) {
     "@type": "Service",
     name: c.metaTitle,
     description: c.metaDesc,
-    serviceType: "Création de société au Portugal à distance",
+    serviceType: "Création de société au Portugal pour non-résidents",
     inLanguage: locale,
     provider: { "@id": BUSINESS_ID },
     url: canonical,

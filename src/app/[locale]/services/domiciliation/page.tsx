@@ -120,7 +120,7 @@ const COPY: { fr: Copy; en: Copy } = {
       {
         title: "Vous ne résidez pas (encore) au Portugal",
         description:
-          "Vous créez votre société à distance et n'avez pas d'adresse locale à déclarer comme siège.",
+          "Vous créez votre société sans y vivre encore et n'avez pas d'adresse locale à déclarer comme siège.",
       },
       {
         title: "Vous travaillez sans local commercial",
@@ -229,7 +229,7 @@ const COPY: { fr: Copy; en: Copy } = {
       {
         title: "You do not (yet) live in Portugal",
         description:
-          "You set up your company remotely and have no local address to declare as the registered office.",
+          "You set up your company without living there yet and have no local address to declare as the registered office.",
       },
       {
         title: "You work without business premises",

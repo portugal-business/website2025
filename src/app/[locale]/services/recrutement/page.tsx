@@ -77,7 +77,7 @@ const COPY: { fr: Copy; en: Copy } = {
   fr: {
     metaTitle: "Recruter au Portugal, mise en relation recrutement",
     metaDesc:
-      "Recruter au Portugal : talents multilingues, coût réel d'un salarié (TSU employeur 23,75 %, 14 mois de salaire, minimum ~870 €). Je vous mets en relation avec une société de recrutement spécialisée. Premier échange gratuit et sans engagement.",
+      "Recruter au Portugal : talents multilingues, coût réel d'un salarié (TSU employeur 23,75 %, 14 mois de salaire, minimum ~920 €). Je vous mets en relation avec une société de recrutement spécialisée. Premier échange gratuit et sans engagement.",
     eyebrow: "Réseau de partenaires",
     title: "Recruter au Portugal,",
     titleAccent: "avec le bon partenaire à vos côtés",
@@ -139,7 +139,7 @@ const COPY: { fr: Copy; en: Copy } = {
       },
       {
         label: "Salaire minimum",
-        value: "~870 €/mois",
+        value: "~920 €/mois",
         note: "Salário mínimo nacional 2026, sur 14 mois. Plancher légal de référence pour un temps plein ; les salaires réels du marché sont souvent supérieurs.",
       },
       {
@@ -205,7 +205,7 @@ const COPY: { fr: Copy; en: Copy } = {
     faqItems: [
       {
         q: "Combien coûte vraiment un salarié au Portugal ?",
-        a: "Au coût du salaire brut s'ajoutent la TSU employeur de 23,75 % (cotisation patronale à la Segurança Social) et le fait que la rémunération se verse sur 14 mois (12 mensualités + subsídio de férias + subsídio de Natal). Un repère : coût annuel ≈ (brut mensuel × 14) majoré de 23,75 %, hors assurances et frais annexes. Le salaire minimum 2026 est d'environ 870 € par mois sur 14 mois.",
+        a: "Au coût du salaire brut s'ajoutent la TSU employeur de 23,75 % (cotisation patronale à la Segurança Social) et le fait que la rémunération se verse sur 14 mois (12 mensualités + subsídio de férias + subsídio de Natal). Un repère : coût annuel ≈ (brut mensuel × 14) majoré de 23,75 %, hors assurances et frais annexes. Le salaire minimum 2026 est d'environ 920 € par mois sur 14 mois.",
       },
       {
         q: "Pourquoi recruter au Portugal plutôt qu'ailleurs ?",
@@ -226,7 +226,7 @@ const COPY: { fr: Copy; en: Copy } = {
     ],
 
     disclaimer:
-      "Cette page a une vocation informative et ne constitue pas un conseil juridique, comptable ou fiscal personnalisé. Les chiffres (TSU 23,75 %, 14 mois, salaire minimum ~870 €) sont datés 2026 et à confirmer avec le partenaire recrutement et un Contabilista Certificado selon la convention collective applicable. Pour une analyse de votre projet, prenez rendez-vous.",
+      "Cette page a une vocation informative et ne constitue pas un conseil juridique, comptable ou fiscal personnalisé. Les chiffres (TSU 23,75 %, 14 mois, salaire minimum ~920 €) sont datés 2026 et à confirmer avec le partenaire recrutement et un Contabilista Certificado selon la convention collective applicable. Pour une analyse de votre projet, prenez rendez-vous.",
 
     ctaTitle: "Un besoin de recrutement au Portugal ?",
     ctaBody:
@@ -242,7 +242,7 @@ const COPY: { fr: Copy; en: Copy } = {
   en: {
     metaTitle: "Hiring in Portugal, recruitment introductions",
     metaDesc:
-      "Hiring in Portugal: multilingual talent, the real cost of an employee (employer's TSU 23.75%, 14 months of salary, minimum ~€870). I connect you with a specialist recruitment firm. First conversation free, no commitment.",
+      "Hiring in Portugal: multilingual talent, the real cost of an employee (employer's TSU 23.75%, 14 months of salary, minimum ~€920). I connect you with a specialist recruitment firm. First conversation free, no commitment.",
     eyebrow: "Partner network",
     title: "Hiring in Portugal,",
     titleAccent: "with the right partner by your side",
@@ -304,7 +304,7 @@ const COPY: { fr: Copy; en: Copy } = {
       },
       {
         label: "Minimum wage",
-        value: "~€870/month",
+        value: "~€920/month",
         note: "Salário mínimo nacional 2026, over 14 months. The legal floor for a full-time role; real market salaries are often higher.",
       },
       {
@@ -370,7 +370,7 @@ const COPY: { fr: Copy; en: Copy } = {
     faqItems: [
       {
         q: "What does an employee really cost in Portugal?",
-        a: "On top of the gross salary come the employer's TSU of 23.75% (employer contribution to Segurança Social) and the fact that pay is spread over 14 months (12 monthly payments + subsídio de férias + subsídio de Natal). A guide: annual cost ≈ (monthly gross × 14) increased by 23.75%, excluding insurance and extras. The 2026 minimum wage is around €870 per month over 14 months.",
+        a: "On top of the gross salary come the employer's TSU of 23.75% (employer contribution to Segurança Social) and the fact that pay is spread over 14 months (12 monthly payments + subsídio de férias + subsídio de Natal). A guide: annual cost ≈ (monthly gross × 14) increased by 23.75%, excluding insurance and extras. The 2026 minimum wage is around €920 per month over 14 months.",
       },
       {
         q: "Why hire in Portugal rather than elsewhere?",
@@ -391,7 +391,7 @@ const COPY: { fr: Copy; en: Copy } = {
     ],
 
     disclaimer:
-      "This page is for information only and does not constitute personalised legal, accounting or tax advice. The figures (TSU 23.75%, 14 months, minimum wage ~€870) are dated 2026 and to be confirmed with the recruitment partner and a Contabilista Certificado depending on the applicable collective agreement. For an analysis of your project, book a meeting.",
+      "This page is for information only and does not constitute personalised legal, accounting or tax advice. The figures (TSU 23.75%, 14 months, minimum wage ~€920) are dated 2026 and to be confirmed with the recruitment partner and a Contabilista Certificado depending on the applicable collective agreement. For an analysis of your project, book a meeting.",
 
     ctaTitle: "A hiring need in Portugal?",
     ctaBody:

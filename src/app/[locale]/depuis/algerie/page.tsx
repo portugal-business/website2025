@@ -19,16 +19,16 @@ const COPY: { fr: SpokeCopy; en: SpokeCopy } = {
     metaTitle:
       "Créer sa société au Portugal depuis l'Algérie : visa D2 et contrôle des changes (2026)",
     metaDesc:
-      "Ressortissant algérien ? Créer une société au Portugal à distance est possible, mais le sujet décisif n'est pas la fiscalité portugaise : c'est le contrôle des changes algérien et le visa de résidence D2. Repères 2026 à valider avec un professionnel. Service en français.",
+      "Ressortissant algérien ? Créer une société au Portugal est possible : le NIF s'obtient à distance via un représentant fiscal, mais la signature des statuts et l'ouverture du compte bancaire se font en personne à Lisbonne. Le sujet décisif reste le contrôle des changes algérien et le visa de résidence D2. Repères 2026 à valider avec un professionnel. Service en français.",
     countryName: "Algérie",
 
-    eyebrow: "Depuis l'Algérie · À distance",
+    eyebrow: "Depuis l'Algérie · NIF à distance, signature à Lisbonne",
     title: "Créer sa société au Portugal",
     titleAccent: "depuis l'Algérie",
-    lead: "Vous êtes ressortissant algérien et vous envisagez une société au Portugal ? La société peut se créer à distance, en français. Mais le sujet décisif n'est pas la fiscalité portugaise : ce sont le contrôle des changes algérien (détenir une société et transférer des devises à l'étranger est très encadré) et, si vous voulez vivre et diriger au Portugal, le visa de résidence D2. Voici les repères, à valider avec un professionnel avant toute démarche.",
+    lead: "Vous êtes ressortissant algérien et vous envisagez une société au Portugal ? Le NIF s'obtient à distance via un représentant fiscal, mais la signature des statuts et l'ouverture du compte bancaire se font en personne, lors d'une venue à Lisbonne. Surtout, le sujet décisif n'est pas la fiscalité portugaise : ce sont le contrôle des changes algérien (détenir une société et transférer des devises à l'étranger est très encadré) et, si vous voulez vivre et diriger au Portugal, le visa de résidence D2. Voici les repères, à valider avec un professionnel avant toute démarche.",
     ctaPrimary: "Réserver un diagnostic gratuit",
     ctaSecondary: "Voir le vrai obstacle",
-    trust: "Entrepreneurs accompagnés depuis 2025 · Service en français · Lisbonne, Portugal",
+    trust: "75+ entrepreneurs accompagnés depuis 2025 · Service en français · Lisbonne, Portugal",
 
     conventionEyebrow: "Double imposition",
     conventionTitle: "Convention Algérie-Portugal",
@@ -64,7 +64,7 @@ const COPY: { fr: SpokeCopy; en: SpokeCopy } = {
       {
         term: "Visa de résidence D2 (Portugal)",
         value:
-          "Visa de résidence pour entrepreneur ou indépendant non-UE souhaitant vivre et diriger son activité au Portugal. Conditions indicatives 2026 à confirmer : moyens de subsistance de l'ordre du salaire minimum portugais, justificatif de dépôt ou d'épargne, plan d'affaires crédible. La société peut être créée avant l'installation.",
+          "Visa de résidence pour entrepreneur ou indépendant non-UE souhaitant vivre et diriger son activité au Portugal. Conditions indicatives 2026 à confirmer : moyens de subsistance de l'ordre du salaire minimum portugais, justificatif de dépôt ou d'épargne, plan d'affaires crédible. La société peut être créée avant l'installation, mais sa constitution suppose une venue à Lisbonne pour signer les statuts.",
       },
       {
         term: "Spécificité : le contrôle des changes",
@@ -79,19 +79,19 @@ const COPY: { fr: SpokeCopy; en: SpokeCopy } = {
     ],
 
     remoteEyebrow: "Votre parcours",
-    remoteTitle: "Créer à distance depuis l'Algérie",
+    remoteTitle: "NIF à distance, signature à Lisbonne",
     remoteBody:
-      "En tant que ressortissant d'un pays hors Union européenne, votre parcours combine des démarches portugaises (réalisables à distance) et, en parallèle, le respect de la réglementation algérienne des changes. La société peut se créer à distance ; vivre et diriger depuis le Portugal suppose en revanche un titre de séjour.",
+      "En tant que ressortissant d'un pays hors Union européenne, votre parcours combine une seule démarche entièrement à distance (le NIF, via un représentant fiscal), une venue à Lisbonne pour signer les statuts et ouvrir le compte bancaire, et, en parallèle, le respect de la réglementation algérienne des changes. Vivre et diriger depuis le Portugal suppose en outre un titre de séjour.",
     remoteSteps: [
       {
-        term: "Obtenir le NIF non-résident",
+        term: "Obtenir le NIF non-résident (à distance)",
         value:
-          "Le NIF (numéro fiscal portugais du particulier) s'obtient pour un non-résident via un représentant fiscal au Portugal, sans déplacement. À ne pas confondre avec le NIPC, le numéro fiscal de la future société.",
+          "Le NIF (numéro fiscal portugais du particulier) s'obtient pour un non-résident via un représentant fiscal résident hors UE, sans déplacement : c'est la seule démarche entièrement à distance. À ne pas confondre avec le NIPC, le numéro fiscal de la future société.",
       },
       {
-        term: "Donner procuration",
+        term: "Préparer les statuts en amont",
         value:
-          "Une procuration permet d'accomplir les formalités d'immatriculation en votre nom : la création de la société est donc possible à distance, avant toute installation au Portugal.",
+          "Les statuts et le dossier d'immatriculation se préparent à distance, mais leur signature ne se fait pas à distance : elle a lieu en personne au Portugal. Mieux vaut tout caler avant votre venue pour signer en une seule fois sur place.",
       },
       {
         term: "Anticiper le visa D2 si vous voulez vivre et diriger au Portugal",
@@ -104,9 +104,14 @@ const COPY: { fr: SpokeCopy; en: SpokeCopy } = {
           "Avant tout transfert de fonds ou financement de la société, faites vérifier votre situation au regard de la réglementation algérienne des changes (résident / non-résident, autorisations applicables). C'est l'étape à ne pas sauter, à valider avec un professionnel.",
       },
       {
-        term: "Immatriculer et ouvrir le compte",
+        term: "Signer les statuts à Lisbonne et immatriculer",
         value:
-          "Immatriculation coordonnée (statuts, RCBE, Certidão Permanente, Segurança Social) puis ouverture du compte professionnel selon la banque et votre profil. La comptabilité est ensuite assurée par un Contabilista Certificado partenaire.",
+          "Lors de votre venue à Lisbonne, vous signez les statuts en personne ; l'immatriculation suit (NIPC, puis Certidão Permanente). Le RCBE est ensuite déclaré par l'avocat partenaire juste après l'obtention de la Certidão Permanente (24-48 h après l'immatriculation). L'affiliation à la Segurança Social et la comptabilité sont assurées par un Contabilista Certificado partenaire.",
+      },
+      {
+        term: "Ouvrir le compte bancaire en agence",
+        value:
+          "L'ouverture du compte professionnel se fait en personne, en agence, lors de cette même venue à Lisbonne (et non à distance). Les conditions dépendent de la banque et de votre profil.",
       },
     ],
 
@@ -114,9 +119,9 @@ const COPY: { fr: SpokeCopy; en: SpokeCopy } = {
     relatedTitle: "Les pages utiles avant de décider",
     related: [
       {
-        label: "Créer depuis l'étranger : le guide à distance",
+        label: "Créer depuis l'étranger : le guide complet",
         href: "/creer-societe-portugal-depuis-letranger",
-        desc: "Le tronc commun des démarches à distance, valable où que vous viviez.",
+        desc: "Le tronc commun des démarches (NIF à distance, signature et compte sur place), valable où que vous viviez.",
       },
       {
         label: "Créer une société au Portugal",
@@ -140,19 +145,19 @@ const COPY: { fr: SpokeCopy; en: SpokeCopy } = {
     faq: [
       {
         q: "Puis-je détenir une société au Portugal en restant résident algérien ?",
-        a: "C'est juridiquement envisageable côté portugais et la société peut se créer à distance. Mais en tant que résident algérien, la détention d'avoirs et de sociétés à l'étranger est très encadrée par le contrôle des changes (principe d'autorisation, règlement 07-01) ; votre résidence fiscale s'apprécie selon le droit algérien. Ce point doit impérativement être validé avec un professionnel avant toute démarche.",
+        a: "C'est juridiquement envisageable côté portugais. Côté démarches, seul le NIF s'obtient à distance ; la signature des statuts et l'ouverture du compte bancaire se font en personne lors d'une venue à Lisbonne. Mais en tant que résident algérien, la détention d'avoirs et de sociétés à l'étranger est très encadrée par le contrôle des changes (principe d'autorisation, règlement 07-01) ; votre résidence fiscale s'apprécie selon le droit algérien. Ce point doit impérativement être validé avec un professionnel avant toute démarche.",
       },
       {
         q: "Ai-je besoin d'un visa pour créer ou diriger ma société ?",
-        a: "Pour créer la société, non : elle peut être constituée à distance via procuration, sans visa. En revanche, pour vivre et diriger l'activité depuis le Portugal, un titre de séjour est nécessaire : le visa de résidence D2 vise les entrepreneurs et indépendants non-UE. Ses conditions (moyens de subsistance, épargne, plan d'affaires) sont indicatives 2026 et à confirmer.",
+        a: "Pour créer la société, non : la constitution ne dépend pas d'un visa. Mais elle ne se fait pas entièrement à distance : seul le NIF s'obtient via un représentant fiscal, tandis que la signature des statuts et l'ouverture du compte bancaire ont lieu en personne au Portugal. En revanche, pour vivre et diriger l'activité depuis le Portugal, un titre de séjour est nécessaire : le visa de résidence D2 vise les entrepreneurs et indépendants non-UE. Ses conditions (moyens de subsistance, épargne, plan d'affaires) sont indicatives 2026 et à confirmer.",
       },
       {
         q: "Comment transférer des fonds ou des devises vers le Portugal ?",
         a: "C'est le point le plus sensible. Pour un résident algérien, le transfert de devises et le financement d'une société à l'étranger sont très encadrés et soumis à autorisation au titre du contrôle des changes ; nous ne publions pas de plafonds, car la situation est évolutive. La distinction résident / non-résident est déterminante. À vérifier et dater avec un professionnel avant toute opération.",
       },
       {
-        q: "La création à distance est-elle vraiment possible ?",
-        a: "Oui, la création est possible à distance : NIF non-résident obtenu via un représentant fiscal, puis procuration pour réaliser l'immatriculation en votre nom. Vivre et diriger depuis le Portugal suppose en revanche un visa de résidence (type D2), et tout transfert de fonds doit respecter la réglementation algérienne des changes.",
+        q: "La création se fait-elle entièrement à distance ?",
+        a: "Non. Seul le NIF non-résident s'obtient à distance, via un représentant fiscal. La signature des statuts et l'ouverture du compte bancaire se font en personne, lors d'une venue à Lisbonne. Le RCBE est déclaré par l'avocat partenaire juste après la Certidão Permanente (24-48 h après l'immatriculation). Vivre et diriger depuis le Portugal suppose en outre un visa de résidence (type D2), et tout transfert de fonds doit respecter la réglementation algérienne des changes.",
       },
     ],
 
@@ -173,16 +178,16 @@ const COPY: { fr: SpokeCopy; en: SpokeCopy } = {
   en: {
     metaTitle: "Setting up a Portuguese company from Algeria: D2 visa and exchange controls (2026)",
     metaDesc:
-      "Algerian national? Setting up a company in Portugal remotely is possible, but the decisive issue is not Portuguese taxation: it is Algeria's exchange controls and the D2 residence visa. 2026 markers to validate with a professional. Service in French.",
+      "Algerian national? Setting up a company in Portugal is possible: the NIF is obtained remotely through a tax representative, but signing the articles and opening the bank account are done in person in Lisbon. The decisive issue remains Algeria's exchange controls and the D2 residence visa. 2026 markers to validate with a professional. Service in French.",
     countryName: "Algeria",
 
-    eyebrow: "From Algeria · Remotely",
+    eyebrow: "From Algeria · NIF remote, signing in Lisbon",
     title: "Set up your company in Portugal",
     titleAccent: "from Algeria",
-    lead: "You are an Algerian national considering a company in Portugal? The company can be set up remotely, in French. But the decisive issue is not Portuguese taxation: it is Algeria's exchange controls (holding a company and transferring currency abroad is heavily restricted) and, if you want to live and run the business from Portugal, the D2 residence visa. Here are the markers, to validate with a professional before any step.",
+    lead: "You are an Algerian national considering a company in Portugal? The NIF is obtained remotely through a tax representative, but signing the articles and opening the bank account are done in person, during a trip to Lisbon. Above all, the decisive issue is not Portuguese taxation: it is Algeria's exchange controls (holding a company and transferring currency abroad is heavily restricted) and, if you want to live and run the business from Portugal, the D2 residence visa. Here are the markers, to validate with a professional before any step.",
     ctaPrimary: "Book a free assessment",
     ctaSecondary: "See the real obstacle",
-    trust: "Entrepreneurs supported since 2025 · Service in French · Lisbon, Portugal",
+    trust: "75+ entrepreneurs supported since 2025 · Service in French · Lisbon, Portugal",
 
     conventionEyebrow: "Double taxation",
     conventionTitle: "Algeria-Portugal treaty",
@@ -217,7 +222,7 @@ const COPY: { fr: SpokeCopy; en: SpokeCopy } = {
       {
         term: "D2 residence visa (Portugal)",
         value:
-          "A residence visa for a non-EU entrepreneur or self-employed person wishing to live and run their activity in Portugal. Indicative 2026 conditions, to be confirmed: means of subsistence of the order of the Portuguese minimum wage, proof of deposit or savings, a credible business plan. The company can be set up before relocation.",
+          "A residence visa for a non-EU entrepreneur or self-employed person wishing to live and run their activity in Portugal. Indicative 2026 conditions, to be confirmed: means of subsistence of the order of the Portuguese minimum wage, proof of deposit or savings, a credible business plan. The company can be set up before relocation, but its incorporation requires a trip to Lisbon to sign the articles.",
       },
       {
         term: "Specificity: exchange controls",
@@ -232,19 +237,19 @@ const COPY: { fr: SpokeCopy; en: SpokeCopy } = {
     ],
 
     remoteEyebrow: "Your process",
-    remoteTitle: "Setting up remotely from Algeria",
+    remoteTitle: "NIF remotely, signing in Lisbon",
     remoteBody:
-      "As a national of a country outside the European Union, your process combines Portuguese formalities (doable remotely) and, in parallel, compliance with Algeria's exchange-control rules. The company can be set up remotely; living and running it from Portugal, however, requires a residence permit.",
+      "As a national of a country outside the European Union, your process combines a single fully remote step (the NIF, through a tax representative), a trip to Lisbon to sign the articles and open the bank account, and, in parallel, compliance with Algeria's exchange-control rules. Living and running it from Portugal further requires a residence permit.",
     remoteSteps: [
       {
-        term: "Obtain the non-resident NIF",
+        term: "Obtain the non-resident NIF (remotely)",
         value:
-          "The NIF (individual Portuguese tax number) is obtained for a non-resident through a tax representative in Portugal, without travelling. Not to be confused with the NIPC, the future company's tax number.",
+          "The NIF (individual Portuguese tax number) is obtained for a non-resident through a tax representative resident outside the EU, without travelling: it is the only fully remote step. Not to be confused with the NIPC, the future company's tax number.",
       },
       {
-        term: "Grant a power of attorney",
+        term: "Prepare the articles in advance",
         value:
-          "A power of attorney allows the registration formalities to be carried out in your name: the company can therefore be set up remotely, before any relocation to Portugal.",
+          "The articles and the registration file are prepared remotely, but their signature is not done remotely: it takes place in person in Portugal. Best to have everything ready before your trip so you can sign in one go on site.",
       },
       {
         term: "Anticipate the D2 visa if you want to live and run the business in Portugal",
@@ -257,9 +262,14 @@ const COPY: { fr: SpokeCopy; en: SpokeCopy } = {
           "Before any transfer of funds or funding of the company, have your situation checked against Algeria's exchange-control rules (resident / non-resident, applicable authorisations). This is the step not to skip, to validate with a professional.",
       },
       {
-        term: "Incorporate and open the account",
+        term: "Sign the articles in Lisbon and incorporate",
         value:
-          "Coordinated incorporation (articles, RCBE, Certidão Permanente, Segurança Social) then opening the business account depending on the bank and your profile. Accounting is then handled by a partner Contabilista Certificado.",
+          "During your trip to Lisbon, you sign the articles in person; incorporation follows (NIPC, then the Certidão Permanente). The RCBE is then declared by the partner lawyer right after the Certidão Permanente is issued (24-48 h after incorporation). Segurança Social registration and accounting are handled by a partner Contabilista Certificado.",
+      },
+      {
+        term: "Open the bank account at a branch",
+        value:
+          "Opening the business account is done in person, at a branch, during that same trip to Lisbon (not remotely). Conditions depend on the bank and your profile.",
       },
     ],
 
@@ -267,9 +277,9 @@ const COPY: { fr: SpokeCopy; en: SpokeCopy } = {
     relatedTitle: "Useful pages before you decide",
     related: [
       {
-        label: "Setting up from abroad: the remote guide",
+        label: "Setting up from abroad: the full guide",
         href: "/creer-societe-portugal-depuis-letranger",
-        desc: "The common backbone of remote formalities, valid wherever you live.",
+        desc: "The common backbone of the formalities (NIF remotely, signing and account on site), valid wherever you live.",
       },
       {
         label: "Setting up a company in Portugal",
@@ -293,19 +303,19 @@ const COPY: { fr: SpokeCopy; en: SpokeCopy } = {
     faq: [
       {
         q: "Can I hold a company in Portugal while remaining an Algerian resident?",
-        a: "It is legally conceivable on the Portuguese side, and the company can be set up remotely. But as an Algerian resident, holding assets and companies abroad is heavily framed by exchange controls (authorisation principle, regulation 07-01); your tax residence is assessed under Algerian law. This point must be validated with a professional before any step.",
+        a: "It is legally conceivable on the Portuguese side. On the formalities side, only the NIF is obtained remotely; signing the articles and opening the bank account are done in person during a trip to Lisbon. But as an Algerian resident, holding assets and companies abroad is heavily framed by exchange controls (authorisation principle, regulation 07-01); your tax residence is assessed under Algerian law. This point must be validated with a professional before any step.",
       },
       {
         q: "Do I need a visa to set up or run my company?",
-        a: "To set up the company, no: it can be incorporated remotely through a power of attorney, without a visa. However, to live and run the activity from Portugal, a residence permit is required: the D2 residence visa targets non-EU entrepreneurs and self-employed people. Its conditions (means of subsistence, savings, business plan) are indicative for 2026 and to be confirmed.",
+        a: "To set up the company, no: incorporation does not depend on a visa. But it is not done entirely remotely: only the NIF is obtained through a tax representative, while signing the articles and opening the bank account take place in person in Portugal. However, to live and run the activity from Portugal, a residence permit is required: the D2 residence visa targets non-EU entrepreneurs and self-employed people. Its conditions (means of subsistence, savings, business plan) are indicative for 2026 and to be confirmed.",
       },
       {
         q: "How do I transfer funds or currency to Portugal?",
         a: "This is the most sensitive point. For an Algerian resident, transferring currency and funding a company abroad are heavily framed and subject to authorisation under exchange controls; we publish no ceilings, as the situation is evolving. The resident / non-resident distinction is decisive. To be verified and dated with a professional before any operation.",
       },
       {
-        q: "Is setting up remotely really possible?",
-        a: "Yes, setting up remotely is possible: a non-resident NIF obtained through a tax representative, then a power of attorney to carry out the registration in your name. Living and running the business from Portugal, however, requires a residence visa (D2 type), and any transfer of funds must comply with Algeria's exchange-control rules.",
+        q: "Is the company set up entirely remotely?",
+        a: "No. Only the non-resident NIF is obtained remotely, through a tax representative. Signing the articles and opening the bank account are done in person, during a trip to Lisbon. The RCBE is declared by the partner lawyer right after the Certidão Permanente (24-48 h after incorporation). Living and running the business from Portugal further requires a residence visa (D2 type), and any transfer of funds must comply with Algeria's exchange-control rules.",
       },
     ],
 

@@ -4,20 +4,20 @@ export const aDistanceGuide: Article = {
   id: "creer-societe-portugal-a-distance-guide",
   slug: "creer-societe-portugal-a-distance-guide",
   title: {
-    fr: "Créer une société au Portugal à distance : guide complet (NIF, procuration, banque)",
-    en: "Setting Up a Portuguese Company Remotely: The Complete Guide (NIF, Power of Attorney, Bank)",
+    fr: "Créer une société au Portugal à distance : ce qui est possible, ce qui demande une venue",
+    en: "Setting Up a Portuguese Company Remotely: What's Possible, What Requires a Visit",
   },
   excerpt: {
-    fr: "Créer sa société portugaise sans se déplacer, c'est possible : NIF à distance, procuration et signature qualifiée, immatriculation, compte bancaire. Le parcours, étape par étape.",
-    en: "Setting up your Portuguese company without travelling is possible: NIF obtained remotely, power of attorney, registration and bank account. The journey, step by step.",
+    fr: "Ce qui se fait vraiment à distance (le NIF, la préparation) et ce qui demande une venue à Lisbonne (la signature des statuts, l'ouverture du compte bancaire). Le parcours honnête, étape par étape.",
+    en: "What is genuinely done remotely (the NIF, the preparation) and what requires a trip to Lisbon (signing the articles, opening the bank account). The honest journey, step by step.",
   },
   datePublished: "2026-06-09",
-  dateModified: "2026-06-09",
+  dateModified: "2026-06-22",
   content: {
     fr: [
       {
         paragraphs: [
-          "Oui, on peut créer une société au Portugal sans y poser le pied, ou presque. Le pays a numérisé l'essentiel de ses formalités, et le reste se traite par procuration et signature électronique. Cet article est le compagnon pratique de notre orientation par pays : là où ce hub vous dit si le parcours à distance est pertinent pour votre situation, celui-ci vous détaille la procédure, dans l'ordre, du numéro fiscal au compte bancaire. Une réserve d'emblée, et elle est centrale : la facilité technique de la création ne dit rien de la solidité du montage. Une société portugaise n'a de sens que si vous vous y installez réellement ; le vrai risque, pour qui reste résident de son pays, ne se situe pas au Portugal mais dans son pays de résidence. Nous y reviendrons à la fin. D'abord, le parcours.",
+          "« Créer sa société au Portugal à distance » : la formule est partout, et elle est en partie vraie, en partie trompeuse. La vérité honnête, celle que nous appliquons chez Business Portugal : le NIF et toute la préparation se font à distance, mais la signature des statuts et l'ouverture du compte bancaire se font en personne, lors d'une venue au Portugal. C'est ce déplacement, justement, qui fait une implantation réelle plutôt qu'une coquille pilotée de loin. Cet article est le compagnon pratique de notre orientation par pays : là où ce hub vous dit si le projet est pertinent pour votre situation, celui-ci vous détaille la procédure, dans l'ordre, du numéro fiscal au compte bancaire, en distinguant clairement ce qui se prépare à distance et ce qui demande votre présence. Une réserve d'emblée, et elle est centrale : la facilité technique de la création ne dit rien de la solidité du montage. Une société portugaise n'a de sens que si vous vous y installez réellement ; le vrai risque, pour qui reste résident de son pays, ne se situe pas au Portugal mais dans son pays de résidence. Nous y reviendrons à la fin. D'abord, le parcours.",
         ],
       },
       {
@@ -28,30 +28,30 @@ export const aDistanceGuide: Article = {
         ],
       },
       {
-        heading: "Étape 2 : agir à distance, par procuration et signature qualifiée",
+        heading: "Étape 2 : la préparation à distance, en amont de votre venue",
         paragraphs: [
-          "Pour ne pas avoir à vous déplacer, deux mécanismes se combinent. Le premier est la procuration : vous mandatez une personne de confiance sur place pour accomplir les formalités en votre nom. Selon le pays où vous vous trouvez, cette procuration devra le plus souvent être légalisée, par un notaire et, le cas échéant, par apostille, ou passer par le consulat du Portugal. Le second mécanisme est la signature électronique qualifiée, qui a la même valeur juridique qu'une signature manuscrite et permet de signer à distance certains actes sans recourir au papier.",
-          "Concrètement, l'un ou l'autre, voire les deux, sera mobilisé selon l'étape : ouverture de compte, signature des statuts, déclarations. Le bon réflexe est de préparer ces éléments en amont, car les délais de légalisation et d'apostille, dans votre pays, sont souvent ce qui rallonge le calendrier, bien plus que les démarches portugaises elles-mêmes. C'est précisément ce que nous coordonnons : anticiper les pièces à légaliser pour que la création s'enchaîne sans temps mort.",
+          "Une fois le NIF en main, tout le travail de préparation se fait à distance, en visioconférence et par échange de documents. On cadre ensemble la structure (ENI, Unipessoal Lda, Lda), l'objet social, le capital et la répartition entre associés, on rédige les statuts et on réunit les pièces. Certaines pièces doivent être légalisées dans votre pays (par un notaire et, le cas échéant, par apostille, ou via le consulat du Portugal) : ce sont souvent ces délais-là, chez vous, qui rallongent le calendrier, bien plus que les démarches portugaises elles-mêmes.",
+          "Le bon réflexe est donc d'anticiper ces éléments pour que votre venue soit courte et efficace. Car la signature des statuts et l'ouverture du compte bancaire, elles, se font en personne au Portugal : nous y arrivons aux étapes suivantes. C'est précisément ce que nous coordonnons : préparer tout le dossier à distance pour qu'un seul déplacement suffise à concrétiser la société.",
         ],
       },
       {
-        heading: "Étape 3 : l'immatriculation et les déclarations obligatoires",
+        heading: "Étape 3 : la signature des statuts et l'immatriculation, sur place",
         paragraphs: [
-          "Vient ensuite la constitution proprement dite. On rédige les statuts, qui fixent l'objet, les associés, la gérance et la répartition du capital. La société est immatriculée et reçoit son NIPC ainsi qu'une Certidão Permanente, l'extrait officiel et permanent qui prouve son existence et que l'on présente couramment aux banques et partenaires. Le capital social n'est pas un obstacle : pour une Unipessoal Lda comme pour une Lda, il peut démarrer à 1 € par associé, ce qui rend la création accessible.",
-          "Deux déclarations accompagnent l'immatriculation et ne doivent pas être oubliées. Le RCBE, le registre central des bénéficiaires effectifs, identifie les personnes physiques qui détiennent ou contrôlent réellement la société : sa déclaration est obligatoire. Et l'inscription à la Segurança Social, la sécurité sociale portugaise, rattache la société et son ou ses gérants au régime social. Ces étapes sont la partie « paperasse » du parcours ; elles se traitent à distance dès lors que NIF et procuration sont en place.",
+          "Vient ensuite la constitution proprement dite, et c'est l'étape qui demande votre présence. La signature des statuts, qui fixent l'objet, les associés, la gérance et la répartition du capital, se fait en personne au Portugal, avec Audrey à vos côtés. La société est alors immatriculée et reçoit son NIPC ainsi qu'une Certidão Permanente, l'extrait officiel et permanent qui prouve son existence et que l'on présente couramment aux banques et partenaires ; elle est disponible sous 24 à 48 h après l'immatriculation. Le capital social n'est pas un obstacle : pour une Unipessoal Lda comme pour une Lda, il peut démarrer à 1 € par associé, ce qui rend la création accessible.",
+          "Deux déclarations accompagnent l'immatriculation et ne doivent pas être oubliées. Le RCBE, le registre central des bénéficiaires effectifs, identifie les personnes physiques qui détiennent ou contrôlent réellement la société : sa déclaration est obligatoire et c'est notre avocat partenaire qui la réalise, juste après l'obtention de la Certidão Permanente. Et l'inscription à la Segurança Social, la sécurité sociale portugaise, rattache la société et son ou ses gérants au régime social. Ces étapes sont coordonnées pour vous une fois les statuts signés.",
         ],
       },
       {
-        heading: "Étape 4 : le compte bancaire professionnel, le point le plus variable",
+        heading: "Étape 4 : le compte bancaire professionnel, en agence",
         paragraphs: [
-          "C'est ici qu'il faut être honnête, car c'est l'étape la moins prévisible. L'ouverture d'un compte professionnel peut souvent être amorcée à distance, en constituant le dossier en ligne. Mais l'aboutissement dépend de la banque : certaines acceptent une vérification d'identité par visioconférence, d'autres exigent un passage physique en agence, au moins une fois, pour finaliser l'ouverture. Il n'existe pas de règle universelle, et les pratiques évoluent selon les établissements et le profil du client.",
-          "Mieux vaut donc intégrer cette incertitude au calendrier plutôt que de la découvrir au mauvais moment. Dans bien des cas, un déplacement court et unique suffit à débloquer le compte, le reste du parcours restant à distance. Nous orientons vers les banques dont les pratiques correspondent à votre situation, mais sans rien promettre que nous ne maîtrisons pas : la décision finale appartient à la banque, et nous préférons le dire clairement.",
+          "C'est ici qu'il faut être honnête, car c'est l'étape la moins prévisible. L'ouverture d'un compte professionnel se fait en personne, en agence, au Portugal : c'est la pratique des banques pour un dossier de non-résident, et c'est aussi pourquoi votre venue sert à la fois à signer les statuts et à ouvrir le compte, lors du même déplacement. Le dossier (Certidão Permanente, RCBE, statuts, justificatifs) se prépare en amont, à distance, pour que le rendez-vous en agence soit fluide.",
+          "Mieux vaut donc intégrer ce déplacement au calendrier dès le départ plutôt que de le découvrir au mauvais moment. Nous vous orientons vers la banque partenaire dont les pratiques correspondent à votre situation et nous vous accompagnons le jour du rendez-vous, mais sans rien promettre que nous ne maîtrisons pas : la décision finale d'ouverture appartient à la banque, et nous préférons le dire clairement.",
         ],
       },
       {
         heading: "Étape 5 : la comptabilité, et la vraie question de fond",
         paragraphs: [
-          "Une fois la société vivante, la comptabilité devient une obligation continue, confiée à un Contabilista Certificado, le comptable agréé portugais. C'est lui qui tient les comptes, établit les déclarations et veille au respect des échéances d'IRC et d'IVA. Ce rôle est réglementé : nous ne nous y substituons pas. Notre métier, chez Business Portugal, est l'accompagnement à la création et à l'implantation ; nous structurons le projet, coordonnons les démarches à distance et vous mettons en relation avec un comptable partenaire et, pour les arbitrages fiscaux fins, avec un fiscaliste. Depuis 2025, c'est ainsi que nous avons accompagné plus de 75 entrepreneurs francophones.",
+          "Une fois la société vivante, la comptabilité devient une obligation continue, confiée à un Contabilista Certificado, le comptable agréé portugais. C'est lui qui tient les comptes, établit les déclarations et veille au respect des échéances d'IRC et d'IVA. Ce rôle est réglementé : nous ne nous y substituons pas. Notre métier, chez Business Portugal, est l'accompagnement à la création et à l'implantation ; nous structurons le projet, préparons les démarches à distance, vous accompagnons sur place le jour de la signature et de la banque, puis vous mettons en relation avec un comptable partenaire et, pour les arbitrages fiscaux fins, avec un fiscaliste. Depuis 2025, c'est ainsi que nous avons accompagné plus de 75 entrepreneurs francophones.",
           "Reste la question qui prime sur toutes les autres. Créer à distance est techniquement aisé, mais une société portugaise ne vous protège de rien si votre activité reste, en réalité, exercée et dirigée depuis votre pays. La pertinence du Portugal tient à la substance : y vivre, y diriger, y exercer réellement. L'adresse ne suffit pas, et pour qui reste résident ailleurs, le risque se loge dans son pays de résidence, pas au Portugal. Le plus utile, avant de lancer la procédure, est d'en parler à partir de votre situation concrète, pour vérifier que le projet repose sur des bases solides et pas seulement sur une domiciliation.",
         ],
       },
@@ -59,7 +59,7 @@ export const aDistanceGuide: Article = {
     en: [
       {
         paragraphs: [
-          "Yes, you can set up a company in Portugal without ever setting foot there, or nearly so. The country has digitised most of its formalities, and the rest is handled by power of attorney and electronic signature. This article is the practical companion to our by-country guidance: where that hub tells you whether the remote route fits your situation, this one walks you through the procedure, in order, from your tax number to your bank account. One caveat right away, and it is central: the technical ease of formation says nothing about the soundness of the setup. A Portuguese company only makes sense if you genuinely settle there; for anyone who remains a resident of their own country, the real risk lies not in Portugal but in their country of residence. We will return to this at the end. First, the journey.",
+          "« Setting up your Portuguese company remotely »: the phrase is everywhere, and it is partly true, partly misleading. The honest truth, the one we apply at Business Portugal: the NIF and all the preparation are done remotely, but signing the articles and opening the bank account are done in person, during a trip to Portugal. It is precisely that trip that makes a real setup rather than a shell run from afar. This article is the practical companion to our by-country guidance: where that hub tells you whether the project fits your situation, this one walks you through the procedure, in order, from your tax number to your bank account, clearly separating what is prepared remotely from what requires your presence. One caveat right away, and it is central: the technical ease of formation says nothing about the soundness of the setup. A Portuguese company only makes sense if you genuinely settle there; for anyone who remains a resident of their own country, the real risk lies not in Portugal but in their country of residence. We will return to this at the end. First, the journey.",
         ],
       },
       {
@@ -70,30 +70,30 @@ export const aDistanceGuide: Article = {
         ],
       },
       {
-        heading: "Step 2: acting remotely, by power of attorney and qualified signature",
+        heading: "Step 2: remote preparation, ahead of your visit",
         paragraphs: [
-          "To avoid having to travel, two mechanisms combine. The first is the power of attorney: you appoint a trusted person on the ground to carry out the formalities on your behalf. Depending on the country you are in, this power of attorney will most often need to be legalised, by a notary and, where applicable, with an apostille, or processed through the Portuguese consulate. The second mechanism is the qualified electronic signature, which carries the same legal value as a handwritten signature and lets you sign certain documents remotely without resorting to paper.",
-          "In practice, one or the other, or indeed both, will be used depending on the step: account opening, signing the articles of association, filings. The right reflex is to prepare these elements in advance, because legalisation and apostille timelines in your own country are often what stretches the calendar, far more than the Portuguese steps themselves. This is exactly what we coordinate: anticipating the documents to be legalised so that the formation runs without dead time.",
+          "Once the NIF is in hand, all the preparation work is done remotely, by video call and document exchange. Together we frame the structure (ENI, Unipessoal Lda, Lda), the business object, the capital and the split between partners, we draft the articles and gather the documents. Some documents must be legalised in your own country (by a notary and, where applicable, with an apostille, or through the Portuguese consulate): it is often those timelines, at home, that stretch the calendar, far more than the Portuguese steps themselves.",
+          "The right reflex is therefore to anticipate these elements so that your trip is short and efficient. Because signing the articles and opening the bank account are done in person in Portugal: we get to that in the next steps. This is exactly what we coordinate: preparing the whole file remotely so that a single trip is enough to bring the company to life.",
         ],
       },
       {
-        heading: "Step 3: registration and the mandatory filings",
+        heading: "Step 3: signing the articles and registration, on site",
         paragraphs: [
-          "Next comes incorporation itself. The articles of association are drafted, setting out the purpose, the partners, the management and the allocation of capital. The company is registered and receives its NIPC along with a Certidão Permanente, the official, permanent extract that proves its existence and is routinely presented to banks and partners. Share capital is not an obstacle: for an Unipessoal Lda as for an Lda, it can start at 1 € per partner, which keeps formation accessible.",
-          "Two filings accompany registration and must not be overlooked. The RCBE, the central register of beneficial owners, identifies the individuals who genuinely own or control the company: its declaration is mandatory. And registration with the Segurança Social, the Portuguese social security, attaches the company and its director or directors to the social regime. These steps are the paperwork part of the journey; they are handled remotely once the NIF and power of attorney are in place.",
+          "Next comes incorporation itself, and this is the step that requires your presence. Signing the articles of association, which set out the purpose, the partners, the management and the allocation of capital, is done in person in Portugal, with Audrey by your side. The company is then registered and receives its NIPC along with a Certidão Permanente, the official, permanent extract that proves its existence and is routinely presented to banks and partners; it is available within 24 to 48 hours after registration. Share capital is not an obstacle: for an Unipessoal Lda as for an Lda, it can start at 1 € per partner, which keeps formation accessible.",
+          "Two filings accompany registration and must not be overlooked. The RCBE, the central register of beneficial owners, identifies the individuals who genuinely own or control the company: its declaration is mandatory and is filed by our partner lawyer, right after the Certidão Permanente is issued. And registration with the Segurança Social, the Portuguese social security, attaches the company and its director or directors to the social regime. These steps are coordinated for you once the articles are signed.",
         ],
       },
       {
-        heading: "Step 4: the business bank account, the most variable point",
+        heading: "Step 4: the business bank account, at the branch",
         paragraphs: [
-          "Here is where honesty is required, because this is the least predictable step. Opening a business account can often be started remotely, by assembling the file online. But the outcome depends on the bank: some accept identity verification by video call, others require a physical visit to a branch, at least once, to finalise the opening. There is no universal rule, and practices change from one institution to another and according to the client's profile.",
-          "It is therefore better to build this uncertainty into the timeline than to discover it at the wrong moment. In many cases, a short, single trip is enough to unlock the account, with the rest of the journey staying remote. We point you towards the banks whose practices match your situation, but without promising anything we do not control: the final decision belongs to the bank, and we prefer to say so plainly.",
+          "Here is where honesty is required, because this is the least predictable step. Opening a business account is done in person, at a branch, in Portugal: that is banks' practice for a non-resident file, and it is also why your visit serves both to sign the articles and to open the account, during the same trip. The file (Certidão Permanente, RCBE, articles, supporting documents) is prepared in advance, remotely, so that the branch appointment runs smoothly.",
+          "It is therefore better to build this trip into the timeline from the outset than to discover it at the wrong moment. We point you towards the partner bank whose practices match your situation and support you on the day of the appointment, but without promising anything we do not control: the final decision to open the account belongs to the bank, and we prefer to say so plainly.",
         ],
       },
       {
         heading: "Step 5: accounting, and the real underlying question",
         paragraphs: [
-          "Once the company is alive, accounting becomes a continuous obligation, entrusted to a Contabilista Certificado, the Portuguese certified accountant. It is they who keep the books, prepare the filings and watch over the IRC and IVA deadlines. This role is regulated: we do not substitute for it. Our work at Business Portugal is support with company formation and setup; we structure the project, coordinate the remote steps and connect you with a partner accountant and, for sharper tax decisions, with a tax adviser. Since 2025, this is how we have supported more than 75 French-speaking entrepreneurs.",
+          "Once the company is alive, accounting becomes a continuous obligation, entrusted to a Contabilista Certificado, the Portuguese certified accountant. It is they who keep the books, prepare the filings and watch over the IRC and IVA deadlines. This role is regulated: we do not substitute for it. Our work at Business Portugal is support with company formation and setup; we structure the project, prepare the steps remotely, support you on site on the day of the signing and the bank, then connect you with a partner accountant and, for sharper tax decisions, with a tax adviser. Since 2025, this is how we have supported more than 75 French-speaking entrepreneurs.",
           "There remains the question that outweighs all the others. Setting up remotely is technically easy, but a Portuguese company protects you from nothing if your activity is, in reality, carried out and managed from your own country. Portugal's relevance rests on substance: living there, managing there, genuinely operating there. An address is not enough, and for anyone who remains resident elsewhere, the risk sits in their country of residence, not in Portugal. The most useful thing, before launching the procedure, is to talk it through from your concrete situation, to check that the project rests on solid foundations and not merely on a registered address.",
         ],
       },

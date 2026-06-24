@@ -12,14 +12,14 @@ export const PARAMS_PAIE_PT_2026 = {
   repasEspecesPlafondJour: 6.0, // €/jour exonéré, versé en espèces (AT)
   repasMoisTravailles: 11, // mois effectivement travaillés (congés déduits)
   tauxAccidentDefaut: 0.01, // ~1 % de la masse salariale (bureau/services)
-  salaireMinimumMensuel: 870, // ≈ 870 €/mois 2026 (Orçamento do Estado / Diário da República)
+  salaireMinimumMensuel: 920, // ≈ 920 €/mois 2026 (Orçamento do Estado / Diário da República)
   chargesPatronalesFranceIndicatif: 0.42, // ≈ +42 % (estimation indicative, DGCCRF/URSSAF)
 } as const;
 
 export type RepasMode = "carte" | "especes" | "aucune";
 
 export interface CoutSalarieInput {
-  brutMensuel: number; // ≥ 870
+  brutMensuel: number; // ≥ 920
   moisSalaire: 12 | 14;
   repas: RepasMode;
   joursRepas: number; // 0-31

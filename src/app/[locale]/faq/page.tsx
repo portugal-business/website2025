@@ -51,15 +51,15 @@ const COPY: { fr: Copy; en: Copy } = {
         items: [
           {
             q: "Peut-on créer une société au Portugal sans y résider ni être résident fiscal ?",
-            a: "Oui. Aucune loi portugaise n'impose de résider au Portugal pour y créer une Lda ou une Unipessoal Lda, ni d'y être résident fiscal. Un ressortissant de l'Union européenne, comme un Français, peut constituer sa société entièrement à distance avec un NIF obtenu en amont. La vraie question n'est pas l'autorisation de créer, mais le lieu où vous dirigerez réellement l'activité, c'est ce point qui détermine où votre société sera imposée.",
+            a: "Oui. Aucune loi portugaise n'impose de résider au Portugal pour y créer une Lda ou une Unipessoal Lda, ni d'y être résident fiscal. Un ressortissant de l'Union européenne, comme un Français, obtient son NIF à distance et n'a pas besoin de résider au Portugal pour créer. En revanche, la signature des statuts et l'ouverture du compte bancaire se font en personne au Portugal : prévoyez une venue. La vraie question n'est pas l'autorisation de créer, mais le lieu où vous dirigerez réellement l'activité, c'est ce point qui détermine où votre société sera imposée.",
           },
           {
-            q: "Comment créer une société au Portugal depuis la France sans se déplacer ?",
-            a: "La procédure se fait à distance, par étapes : obtention du NIF des associés, choix du nom et de l'objet social, constitution de la société, puis émission de la Certidão Permanente (l'extrait officiel) sous 24 à 48 heures, du RCBE (registre des bénéficiaires effectifs) et des statuts. Vient ensuite l'accompagnement à l'ouverture du compte bancaire professionnel. Chez Business Portugal, Audrey réalise elle-même la création et l'accompagnement bancaire ; vous n'avez en principe pas besoin de vous déplacer, sauf exigence ponctuelle d'une banque.",
+            q: "Comment créer une société au Portugal depuis la France, avec un minimum de déplacements ?",
+            a: "Le parcours combine des étapes à distance et une venue sur place. À distance : obtention du NIF des associés, choix du nom et de l'objet social, cadrage du projet en visio. En personne au Portugal : la signature des statuts (puis émission de la Certidão Permanente sous 24 à 48 heures, déclaration du RCBE par notre avocat partenaire) et l'ouverture du compte bancaire professionnel. Chez Business Portugal, Audrey réalise elle-même la création et vous accompagne sur place ; comptez en général une venue à Lisbonne, que nous préparons pour qu'elle soit unique.",
           },
           {
             q: "Quelles sont les démarches pour immatriculer une société au Portugal ?",
-            a: "Il faut un NIF pour chaque associé et gérant, un nom de société validé, un objet social (activité principale et activités secondaires), un capital social et l'identité des associés. La société est ensuite constituée, puis vous recevez la Certidão Permanente, le RCBE et les statuts ; le compte bancaire se met en place dans la foulée. C'est un enchaînement de formalités simple sur le papier, mais où une erreur de paramétrage peut coûter cher ensuite, d'où l'intérêt d'être accompagné dès le départ.",
+            a: "Il faut un NIF pour chaque associé et gérant, un nom de société validé, un objet social (activité principale et activités secondaires), un capital social et l'identité des associés. La société est ensuite constituée par la signature des statuts en personne au Portugal, puis vous recevez la Certidão Permanente, le RCBE (déclaré par notre avocat partenaire) et les statuts ; le compte bancaire s'ouvre sur place, lors de la même venue. C'est un enchaînement de formalités simple sur le papier, mais où une erreur de paramétrage peut coûter cher ensuite, d'où l'intérêt d'être accompagné dès le départ.",
           },
           {
             q: "Qu'est-ce que l'Empresa na Hora et comment ça marche ?",
@@ -97,7 +97,7 @@ const COPY: { fr: Copy; en: Copy } = {
         items: [
           {
             q: "Comment obtenir un NIF au Portugal en tant que non-résident, à distance ?",
-            a: "Le NIF (numéro d'identification fiscale des particuliers) s'obtient à distance, sur présentation d'une pièce d'identité et d'un justificatif de domicile. C'est la première brique de tout projet : sans NIF, on ne peut ni créer de société, ni ouvrir de compte, ni signer de bail. Business Portugal s'occupe de cette démarche pour vous dans le cadre de l'accompagnement à la création, sans que vous ayez à vous déplacer.",
+            a: "Le NIF (numéro d'identification fiscale des particuliers) s'obtient à distance, via un représentant fiscal au Portugal, sur présentation d'une pièce d'identité et d'un justificatif de domicile. C'est la première brique de tout projet : sans NIF, on ne peut ni créer de société, ni ouvrir de compte, ni signer de bail. Business Portugal s'occupe de cette démarche pour vous sans que vous ayez à vous déplacer ; le NIF est la seule étape entièrement à distance, la signature des statuts et l'ouverture du compte se faisant ensuite en personne au Portugal.",
           },
           {
             q: "Quelle est la différence entre le NIF et le NIPC au Portugal ?",
@@ -181,7 +181,7 @@ const COPY: { fr: Copy; en: Copy } = {
         items: [
           {
             q: "Un Français peut-il créer une société au Portugal tout en continuant à vivre en France ?",
-            a: "Rien ne l'interdit sur le principe, mais c'est exactement là que se trouve le vrai risque, trop souvent passé sous silence. Si vous dirigez réellement votre société depuis la France, c'est là que se prennent les décisions et que vous travaillez, l'administration française peut considérer que le siège de direction effective est en France et imposer la société en France, voire y voir un établissement stable non déclaré. Le danger n'est pas la création de la société, qui est simple, mais sa requalification fiscale ultérieure. Audrey alerte sur ce point et vous oriente vers un fiscaliste ; elle ne réalise pas elle-même le montage fiscal.",
+            a: "Oui, c'est possible, et fréquent : il faut une adresse de domiciliation au Portugal et, le plus souvent, pouvoir justifier d'une partie de l'activité en local. Le point de vigilance, trop souvent passé sous silence, reste la direction effective. Si vous dirigez réellement votre société depuis la France, c'est là que se prennent les décisions et que vous travaillez, sans aucune substance au Portugal, l'administration française peut considérer que le siège de direction effective est en France et imposer la société en France, voire y voir un établissement stable non déclaré. Le danger n'est pas la création de la société, qui est simple, mais sa requalification fiscale ultérieure. Audrey alerte sur ce point et vous oriente vers un fiscaliste ; elle ne réalise pas elle-même le montage fiscal.",
           },
           {
             q: "Faut-il un gérant qui réside au Portugal pour ma société portugaise ?",
@@ -234,15 +234,15 @@ const COPY: { fr: Copy; en: Copy } = {
         items: [
           {
             q: "Can you set up a company in Portugal without living there or being a tax resident?",
-            a: "Yes. No Portuguese law requires you to reside in Portugal to set up a Lda or a Unipessoal Lda, nor to be a tax resident there. An EU national, such as a French citizen, can incorporate their company entirely remotely with a NIF obtained beforehand. The real question isn't whether you're allowed to set up, but where you will actually run the business, that's what determines where your company will be taxed.",
+            a: "Yes. No Portuguese law requires you to reside in Portugal to set up a Lda or a Unipessoal Lda, nor to be a tax resident there. An EU national, such as a French citizen, obtains their NIF remotely and doesn't need to be resident to set up. However, signing the articles and opening the bank account are done in person in Portugal: plan a visit. The real question isn't whether you're allowed to set up, but where you will actually run the business, that's what determines where your company will be taxed.",
           },
           {
-            q: "How do you set up a company in Portugal from abroad without travelling?",
-            a: "The procedure is done remotely, in stages: obtaining the partners' NIF, choosing the name and business object, incorporating the company, then issuing the Certidão Permanente (the official extract) within 24 to 48 hours, the RCBE (beneficial ownership register) and the articles of association. Support for opening the business bank account follows. At Business Portugal, Audrey carries out the incorporation and banking support herself; in principle you don't need to travel, except for an occasional bank requirement.",
+            q: "How do you set up a company in Portugal from abroad with minimal travel?",
+            a: "The process combines remote steps and one on-site visit. Remotely: obtaining the partners' NIF, choosing the name and business object, framing the project by video call. In person in Portugal: signing the articles (then the Certidão Permanente is issued within 24 to 48 hours, and our partner lawyer files the RCBE) and opening the business bank account. At Business Portugal, Audrey carries out the incorporation herself and supports you on site; plan, as a rule, for one trip to Lisbon, which we prepare so it is single.",
           },
           {
             q: "What are the steps to register a company in Portugal?",
-            a: "You need a NIF for each partner and manager, an approved company name, a business object (main and secondary activities), share capital and the identity of the partners. The company is then incorporated, after which you receive the Certidão Permanente, the RCBE and the articles of association; the bank account follows right after. It's a sequence of formalities that looks simple on paper, but where a setup error can prove costly later, which is why it pays to be supported from the start.",
+            a: "You need a NIF for each partner and manager, an approved company name, a business object (main and secondary activities), share capital and the identity of the partners. The company is then incorporated by signing the articles in person in Portugal, after which you receive the Certidão Permanente, the RCBE (filed by our partner lawyer) and the articles of association; the bank account is opened on site, during the same visit. It's a sequence of formalities that looks simple on paper, but where a setup error can prove costly later, which is why it pays to be supported from the start.",
           },
           {
             q: "What is Empresa na Hora and how does it work?",
@@ -280,7 +280,7 @@ const COPY: { fr: Copy; en: Copy } = {
         items: [
           {
             q: "How do you obtain a NIF in Portugal as a non-resident, remotely?",
-            a: "The NIF (an individual's tax identification number) is obtained remotely, on presentation of an ID document and a proof of address. It's the first building block of any project: without a NIF, you can't set up a company, open an account or sign a lease. Business Portugal handles this step for you as part of the formation support, without you having to travel.",
+            a: "The NIF (an individual's tax identification number) is obtained remotely, through a tax representative in Portugal, on presentation of an ID document and a proof of address. It's the first building block of any project: without a NIF, you can't set up a company, open an account or sign a lease. Business Portugal handles this step for you without you having to travel; the NIF is the only fully remote step, as signing the articles and opening the account are then done in person in Portugal.",
           },
           {
             q: "What is the difference between the NIF and the NIPC in Portugal?",
@@ -364,7 +364,7 @@ const COPY: { fr: Copy; en: Copy } = {
         items: [
           {
             q: "Can a French resident set up a company in Portugal while continuing to live in France?",
-            a: "Nothing prohibits it in principle, but that's exactly where the real risk lies, too often left unsaid. If you actually run your company from France, that's where decisions are made and where you work, the French authorities may consider that the place of effective management is in France and tax the company in France, or even see an undeclared permanent establishment. The danger isn't setting up the company, which is simple, but its later tax reclassification. Audrey flags this point and points you to a tax adviser; she does not carry out the tax structuring herself.",
+            a: "Yes, it's possible, and common: you need a registered address in Portugal and, most often, to be able to show part of the activity takes place locally. The point to watch, too often left unsaid, is effective management. If you actually run your company from France, that's where decisions are made and where you work, with no substance in Portugal, the French authorities may consider that the place of effective management is in France and tax the company in France, or even see an undeclared permanent establishment. The danger isn't setting up the company, which is simple, but its later tax reclassification. Audrey flags this point and points you to a tax adviser; she does not carry out the tax structuring herself.",
           },
           {
             q: "Do you need a manager who resides in Portugal for your Portuguese company?",

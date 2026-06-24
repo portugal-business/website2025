@@ -31,6 +31,10 @@ const ENTRIES = [
   { href: "/portal", key: "client", icon: UserRound },
 ] as const;
 
+// La plateforme SaaS est encore mockée : on n'affiche le menu « Connexion » que
+// si elle est activée (même flag que le proxy). En prod vitrine → menu masqué.
+const PLATFORM_ENABLED = process.env.NEXT_PUBLIC_ENABLE_PLATFORM === "true";
+
 export function LoginMenu({ onNavigate }: { onNavigate?: () => void }) {
   const locale = useLocale();
   const t = COPY[locale === "en" ? "en" : "fr"];
@@ -45,6 +49,9 @@ export function LoginMenu({ onNavigate }: { onNavigate?: () => void }) {
     document.addEventListener("mousedown", close);
     return () => document.removeEventListener("mousedown", close);
   }, [open]);
+
+  // Plateforme désactivée (prod vitrine) : ne rien afficher.
+  if (!PLATFORM_ENABLED) return null;
 
   return (
     <div ref={ref} className="relative">

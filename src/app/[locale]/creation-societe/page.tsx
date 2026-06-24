@@ -74,7 +74,7 @@ const COPY: { fr: Copy; en: Copy } = {
     eyebrow: "Service cœur",
     title: "Créer votre société au Portugal,",
     titleAccent: "accompagné·e du NIF au compte bancaire",
-    lead: "Un accompagnement humain et coordonné, de bout en bout. J'obtiens votre NIF à distance, je prépare et constitue la société, puis je vous accompagne jusqu'à l'ouverture du compte bancaire avec un partenaire officiel. Vous gardez un seul interlocuteur, du premier échange à la mise en relation avec les bons spécialistes.",
+    lead: "Un accompagnement humain et coordonné, de bout en bout. J'obtiens votre NIF à distance et prépare tout le dossier ; puis, lors de votre venue à Lisbonne, je constitue la société (signature des statuts) et vous accompagne en personne à l'ouverture du compte bancaire avec un partenaire officiel. Vous gardez un seul interlocuteur, du premier échange à la mise en relation avec les bons spécialistes.",
     ctaPrimary: "Réserver un diagnostic gratuit",
     ctaSecondary: "Voir les étapes",
     trust: "75+ entrepreneurs accompagnés depuis 2025 · Lisbonne, Portugal",
@@ -129,14 +129,14 @@ const COPY: { fr: Copy; en: Copy } = {
       {
         title: "Documents officiels",
         description:
-          "Après immatriculation, j'obtiens la Certidão Permanente (sous 24/48 h), j'effectue le RCBE et je vous transmets les statuts. Ce sont les pièces dont la banque aura besoin.",
+          "Après immatriculation, j'obtiens la Certidão Permanente (sous 24/48 h) ; le RCBE est déclaré par notre avocat partenaire juste après, et je vous transmets les statuts. Ce sont les pièces dont la banque aura besoin.",
         docsLabel: "Livrés par mes soins",
         docs: ["Certidão Permanente", "RCBE", "Statuts"],
       },
       {
-        title: "Accompagnement bancaire",
+        title: "Accompagnement bancaire (sur place)",
         description:
-          "Je vous accompagne à l'ouverture du compte professionnel avec un partenaire officiel (Millennium). L'ouverture dépend toujours de la compliance de la banque ; je prépare le dossier pour maximiser vos chances.",
+          "Je vous accompagne en personne à l'ouverture du compte professionnel, en agence, avec un partenaire officiel (Millennium), lors de votre venue au Portugal. L'ouverture dépend toujours de la compliance de la banque ; je prépare le dossier en amont pour maximiser vos chances.",
         docsLabel: "Documents requis",
         docs: [
           "Certidão Permanente, RCBE et statuts (fournis après création)",
@@ -181,9 +181,9 @@ const COPY: { fr: Copy; en: Copy } = {
           "Non requise pour créer une société. Vous n'avez pas besoin d'être résident ni de vivre sur place.",
       },
       {
-        term: "Compte bancaire à distance",
+        term: "Ouverture du compte bancaire",
         value:
-          "Possible selon votre profil, votre nationalité et la compliance de la banque. Jamais présenté comme garanti.",
+          "En personne, en agence, lors de votre venue au Portugal (en même temps que la signature des statuts). Le dossier se prépare à distance ; l'ouverture dépend toujours de la compliance de la banque et n'est jamais présentée comme garantie.",
       },
       {
         term: "Capital social Unipessoal Lda / Lda",
@@ -228,7 +228,7 @@ const COPY: { fr: Copy; en: Copy } = {
     eyebrow: "Core service",
     title: "Set up your company in Portugal,",
     titleAccent: "guided from the NIF to the bank account",
-    lead: "Human, coordinated support from start to finish. I obtain your NIF remotely, prepare and incorporate the company, then guide you all the way to opening the bank account with an official partner. You keep a single point of contact, from the first conversation to being connected with the right specialists.",
+    lead: "Human, coordinated support from start to finish. I obtain your NIF remotely and prepare the whole file; then, during your trip to Lisbon, I incorporate the company (signing the articles) and support you in person at the opening of the bank account with an official partner. You keep a single point of contact, from the first conversation to being connected with the right specialists.",
     ctaPrimary: "Book a free assessment",
     ctaSecondary: "See the steps",
     trust: "75+ entrepreneurs supported since 2025 · Lisbon, Portugal",
@@ -283,14 +283,14 @@ const COPY: { fr: Copy; en: Copy } = {
       {
         title: "Official documents",
         description:
-          "After registration, I obtain the Certidão Permanente (within 24/48 h), carry out the RCBE and send you the articles of association. These are the documents the bank will need.",
+          "After registration, I obtain the Certidão Permanente (within 24/48 h); the RCBE is filed by our partner lawyer right after, and I send you the articles of association. These are the documents the bank will need.",
         docsLabel: "Provided by me",
         docs: ["Certidão Permanente", "RCBE", "Articles of association"],
       },
       {
-        title: "Banking support",
+        title: "Banking support (on site)",
         description:
-          "I support you opening the business account with an official partner (Millennium). Opening always depends on the bank's compliance; I prepare the file to maximise your chances.",
+          "I support you in person at the opening of the business account, at the branch, with an official partner (Millennium), during your trip to Portugal. Opening always depends on the bank's compliance; I prepare the file beforehand to maximise your chances.",
         docsLabel: "Documents required",
         docs: [
           "Certidão Permanente, RCBE and articles (provided after incorporation)",
@@ -335,9 +335,9 @@ const COPY: { fr: Copy; en: Copy } = {
           "Not required to set up a company. You do not need to be a resident or live on site.",
       },
       {
-        term: "Remote bank account",
+        term: "Opening the bank account",
         value:
-          "Possible depending on your profile, nationality and the bank's compliance. Never presented as guaranteed.",
+          "In person, at the branch, during your trip to Portugal (at the same time as signing the articles). The file is prepared remotely; opening always depends on the bank's compliance and is never presented as guaranteed.",
       },
       {
         term: "Share capital Unipessoal Lda / Lda",

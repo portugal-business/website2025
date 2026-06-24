@@ -16,13 +16,13 @@ const COPY: { fr: SpokeCopy; en: SpokeCopy } = {
     metaTitle:
       "Créer sa société au Portugal depuis la Suisse : convention, direction effective (2026)",
     metaDesc:
-      "Résident suisse ? Créer une société au Portugal à distance, comprendre la convention suisse-portugaise et le risque de siège de direction effective. Le vrai risque n'est pas portugais, il est suisse. Service en français.",
+      "Résident suisse ? Préparer à distance (NIF), puis venir signer les statuts et ouvrir le compte bancaire en personne à Lisbonne. Convention suisse-portugaise et risque de siège de direction effective : le vrai risque n'est pas portugais, il est suisse. Service en français.",
     countryName: "Suisse",
 
-    eyebrow: "Depuis la Suisse · À distance",
+    eyebrow: "Depuis la Suisse · Préparation à distance, signature sur place",
     title: "Créer sa société au Portugal",
     titleAccent: "depuis la Suisse",
-    lead: "Vous êtes résident suisse et vous envisagez une société au Portugal ? La création se fait à distance, en français. Mais le sujet décisif n'est pas portugais : c'est votre situation en Suisse (résidence, lieu de direction effective, double imposition) qui détermine si l'opération est saine ou risquée. Voici les repères, datés 2026, à valider avec un fiscaliste.",
+    lead: "Vous êtes résident suisse et vous envisagez une société au Portugal ? La préparation se fait à distance, en français — à commencer par le NIF — puis vous venez à Lisbonne signer les statuts et ouvrir le compte bancaire en personne. Mais le sujet décisif n'est pas portugais : c'est votre situation en Suisse (résidence, lieu de direction effective, double imposition) qui détermine si l'opération est saine ou risquée. Voici les repères, datés 2026, à valider avec un fiscaliste.",
     ctaPrimary: "Réserver un diagnostic gratuit",
     ctaSecondary: "Voir le vrai risque",
     trust: "75+ entrepreneurs accompagnés depuis 2025 · Service en français · Lisbonne, Portugal",
@@ -75,29 +75,29 @@ const COPY: { fr: SpokeCopy; en: SpokeCopy } = {
     ],
 
     remoteEyebrow: "Votre parcours",
-    remoteTitle: "Créer à distance depuis la Suisse",
+    remoteTitle: "Préparer depuis la Suisse, signer sur place",
     remoteBody:
-      "Depuis la Suisse, vos démarches portugaises se font à distance, en français. Nous les coordonnons depuis le Portugal ; les modalités exactes (notamment bancaires) dépendent de votre profil et de votre statut de résident d'un État hors Union européenne.",
+      "Depuis la Suisse, la préparation se fait à distance, en français — seul le NIF est une démarche entièrement à distance. La signature des statuts et l'ouverture du compte bancaire se font ensuite en personne, lors d'une venue à Lisbonne. Nous coordonnons l'ensemble depuis le Portugal ; les modalités exactes (notamment bancaires) dépendent de votre profil et de votre statut de résident d'un État hors Union européenne.",
     remoteSteps: [
       {
-        term: "Obtenir le NIF",
+        term: "Obtenir le NIF (à distance)",
         value:
-          "Le NIF (numéro fiscal portugais du particulier) s'obtient sans déplacement. En tant que résident hors UE, la désignation d'un représentant fiscal est généralement requise. À ne pas confondre avec le NIPC, le numéro fiscal de la future société.",
-      },
-      {
-        term: "Donner procuration",
-        value:
-          "Une procuration permet d'accomplir les formalités d'immatriculation en votre nom ; signature électronique qualifiée ou légalisation, sans voyage.",
+          "Le NIF (numéro fiscal portugais du particulier) est la seule démarche entièrement à distance, sans déplacement. En tant que résident hors UE, la désignation d'un représentant fiscal est généralement requise. À ne pas confondre avec le NIPC, le numéro fiscal de la future société.",
       },
       {
         term: "Cadrer la structure en visio",
         value:
-          "Choix entre ENI, Unipessoal Lda ou Lda (capital à partir de 1 € par associé) et cohérence avec votre situation suisse, en particulier le lieu de direction effective, lors d'un échange en français.",
+          "Choix entre ENI, Unipessoal Lda ou Lda (capital à partir de 1 € par associé) et cohérence avec votre situation suisse, en particulier le lieu de direction effective, lors d'un échange en français. Tout est préparé en amont pour que votre venue soit courte.",
       },
       {
-        term: "Immatriculer et ouvrir le compte",
+        term: "Signer les statuts sur place",
         value:
-          "Immatriculation coordonnée (statuts, RCBE, Certidão Permanente, Segurança Social) ; ouverture du compte professionnel souvent amorçable à distance selon la banque. La comptabilité est ensuite assurée par un Contabilista Certificado partenaire.",
+          "La signature des statuts se fait en personne au Portugal, lors d'une venue à Lisbonne. Le NIPC est attribué et la Certidão Permanente (extrait d'immatriculation) suit ; le RCBE est ensuite déclaré par l'avocat partenaire, généralement 24 à 48 h après l'immatriculation. La Segurança Social est gérée dans la foulée.",
+      },
+      {
+        term: "Ouvrir le compte bancaire sur place",
+        value:
+          "L'ouverture du compte professionnel se fait en personne, en agence, lors de cette même venue. La comptabilité est ensuite assurée par un Contabilista Certificado partenaire.",
       },
     ],
 
@@ -131,7 +131,7 @@ const COPY: { fr: SpokeCopy; en: SpokeCopy } = {
     faq: [
       {
         q: "Puis-je créer une société au Portugal en restant résident suisse ?",
-        a: "Oui, c'est possible et la création se fait à distance. Mais tant que vous restez résident fiscal suisse, vous demeurez assujetti à l'impôt en Suisse. Surtout, si la société portugaise est réellement dirigée depuis la Suisse, son siège de direction effective peut y être reconnu et la rendre imposable de façon illimitée en Suisse (LIFD). L'opération n'est saine que si elle est cadrée en amont avec un fiscaliste.",
+        a: "Oui, c'est possible. La préparation se fait à distance (le NIF, notamment), mais la signature des statuts et l'ouverture du compte bancaire se font en personne, lors d'une venue à Lisbonne. Surtout, tant que vous restez résident fiscal suisse, vous demeurez assujetti à l'impôt en Suisse : si la société portugaise est réellement dirigée depuis la Suisse, son siège de direction effective peut y être reconnu et la rendre imposable de façon illimitée en Suisse (LIFD). L'opération n'est saine que si elle est cadrée en amont avec un fiscaliste.",
       },
       {
         q: "La Suisse a-t-elle un régime CFC qui taxerait ma société portugaise ?",
@@ -165,13 +165,13 @@ const COPY: { fr: SpokeCopy; en: SpokeCopy } = {
     metaTitle:
       "Setting up a Portuguese company from Switzerland: treaty, effective management (2026)",
     metaDesc:
-      "Swiss resident? Set up a company in Portugal remotely, understand the Switzerland-Portugal treaty and the place-of-effective-management risk. The real risk is not Portuguese, it is Swiss. Service in French.",
+      "Swiss resident? Prepare remotely (NIF), then come to Lisbon in person to sign the articles and open the bank account. Switzerland-Portugal treaty and place-of-effective-management risk: the real risk is not Portuguese, it is Swiss. Service in French.",
     countryName: "Suisse",
 
-    eyebrow: "From Switzerland · Remotely",
+    eyebrow: "From Switzerland · Remote preparation, on-site signing",
     title: "Set up your company in Portugal",
     titleAccent: "from Switzerland",
-    lead: "You are a Swiss resident considering a company in Portugal? Incorporation is done remotely, in French. But the decisive issue is not Portuguese: it is your situation in Switzerland (residence, place of effective management, double taxation) that determines whether the operation is sound or risky. Here are the markers, dated 2026, to validate with a tax adviser.",
+    lead: "You are a Swiss resident considering a company in Portugal? Preparation is done remotely, in French — starting with the NIF — then you come to Lisbon to sign the articles and open the bank account in person. But the decisive issue is not Portuguese: it is your situation in Switzerland (residence, place of effective management, double taxation) that determines whether the operation is sound or risky. Here are the markers, dated 2026, to validate with a tax adviser.",
     ctaPrimary: "Book a free assessment",
     ctaSecondary: "See the real risk",
     trust: "75+ entrepreneurs supported since 2025 · Service in French · Lisbon, Portugal",
@@ -224,29 +224,29 @@ const COPY: { fr: SpokeCopy; en: SpokeCopy } = {
     ],
 
     remoteEyebrow: "Your process",
-    remoteTitle: "Setting up remotely from Switzerland",
+    remoteTitle: "Prepare from Switzerland, sign on site",
     remoteBody:
-      "From Switzerland, your Portuguese formalities are done remotely, in French. We coordinate them from Portugal; the exact terms (banking in particular) depend on your profile and your status as a resident of a State outside the European Union.",
+      "From Switzerland, preparation is done remotely, in French — only the NIF is a fully remote step. Signing the articles and opening the bank account then take place in person, during a visit to Lisbon. We coordinate the whole process from Portugal; the exact terms (banking in particular) depend on your profile and your status as a resident of a State outside the European Union.",
     remoteSteps: [
       {
-        term: "Obtain the NIF",
+        term: "Obtain the NIF (remotely)",
         value:
-          "The NIF (individual Portuguese tax number) is obtained without travelling. As a non-EU resident, appointing a tax representative is generally required. Not to be confused with the NIPC, the future company's tax number.",
-      },
-      {
-        term: "Grant a power of attorney",
-        value:
-          "A power of attorney allows the registration formalities to be carried out in your name; qualified electronic signature or legalisation, with no trip.",
+          "The NIF (individual Portuguese tax number) is the only fully remote step, with no travel. As a non-EU resident, appointing a tax representative is generally required. Not to be confused with the NIPC, the future company's tax number.",
       },
       {
         term: "Frame the structure by video",
         value:
-          "Choice between ENI, Unipessoal Lda or Lda (capital from €1 per partner) and consistency with your Swiss situation, in particular the place of effective management, during a call in French.",
+          "Choice between ENI, Unipessoal Lda or Lda (capital from €1 per partner) and consistency with your Swiss situation, in particular the place of effective management, during a call in French. Everything is prepared upfront so your visit stays short.",
       },
       {
-        term: "Incorporate and open the account",
+        term: "Sign the articles on site",
         value:
-          "Coordinated incorporation (articles, RCBE, Certidão Permanente, Segurança Social); opening the business account can often be started remotely depending on the bank. Accounting is then handled by a partner Contabilista Certificado.",
+          "Signing the articles takes place in person in Portugal, during a visit to Lisbon. The NIPC is allocated and the Certidão Permanente (registration extract) follows; the RCBE is then declared by the partner lawyer, generally 24 to 48 hours after incorporation. Segurança Social is handled in the same wave.",
+      },
+      {
+        term: "Open the bank account on site",
+        value:
+          "The business account is opened in person, in branch, during that same visit. Accounting is then handled by a partner Contabilista Certificado.",
       },
     ],
 
@@ -280,7 +280,7 @@ const COPY: { fr: SpokeCopy; en: SpokeCopy } = {
     faq: [
       {
         q: "Can I set up a company in Portugal while remaining a Swiss resident?",
-        a: "Yes, it is possible and incorporation is done remotely. But as long as you remain a Swiss tax resident, you stay liable to tax in Switzerland. Above all, if the Portuguese company is genuinely run from Switzerland, its place of effective management may be recognised there and make it subject to unlimited taxation in Switzerland (LIFD). The operation is only sound if framed upfront with a tax adviser.",
+        a: "Yes, it is possible. Preparation is done remotely (the NIF, in particular), but signing the articles and opening the bank account take place in person, during a visit to Lisbon. Above all, as long as you remain a Swiss tax resident, you stay liable to tax in Switzerland: if the Portuguese company is genuinely run from Switzerland, its place of effective management may be recognised there and make it subject to unlimited taxation in Switzerland (LIFD). The operation is only sound if framed upfront with a tax adviser.",
       },
       {
         q: "Does Switzerland have a CFC regime that would tax my Portuguese company?",

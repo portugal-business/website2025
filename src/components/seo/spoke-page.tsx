@@ -98,7 +98,7 @@ export function SpokePage({ locale, path, datePublished, dateModified, c }: Prop
     "@type": "Service",
     name: c.metaTitle,
     description: c.metaDesc,
-    serviceType: "Création de société au Portugal à distance",
+    serviceType: "Création de société au Portugal pour non-résidents",
     inLanguage: locale,
     provider: { "@id": BUSINESS_ID },
     url: canonical,

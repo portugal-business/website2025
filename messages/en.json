@@ -37,8 +37,11 @@
   "trust": {
     "items": [
       { "value": "75+", "label": "entrepreneurs supported since 2025" },
-      { "value": "24-48 h", "label": "Certidão Permanente after registration" },
-      { "value": "100% remote", "label": "NIF and formalities handled from abroad" }
+      { "value": "24-48 h", "label": "Certidão Permanente after the articles are signed" },
+      {
+        "value": "Remote NIF",
+        "label": "Only step handled from abroad; articles and bank account signed in person"
+      }
     ]
   },
   "positioning": {
@@ -63,15 +66,15 @@
       },
       {
         "title": "File preparation",
-        "description": "Articles, capital, business purpose, partners: everything framed before filing."
+        "description": "Articles, capital, business purpose, partners: everything framed with you before filing."
       },
       {
         "title": "Company formation",
-        "description": "On-site registration and Certidão Permanente within 24-48 h."
+        "description": "Articles signed in person, then registration and Certidão Permanente within 24-48 h."
       },
       {
         "title": "RCBE & compliance",
-        "description": "Declaration of the central register of beneficial owners."
+        "description": "Declaration to the central register of beneficial owners, handled by our partner lawyer right after the Certidão Permanente is issued."
       },
       {
         "title": "Bank account",

@@ -112,16 +112,16 @@ export const SEED_SITE_CONTENT: SiteContent = {
       id: "stat-certidao",
       value: { fr: "24-48 h", en: "24-48 h" },
       label: {
-        fr: "Certidão Permanente après immatriculation",
-        en: "Certidão Permanente after registration",
+        fr: "Certidão Permanente après signature des statuts",
+        en: "Certidão Permanente after the articles are signed",
       },
     },
     {
       id: "stat-distance",
-      value: { fr: "100 % à distance", en: "100% remote" },
+      value: { fr: "NIF à distance", en: "Remote NIF" },
       label: {
-        fr: "NIF et démarches gérés depuis l'étranger",
-        en: "NIF and formalities handled from abroad",
+        fr: "Seule démarche réalisée depuis l'étranger ; statuts et compte signés sur place",
+        en: "Only step handled from abroad; articles and bank account signed in person",
       },
     },
   ],
@@ -190,12 +190,12 @@ export const SEED_SITE_POSTS: SitePost[] = [
       en: "Setting up your Portuguese company remotely: what is actually possible in 2026",
     },
     excerpt: {
-      fr: "NIF, constitution, compte bancaire : ce qui se fait à 100 % à distance, ce qui demande une procuration, et les délais réalistes.",
-      en: "NIF, incorporation, bank account: what can be done fully remotely, what requires a power of attorney, and realistic timelines.",
+      fr: "NIF, constitution, compte bancaire : ce qui se fait à distance, ce qui demande une venue à Lisbonne, et les délais réalistes.",
+      en: "NIF, incorporation, bank account: what's done remotely, what requires a trip to Lisbon, and realistic timelines.",
     },
     body: {
-      fr: "## L'essentiel\n\nCréer une société portugaise (Lda ou Unipessoal Lda) sans vivre au Portugal est légal et courant. Le NIF s'obtient à distance, la constitution se fait par procuration, et la Certidão Permanente arrive sous 24 à 48 h après l'immatriculation.\n\n## Les étapes\n\n- Obtention du NIF (numéro fiscal portugais)\n- Constitution de la société (capital légal : 1 € par associé)\n- Certidão Permanente, RCBE et statuts\n- Ouverture du compte bancaire professionnel\n- Mise en relation avec un Contabilista Certificado\n\n## Le délai réaliste\n\nEnviron 3 semaines pour un dossier complet, une fois les justificatifs réunis. Méfiez-vous des promesses de « société en 2 heures ».\n\n*Informations datées de 2026, données à titre indicatif : la fiscalité dépend de votre situation et doit être validée par un fiscaliste.*",
-      en: '## The essentials\n\nSetting up a Portuguese company (Lda or Unipessoal Lda) without living in Portugal is legal and common. The NIF can be obtained remotely, incorporation is done by power of attorney, and the Certidão Permanente arrives within 24-48 h after registration.\n\n## The steps\n\n- Obtaining the NIF (Portuguese tax number)\n- Incorporating the company (legal capital: €1 per partner)\n- Certidão Permanente, RCBE and articles of association\n- Opening the business bank account\n- Introduction to a Contabilista Certificado\n\n## A realistic timeline\n\nAbout 3 weeks for a complete file, once supporting documents are gathered. Beware of promises of a "company in 2 hours".\n\n*Information dated 2026, provided for guidance: taxation depends on your situation and must be validated by a tax adviser.*',
+      fr: "## L'essentiel\n\nCréer une société portugaise (Lda ou Unipessoal Lda) sans vivre au Portugal est légal et courant. Le NIF et la préparation du dossier se font à distance ; la signature des statuts et l'ouverture du compte bancaire se font en personne, lors d'une venue à Lisbonne. La Certidão Permanente arrive sous 24 à 48 h après l'immatriculation.\n\n## Les étapes\n\n- Obtention du NIF (à distance, seule étape entièrement à distance)\n- Préparation du dossier à distance\n- Signature des statuts sur place et immatriculation (capital légal : 1 € par associé)\n- Certidão Permanente, puis RCBE déclaré par l'avocat partenaire\n- Ouverture du compte bancaire professionnel en personne, en agence\n- Mise en relation avec un Contabilista Certificado\n\n## Le délai réaliste\n\nEnviron 3 semaines pour un dossier complet, une fois les justificatifs réunis, avec une venue au Portugal pour les statuts et la banque. Méfiez-vous des promesses de « société en 2 heures ».\n\n*Informations datées de 2026, données à titre indicatif : la fiscalité dépend de votre situation et doit être validée par un fiscaliste.*",
+      en: '## The essentials\n\nSetting up a Portuguese company (Lda or Unipessoal Lda) without living in Portugal is legal and common. The NIF and file preparation are done remotely; signing the articles and opening the bank account are done in person, during a trip to Lisbon. The Certidão Permanente arrives within 24-48 h after registration.\n\n## The steps\n\n- Obtaining the NIF (remotely, the only fully remote step)\n- Preparing the file remotely\n- Signing the articles on site and registration (legal capital: €1 per partner)\n- Certidão Permanente, then RCBE filed by the partner lawyer\n- Opening the business bank account in person, at the branch\n- Introduction to a Contabilista Certificado\n\n## A realistic timeline\n\nAbout 3 weeks for a complete file, once supporting documents are gathered, with a trip to Portugal for the articles and the bank. Beware of promises of a "company in 2 hours".\n\n*Information dated 2026, provided for guidance: taxation depends on your situation and must be validated by a tax adviser.*',
     },
     category: "Création",
     readingMinutes: 4,

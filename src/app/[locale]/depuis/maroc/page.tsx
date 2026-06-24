@@ -20,13 +20,13 @@ const COPY: { fr: SpokeCopy; en: SpokeCopy } = {
     metaTitle:
       "Créer sa société au Portugal depuis le Maroc : contrôle des changes, visa D2 (2026)",
     metaDesc:
-      "Résident marocain ou MRE ? Créer une société au Portugal à distance, comprendre le contrôle des changes de l'Office des Changes, le visa D2 et la distinction résident vs non-résident. Le vrai préalable n'est pas la fiscalité portugaise, c'est le change. Service en français.",
+      "Résident marocain ou MRE ? Créer une société au Portugal : NIF à distance, mais signature des statuts et ouverture du compte bancaire en personne à Lisbonne. Comprendre le contrôle des changes de l'Office des Changes, le visa D2 et la distinction résident vs non-résident. Le vrai préalable n'est pas la fiscalité portugaise, c'est le change. Service en français.",
     countryName: "Maroc",
 
-    eyebrow: "Depuis le Maroc · À distance",
+    eyebrow: "Depuis le Maroc · Venue à Lisbonne",
     title: "Créer sa société au Portugal",
     titleAccent: "depuis le Maroc",
-    lead: "Vous êtes au Maroc et vous envisagez une société au Portugal ? La société peut se créer à distance, en français, par procuration. Mais le sujet décisif n'est pas la fiscalité portugaise : c'est le contrôle des changes marocain et, si vous comptez vous installer, le visa de résidence. La distinction entre résident marocain et MRE (non-résident) change tout. Voici les repères 2026, à valider avec un professionnel.",
+    lead: "Vous êtes au Maroc et vous envisagez une société au Portugal ? Seul le NIF s'obtient à distance, via un représentant fiscal ; la signature des statuts et l'ouverture du compte bancaire se font en personne au Portugal, lors d'une venue à Lisbonne — cohérente, de toute façon, avec un projet d'installation. Et le sujet décisif n'est pas la fiscalité portugaise : c'est le contrôle des changes marocain et, si vous comptez vous installer, le visa de résidence. La distinction entre résident marocain et MRE (non-résident) change tout. Voici les repères 2026, à valider avec un professionnel.",
     ctaPrimary: "Réserver un diagnostic gratuit",
     ctaSecondary: "Voir le vrai obstacle",
     trust: "75+ entrepreneurs accompagnés depuis 2025 · Service en français · Lisbonne, Portugal",
@@ -66,7 +66,7 @@ const COPY: { fr: SpokeCopy; en: SpokeCopy } = {
       {
         term: "Visa D2 : pour vivre et diriger au Portugal",
         value:
-          "La société peut être créée à distance par procuration AVANT toute installation. Mais vivre et diriger l'activité depuis le Portugal suppose un titre de séjour : le visa D2 (entrepreneur / indépendant non-UE). Conditions indicatives 2026 à confirmer.",
+          "La société se crée en venant à Lisbonne signer les statuts ; seul le NIF se règle à distance. Vivre et diriger l'activité depuis le Portugal suppose en outre un titre de séjour : le visa D2 (entrepreneur / indépendant non-UE). Conditions indicatives 2026 à confirmer.",
       },
       {
         term: "Spécificité : le contrôle des changes",
@@ -81,9 +81,9 @@ const COPY: { fr: SpokeCopy; en: SpokeCopy } = {
     ],
 
     remoteEyebrow: "Votre parcours",
-    remoteTitle: "Créer à distance depuis le Maroc",
+    remoteTitle: "Créer depuis le Maroc, avec une venue à Lisbonne",
     remoteBody:
-      "En tant que ressortissant non-UE, votre parcours diffère de celui d'un Européen : la société se monte à distance par procuration, mais le change et, le cas échéant, le visa doivent être cadrés en parallèle. Nous coordonnons les démarches portugaises depuis le Portugal et vous orientons vers les bons partenaires.",
+      "En tant que ressortissant non-UE, votre parcours diffère de celui d'un Européen : seul le NIF s'obtient à distance, tandis que la signature des statuts et l'ouverture du compte bancaire se font en personne lors d'une venue à Lisbonne. Le change et, le cas échéant, le visa doivent être cadrés en parallèle. Nous coordonnons les démarches portugaises depuis le Portugal et vous orientons vers les bons partenaires.",
     remoteSteps: [
       {
         term: "Obtenir le NIF (non-résident, via représentant fiscal)",
@@ -91,9 +91,9 @@ const COPY: { fr: SpokeCopy; en: SpokeCopy } = {
           "En tant que non-résident d'un pays hors UE, le NIF (numéro fiscal portugais du particulier) s'obtient via un représentant fiscal au Portugal. À ne pas confondre avec le NIPC, le numéro fiscal de la future société.",
       },
       {
-        term: "Donner procuration (création possible à distance)",
+        term: "Immatriculer la société (statuts signés à Lisbonne)",
         value:
-          "Une procuration permet d'accomplir les formalités d'immatriculation en votre nom, sans déplacement. La société peut ainsi être créée à distance, avant même une éventuelle installation au Portugal.",
+          "La signature des statuts se fait en personne au Portugal, lors de votre venue à Lisbonne. La société obtient son NIPC et sa Certidão Permanente ; juste après (24-48 h après l'immatriculation), l'avocat partenaire déclare le RCBE (bénéficiaire effectif).",
       },
       {
         term: "Cadrer le contrôle des changes / les autorisations",
@@ -106,9 +106,9 @@ const COPY: { fr: SpokeCopy; en: SpokeCopy } = {
           "Pour résider et diriger l'activité depuis le Portugal, le visa D2 (entrepreneur / indépendant non-UE) est requis. Conditions indicatives 2026 à confirmer : moyens de subsistance de l'ordre du salaire minimum portugais, justificatif de dépôt / épargne, plan d'affaires crédible.",
       },
       {
-        term: "Ouvrir le compte bancaire",
+        term: "Ouvrir le compte bancaire (en agence, sur place)",
         value:
-          "Ouverture du compte professionnel selon la banque et votre profil (résident ou MRE). La comptabilité est ensuite assurée par un Contabilista Certificado partenaire.",
+          "Le compte professionnel s'ouvre en personne, en agence, lors de votre venue à Lisbonne — pas à distance — selon la banque et votre profil (résident ou MRE). La comptabilité est ensuite assurée par un Contabilista Certificado partenaire.",
       },
     ],
 
@@ -146,15 +146,15 @@ const COPY: { fr: SpokeCopy; en: SpokeCopy } = {
       },
       {
         q: "Ai-je besoin d'un visa pour créer ou diriger une société au Portugal ?",
-        a: "Pour créer la société à distance par procuration, non : aucun titre de séjour n'est nécessaire. En revanche, pour vivre au Portugal et y diriger l'activité, le visa D2 (entrepreneur / indépendant non-UE) est requis. Ses conditions 2026 sont indicatives et à confirmer : moyens de subsistance de l'ordre du salaire minimum portugais, justificatif de dépôt / épargne, plan d'affaires crédible.",
+        a: "Pour créer la société, non : aucun titre de séjour n'est nécessaire — il suffit de venir à Lisbonne signer les statuts et ouvrir le compte (le NIF, lui, se règle à distance). En revanche, pour vivre au Portugal et y diriger l'activité, le visa D2 (entrepreneur / indépendant non-UE) est requis. Ses conditions 2026 sont indicatives et à confirmer : moyens de subsistance de l'ordre du salaire minimum portugais, justificatif de dépôt / épargne, plan d'affaires crédible.",
       },
       {
         q: "Puis-je librement transférer des fonds ou des devises vers le Portugal ?",
         a: "Pas librement si vous êtes résident marocain : le transfert de devises et la détention d'avoirs à l'étranger sont encadrés par l'Office des Changes, avec des autorisations ou des limites selon l'opération. Le régime se libéralise progressivement (réforme 2026, « libéralisation maîtrisée »), mais des restrictions demeurent pour les résidents. Les MRE disposent d'une bien plus grande liberté. Aucun montant n'est garanti ici : à dater et à vérifier avec un professionnel.",
       },
       {
-        q: "La création à distance est-elle vraiment possible ?",
-        a: "Oui. Via un NIF non-résident obtenu par un représentant fiscal et une procuration, la société peut être immatriculée au Portugal sans vous déplacer. Reste à cadrer en parallèle le contrôle des changes (si vous êtes résident) et, si vous comptez vous installer, le visa D2. La comptabilité est ensuite assurée par un Contabilista Certificado partenaire.",
+        q: "Qu'est-ce qui se fait à distance, qu'est-ce qui exige une venue ?",
+        a: "Seul le NIF non-résident s'obtient à distance, via un représentant fiscal. La signature des statuts et l'ouverture du compte bancaire, elles, se font en personne au Portugal, lors d'une venue à Lisbonne — une présence cohérente avec un projet d'installation. Après l'immatriculation et la Certidão Permanente, l'avocat partenaire déclare le RCBE (24-48 h). Reste à cadrer en parallèle le contrôle des changes (si vous êtes résident) et, si vous comptez vous installer, le visa D2. La comptabilité est ensuite assurée par un Contabilista Certificado partenaire.",
       },
     ],
 
@@ -176,13 +176,13 @@ const COPY: { fr: SpokeCopy; en: SpokeCopy } = {
     metaTitle:
       "Setting up a Portuguese company from Morocco: foreign-exchange control, D2 visa (2026)",
     metaDesc:
-      "Moroccan resident or MRE? Set up a company in Portugal remotely, understand the Office des Changes foreign-exchange control, the D2 visa and the resident vs non-resident distinction. The real prerequisite is not Portuguese tax, it is exchange control. Service in French.",
+      "Moroccan resident or MRE? Set up a company in Portugal: the NIF is obtained remotely, but signing the articles and opening the bank account are done in person in Lisbon. Understand the Office des Changes foreign-exchange control, the D2 visa and the resident vs non-resident distinction. The real prerequisite is not Portuguese tax, it is exchange control. Service in French.",
     countryName: "Morocco",
 
-    eyebrow: "From Morocco · Remotely",
+    eyebrow: "From Morocco · Trip to Lisbon",
     title: "Set up your company in Portugal",
     titleAccent: "from Morocco",
-    lead: "You are in Morocco and considering a company in Portugal? The company can be set up remotely, in French, by power of attorney. But the decisive issue is not Portuguese tax: it is Moroccan exchange control and, if you plan to settle, the residence visa. The distinction between a Moroccan resident and an MRE (non-resident) changes everything. Here are the 2026 markers, to validate with a professional.",
+    lead: "You are in Morocco and considering a company in Portugal? Only the NIF is obtained remotely, via a tax representative; signing the articles and opening the bank account are done in person in Portugal, during a trip to Lisbon — which is consistent anyway with a relocation project. And the decisive issue is not Portuguese tax: it is Moroccan exchange control and, if you plan to settle, the residence visa. The distinction between a Moroccan resident and an MRE (non-resident) changes everything. Here are the 2026 markers, to validate with a professional.",
     ctaPrimary: "Book a free assessment",
     ctaSecondary: "See the real obstacle",
     trust: "75+ entrepreneurs supported since 2025 · Service in French · Lisbon, Portugal",
@@ -222,7 +222,7 @@ const COPY: { fr: SpokeCopy; en: SpokeCopy } = {
       {
         term: "D2 visa: to live and run the business in Portugal",
         value:
-          "The company can be set up remotely by power of attorney BEFORE any settlement. But living and running the activity from Portugal requires a residence permit: the D2 visa (non-EU entrepreneur / self-employed). Indicative 2026 conditions, to be confirmed.",
+          "The company is set up by coming to Lisbon to sign the articles; only the NIF is handled remotely. Living and running the activity from Portugal additionally requires a residence permit: the D2 visa (non-EU entrepreneur / self-employed). Indicative 2026 conditions, to be confirmed.",
       },
       {
         term: "Specificity: exchange control",
@@ -237,9 +237,9 @@ const COPY: { fr: SpokeCopy; en: SpokeCopy } = {
     ],
 
     remoteEyebrow: "Your process",
-    remoteTitle: "Setting up remotely from Morocco",
+    remoteTitle: "Setting up from Morocco, with a trip to Lisbon",
     remoteBody:
-      "As a non-EU national, your process differs from a European's: the company is set up remotely by power of attorney, but exchange control and, where applicable, the visa must be framed in parallel. We coordinate the Portuguese formalities from Portugal and point you to the right partners.",
+      "As a non-EU national, your process differs from a European's: only the NIF is obtained remotely, while signing the articles and opening the bank account are done in person during a trip to Lisbon. Exchange control and, where applicable, the visa must be framed in parallel. We coordinate the Portuguese formalities from Portugal and point you to the right partners.",
     remoteSteps: [
       {
         term: "Obtain the NIF (non-resident, via a tax representative)",
@@ -247,9 +247,9 @@ const COPY: { fr: SpokeCopy; en: SpokeCopy } = {
           "As a non-resident of a country outside the EU, the NIF (individual Portuguese tax number) is obtained via a tax representative in Portugal. Not to be confused with the NIPC, the future company's tax number.",
       },
       {
-        term: "Grant a power of attorney (remote set-up possible)",
+        term: "Register the company (articles signed in Lisbon)",
         value:
-          "A power of attorney allows the registration formalities to be carried out in your name, with no trip. The company can thus be set up remotely, even before any settlement in Portugal.",
+          "Signing the articles is done in person in Portugal, during your trip to Lisbon. The company obtains its NIPC and its Certidão Permanente; right after (24-48 h after incorporation), the partner lawyer files the RCBE (beneficial owner).",
       },
       {
         term: "Frame exchange control / authorisations",
@@ -262,9 +262,9 @@ const COPY: { fr: SpokeCopy; en: SpokeCopy } = {
           "To reside and run the activity from Portugal, the D2 visa (non-EU entrepreneur / self-employed) is required. Indicative 2026 conditions, to be confirmed: means of subsistence of the order of the Portuguese minimum wage, proof of deposit / savings, a credible business plan.",
       },
       {
-        term: "Open the bank account",
+        term: "Open the bank account (in branch, on site)",
         value:
-          "Opening the business account depends on the bank and your profile (resident or MRE). Accounting is then handled by a partner Contabilista Certificado.",
+          "The business account is opened in person, in branch, during your trip to Lisbon — not remotely — depending on the bank and your profile (resident or MRE). Accounting is then handled by a partner Contabilista Certificado.",
       },
     ],
 
@@ -302,15 +302,15 @@ const COPY: { fr: SpokeCopy; en: SpokeCopy } = {
       },
       {
         q: "Do I need a visa to set up or run a company in Portugal?",
-        a: "To set up the company remotely by power of attorney, no: no residence permit is required. However, to live in Portugal and run the activity there, the D2 visa (non-EU entrepreneur / self-employed) is required. Its 2026 conditions are indicative and to be confirmed: means of subsistence of the order of the Portuguese minimum wage, proof of deposit / savings, a credible business plan.",
+        a: "To set up the company, no: no residence permit is required — you simply come to Lisbon to sign the articles and open the account (the NIF itself is handled remotely). However, to live in Portugal and run the activity there, the D2 visa (non-EU entrepreneur / self-employed) is required. Its 2026 conditions are indicative and to be confirmed: means of subsistence of the order of the Portuguese minimum wage, proof of deposit / savings, a credible business plan.",
       },
       {
         q: "Can I freely transfer funds or currency to Portugal?",
         a: "Not freely if you are a Moroccan resident: the transfer of currency and the holding of assets abroad are framed by the Office des Changes, with authorisations or limits depending on the operation. The regime is gradually liberalising (2026 reform, « controlled liberalisation »), but restrictions remain for residents. MREs enjoy far greater freedom. No amount is guaranteed here: to date and verify with a professional.",
       },
       {
-        q: "Is remote set-up really possible?",
-        a: "Yes. Through a non-resident NIF obtained via a tax representative and a power of attorney, the company can be registered in Portugal without travelling. It remains to frame, in parallel, exchange control (if you are a resident) and, if you plan to settle, the D2 visa. Accounting is then handled by a partner Contabilista Certificado.",
+        q: "What can be done remotely, and what requires a trip?",
+        a: "Only the non-resident NIF is obtained remotely, via a tax representative. Signing the articles and opening the bank account, however, are done in person in Portugal, during a trip to Lisbon — a presence consistent with a relocation project. After incorporation and the Certidão Permanente, the partner lawyer files the RCBE (24-48 h). It remains to frame, in parallel, exchange control (if you are a resident) and, if you plan to settle, the D2 visa. Accounting is then handled by a partner Contabilista Certificado.",
       },
     ],
 

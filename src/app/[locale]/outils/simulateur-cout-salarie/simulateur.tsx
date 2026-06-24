@@ -21,7 +21,7 @@ const COPY = {
   fr: {
     inputsTitle: "Vos paramètres",
     brut: "Salaire brut mensuel",
-    brutMin: "En dessous du salaire minimum portugais 2026 (≈ 870 €).",
+    brutMin: "En dessous du salaire minimum portugais 2026 (≈ 920 €).",
     mois: "Mois de salaire / an",
     moisNote: "14 = standard légal (12 + subsídio de férias + subsídio de Natal).",
     repas: "Subsídio de alimentação",
@@ -149,7 +149,7 @@ const COPY = {
   en: {
     inputsTitle: "Your parameters",
     brut: "Monthly gross salary",
-    brutMin: "Below the 2026 Portuguese minimum wage (≈ €870).",
+    brutMin: "Below the 2026 Portuguese minimum wage (≈ €920).",
     mois: "Months of salary / year",
     moisNote: "14 = legal standard (12 + subsídio de férias + subsídio de Natal).",
     repas: "Meal allowance (subsídio de alimentação)",

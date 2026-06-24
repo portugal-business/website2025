@@ -37,8 +37,11 @@
   "trust": {
     "items": [
       { "value": "75+", "label": "entrepreneurs accompagnés depuis 2025" },
-      { "value": "24-48 h", "label": "Certidão Permanente après immatriculation" },
-      { "value": "100 % à distance", "label": "NIF et démarches gérés depuis l'étranger" }
+      { "value": "24-48 h", "label": "Certidão Permanente après signature des statuts" },
+      {
+        "value": "NIF à distance",
+        "label": "Seule démarche réalisée depuis l'étranger ; statuts et compte signés sur place"
+      }
     ]
   },
   "positioning": {
@@ -63,15 +66,15 @@
       },
       {
         "title": "Préparation du dossier",
-        "description": "Statuts, capital, objet social, associés : tout est cadré avant le dépôt."
+        "description": "Statuts, capital, objet social, associés : tout est cadré avec vous avant le dépôt."
       },
       {
         "title": "Création de la société",
-        "description": "Immatriculation sur place et Certidão Permanente sous 24-48 h."
+        "description": "Signature des statuts sur place, puis immatriculation et Certidão Permanente sous 24-48 h."
       },
       {
         "title": "RCBE & conformité",
-        "description": "Déclaration du registre central des bénéficiaires effectifs."
+        "description": "Déclaration au registre central des bénéficiaires effectifs, réalisée par notre avocat partenaire juste après l'obtention de la Certidão Permanente."
       },
       {
         "title": "Compte bancaire",

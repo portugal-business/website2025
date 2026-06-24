@@ -38,8 +38,8 @@ const COPY = {
     doLabel: "Ce que je fais",
     dontLabel: "Ce que je ne fais pas",
     doList: [
-      "Création de société (NIF à distance, statuts, Certidão Permanente, RCBE) coordonnée de bout en bout",
-      "Accompagnement à l'ouverture du compte bancaire, avec une banque partenaire officielle",
+      "Création de société (NIF à distance, statuts signés sur place, Certidão Permanente, RCBE) coordonnée de bout en bout",
+      "Accompagnement en personne à l'ouverture du compte bancaire, avec une banque partenaire officielle",
       "Mise en relation avec un Contabilista Certificado et des fiscalistes partenaires",
       "Coordination de l'ensemble de votre implantation : un interlocuteur unique, en français",
     ],
@@ -122,8 +122,8 @@ const COPY = {
     doLabel: "What I do",
     dontLabel: "What I don't do",
     doList: [
-      "Company formation (remote NIF, articles of association, Certidão Permanente, RCBE) coordinated end to end",
-      "Support with opening the bank account, with an official partner bank",
+      "Company formation (remote NIF, articles signed on site, Certidão Permanente, RCBE) coordinated end to end",
+      "In-person support with opening the bank account, with an official partner bank",
       "Connection to a Contabilista Certificado and to tax partners",
       "Coordination of your whole setup: a single point of contact, in French",
     ],
