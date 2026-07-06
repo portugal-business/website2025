@@ -137,6 +137,28 @@
   background-color: var(--color-accent);
 }
 
+/* ------------------------------------------------------------------ */
+/*  Rapproche le premier bloc de chaque page du header sticky.        */
+/*  Les heros utilisent py-24 / lg:py-32 (rythme entre sections) ;    */
+/*  appliqué en haut de page contre le header, ce padding-top créait  */
+/*  un vide. On le réduit UNIQUEMENT pour le 1er bloc du <main>, sans */
+/*  toucher au reste du rythme vertical. Couvre les 2 structures :    */
+/*  hero enveloppé (section > .site-frame) et hero direct.            */
+/* ------------------------------------------------------------------ */
+#main > section:first-of-type > .site-frame,
+#main > section:first-of-type.site-frame,
+#main > article:first-of-type {
+  padding-top: 2.5rem;
+}
+
+@media (min-width: 1024px) {
+  #main > section:first-of-type > .site-frame,
+  #main > section:first-of-type.site-frame,
+  #main > article:first-of-type {
+    padding-top: 3.5rem;
+  }
+}
+
 /* Chiffres romains / index éditoriaux */
 .index-num {
   font-family: var(--font-serif);
