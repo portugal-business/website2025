@@ -9,12 +9,30 @@ import { z } from "zod";
  *   BREVO_API_KEY, clé API Brevo (transactional). Optionnelle : si absente,
  *                     l'action retourne un succès sans envoi (mode dev), sans
  *                     jamais crasher.
- *   BREVO_TO_EMAIL, (optionnel) destinataire ; par défaut l'adresse d'Audrey.
+ *   BREVO_TO_EMAIL, (optionnel) liste de destinataires séparés par des virgules ;
+ *                     remplace la liste par défaut (Audrey + suivi Propul'SEO).
  */
 
-// Destinataire des notifications (boîte d'Audrey / Business Portugal).
-const TO_EMAIL = process.env.BREVO_TO_EMAIL ?? "audrey.marques@portugal-business.com";
-const TO_NAME = "Audrey Marques, Business Portugal";
+// Expéditeur technique des notifications (boîte vérifiée côté Brevo).
+const FROM_EMAIL = process.env.BREVO_FROM_EMAIL ?? "audrey.marques@portugal-business.com";
+
+// Destinataires des notifications de lead. Par défaut : Audrey (relation client)
+// + suivi Propul'SEO. Surchargeable via BREVO_TO_EMAIL (emails séparés par ",").
+const DEFAULT_RECIPIENTS = [
+  { email: "audrey.marques@portugal-business.com", name: "Audrey Marques, Business Portugal" },
+  { email: "team@propulseo-site.com", name: "Suivi Propul'SEO" },
+];
+
+function resolveRecipients(): { email: string; name?: string }[] {
+  const override = process.env.BREVO_TO_EMAIL;
+  if (!override) return DEFAULT_RECIPIENTS;
+  const emails = override
+    .split(",")
+    .map((e) => e.trim())
+    .filter(Boolean)
+    .map((email) => ({ email }));
+  return emails.length > 0 ? emails : DEFAULT_RECIPIENTS;
+}
 
 // Valeurs autorisées pour le type de projet (alignées sur le réseau de services).
 const PROJECT_TYPES = [
@@ -197,8 +215,8 @@ async function sendBrevoNotification(
         "api-key": apiKey,
       },
       body: JSON.stringify({
-        sender: { name: "Business Portugal, Formulaire", email: TO_EMAIL },
-        to: [{ email: TO_EMAIL, name: TO_NAME }],
+        sender: { name: "Business Portugal, Formulaire", email: FROM_EMAIL },
+        to: resolveRecipients(),
         replyTo: { email: lead.email, name: lead.fullName },
         subject: `Nouvelle demande, ${lead.projectLabel} (${lead.fullName})`,
         htmlContent,

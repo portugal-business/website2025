@@ -23,8 +23,26 @@
 //   alter table public.tool_leads enable row level security;
 //   -- aucune policy publique : accès serveur via service_role uniquement.
 
-const TO_EMAIL = process.env.BREVO_TO_EMAIL ?? "audrey.marques@portugal-business.com";
-const TO_NAME = "Audrey Marques, Business Portugal";
+// Expéditeur technique (boîte vérifiée côté Brevo).
+const FROM_EMAIL = process.env.BREVO_FROM_EMAIL ?? "audrey.marques@portugal-business.com";
+
+// Destinataires des notifications de lead outil : Audrey + suivi Propul'SEO.
+// Surchargeable via BREVO_TO_EMAIL (emails séparés par des virgules).
+const DEFAULT_RECIPIENTS = [
+  { email: "audrey.marques@portugal-business.com", name: "Audrey Marques, Business Portugal" },
+  { email: "team@propulseo-site.com", name: "Suivi Propul'SEO" },
+];
+
+function resolveRecipients(): { email: string; name?: string }[] {
+  const override = process.env.BREVO_TO_EMAIL;
+  if (!override) return DEFAULT_RECIPIENTS;
+  const emails = override
+    .split(",")
+    .map((e) => e.trim())
+    .filter(Boolean)
+    .map((email) => ({ email }));
+  return emails.length > 0 ? emails : DEFAULT_RECIPIENTS;
+}
 
 export type ToolLeadInput = {
   email: string;
@@ -98,8 +116,8 @@ async function notifyBrevo(apiKey: string, input: ToolLeadInput): Promise<boolea
         "api-key": apiKey,
       },
       body: JSON.stringify({
-        sender: { name: "Business Portugal, Outils", email: TO_EMAIL },
-        to: [{ email: TO_EMAIL, name: TO_NAME }],
+        sender: { name: "Business Portugal, Outils", email: FROM_EMAIL },
+        to: resolveRecipients(),
         replyTo: { email: input.email, name: input.email },
         subject: `Nouveau lead outil, ${input.source}`,
         htmlContent: html,

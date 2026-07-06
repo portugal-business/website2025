@@ -111,11 +111,6 @@ const COPY = {
               "Pages vues, source de la visite, type d'appareil, pays, agrégées et sans identification",
               "Collecte automatique via Plausible (sans cookie)",
             ],
-            [
-              "Données techniques de diagnostic",
-              "Type d'erreur rencontrée, navigateur, page concernée, adresse IP tronquée/masquée",
-              "Collecte automatique via Sentry en cas d'erreur technique",
-            ],
           ],
         },
         body: [
@@ -211,25 +206,6 @@ const COPY = {
           },
           {
             num: "3.5",
-            heading: "Suivi des erreurs techniques",
-            defs: [
-              {
-                term: "Finalité",
-                desc: "détecter et corriger les dysfonctionnements du site pour en garantir le bon fonctionnement et la sécurité.",
-              },
-              { term: "Outil / destinataire", desc: "Sentry." },
-              {
-                term: "Base légale",
-                desc: "intérêt légitime (art. 6.1.f RGPD) à assurer la stabilité et la sécurité du site.",
-              },
-              {
-                term: "Durée de conservation",
-                desc: "données de diagnostic conservées 90 jours maximum, puis supprimées automatiquement.",
-              },
-            ],
-          },
-          {
-            num: "3.6",
             heading: "Gestion du consentement aux cookies",
             defs: [
               {
@@ -251,7 +227,7 @@ const COPY = {
             ],
           },
           {
-            num: "3.7",
+            num: "3.6",
             heading: "Obligations comptables et légales",
             defs: [
               {
@@ -290,11 +266,6 @@ const COPY = {
             ["Calendly", "Prise de rendez-vous", "États-Unis (voir §5)"],
             ["Plausible Analytics", "Mesure d'audience sans cookie", "Union européenne"],
             [
-              "Sentry",
-              "Suivi des erreurs techniques",
-              "{{À_COMPLÉTER, région, ex. UE ou États-Unis}} (voir §5)",
-            ],
-            [
               "{{HÉBERGEUR_À_CONFIRMER, défaut : Coolify sur VPS Propul'SEO}}",
               "Hébergement du site et des données",
               "{{À_COMPLÉTER, pays du datacenter, ex. UE}}",
@@ -313,10 +284,7 @@ const COPY = {
         intro: [
           "Certains de nos prestataires peuvent traiter des données en dehors de l'Union européenne, notamment :",
         ],
-        bullets: [
-          "Calendly (société établie aux États-Unis) ;",
-          "Sentry, selon la région d'hébergement retenue ({{À_COMPLÉTER, confirmer région UE ou US}}).",
-        ],
+        bullets: ["Calendly (société établie aux États-Unis)."],
         body: [
           "Lorsqu'un transfert hors UE a lieu, il est encadré par des garanties appropriées au sens du chapitre V du RGPD, à savoir principalement les Clauses Contractuelles Types (CCT) de la Commission européenne et, le cas échéant, l'adhésion du prestataire au EU-US Data Privacy Framework. Une copie des garanties applicables peut être demandée à l'adresse de contact indiquée au §1.",
         ],
@@ -492,11 +460,6 @@ const COPY = {
               "Page views, traffic source, device type, country, aggregated and non-identifying",
               "Automatic collection via Plausible (cookieless)",
             ],
-            [
-              "Technical diagnostic data",
-              "Type of error encountered, browser, affected page, truncated/masked IP address",
-              "Automatic collection via Sentry when a technical error occurs",
-            ],
           ],
         },
         body: [
@@ -589,25 +552,6 @@ const COPY = {
           },
           {
             num: "3.5",
-            heading: "Technical error monitoring",
-            defs: [
-              {
-                term: "Purpose",
-                desc: "detect and fix site malfunctions to ensure proper operation and security.",
-              },
-              { term: "Tool / recipient", desc: "Sentry." },
-              {
-                term: "Legal basis",
-                desc: "legitimate interest (Art. 6(1)(f) GDPR) in ensuring the stability and security of the site.",
-              },
-              {
-                term: "Retention period",
-                desc: "diagnostic data kept for a maximum of 90 days, then automatically deleted.",
-              },
-            ],
-          },
-          {
-            num: "3.6",
             heading: "Cookie consent management",
             defs: [
               {
@@ -629,7 +573,7 @@ const COPY = {
             ],
           },
           {
-            num: "3.7",
+            num: "3.6",
             heading: "Accounting and legal obligations",
             defs: [
               {
@@ -668,11 +612,6 @@ const COPY = {
             ["Calendly", "Appointment booking", "United States (see §5)"],
             ["Plausible Analytics", "Cookieless audience measurement", "European Union"],
             [
-              "Sentry",
-              "Technical error monitoring",
-              "{{À_COMPLÉTER, region, e.g. EU or United States}} (see §5)",
-            ],
-            [
               "{{HÉBERGEUR_À_CONFIRMER, default: Coolify on Propul'SEO VPS}}",
               "Website and data hosting",
               "{{À_COMPLÉTER, datacenter country, e.g. EU}}",
@@ -691,10 +630,7 @@ const COPY = {
         intro: [
           "Some of our providers may process data outside the European Union, in particular:",
         ],
-        bullets: [
-          "Calendly (a company established in the United States);",
-          "Sentry, depending on the chosen hosting region ({{À_COMPLÉTER, confirm EU or US region}}).",
-        ],
+        bullets: ["Calendly (a company established in the United States)."],
         body: [
           "Where a transfer outside the EU takes place, it is governed by appropriate safeguards within the meaning of Chapter V GDPR, primarily the European Commission's Standard Contractual Clauses (SCCs) and, where applicable, the provider's certification under the EU-US Data Privacy Framework. A copy of the applicable safeguards may be requested at the contact address in §1.",
         ],

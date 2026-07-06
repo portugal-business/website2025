@@ -1,5 +1,6 @@
 import { ArrowRight, Check, X } from "lucide-react";
 import type { Metadata } from "next";
+import Image from "next/image";
 import { setRequestLocale } from "next-intl/server";
 import { Reveal } from "@/components/motion/reveal";
 import { buttonVariants } from "@/components/ui/button";
@@ -267,12 +268,16 @@ export default async function AProposPage({ params }: Props) {
 
         <Reveal delay={160}>
           <figure>
-            {/* TODO photo HD Audrey, placeholder éditorial, ne pas hotlinker d'image externe */}
-            <div
-              className="aspect-[4/5] w-full border border-border bg-muted"
-              role="img"
-              aria-label={c.portraitAlt}
-            />
+            <div className="relative aspect-[4/5] w-full overflow-hidden border border-border bg-muted">
+              <Image
+                src="/audrey-marques.webp"
+                alt={c.portraitAlt}
+                fill
+                sizes="(min-width: 1024px) 44vw, 100vw"
+                priority
+                className="object-cover object-top"
+              />
+            </div>
             <figcaption className="mt-4 flex items-center gap-2.5 font-sans text-xs uppercase tracking-[0.16em] text-muted-foreground">
               <span className="inline-block h-1.5 w-1.5 rotate-45 bg-accent" aria-hidden />
               {c.portraitCaption}
