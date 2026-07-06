@@ -53,8 +53,11 @@ const COPY = {
               "Sociedade por Quotas (Lda), société à responsabilité limitée de droit portugais",
           },
           { label: "NIF / NIPC", value: "518354750" },
-          { label: "Capital social", value: "{{CAPITAL_À_COMPLÉTER}}" },
-          { label: "Siège social", value: "{{ADRESSE_SIEGE_À_COMPLÉTER}}, Lisbonne, Portugal" },
+          { label: "Capital social", value: "2 000 €" },
+          {
+            label: "Siège social",
+            value: "Rua Pinheiro Chagas, 17, 3.º Esq., 1050-174 Lisboa, Portugal",
+          },
           {
             label: "Téléphone",
             value: "+351 937 424 708 (du lundi au vendredi, 9h-19h)",
@@ -106,7 +109,7 @@ const COPY = {
         heading: "Données personnelles",
         body: [
           "Le traitement des données personnelles collectées via le site est régi par le RGPD (Règlement UE 2016/679).",
-          "Responsable du traitement : Lovelyparallel, Lda (Business Portugal), NIF/NIPC 518354750, {{ADRESSE_SIEGE_À_COMPLÉTER}}, Lisbonne, Portugal, contact : audrey.marques@portugal-business.com.",
+          "Responsable du traitement : Lovelyparallel, Lda (Business Portugal), NIF/NIPC 518354750, Rua Pinheiro Chagas, 17, 3.º Esq., 1050-174 Lisboa, Portugal, contact : audrey.marques@portugal-business.com.",
           "Les finalités, bases légales, durées de conservation, destinataires et l'exercice de vos droits (accès, rectification, effacement, limitation, opposition, portabilité) sont détaillés dans notre {{LIEN_CONFIDENTIALITE}}.",
           "Vous pouvez introduire une réclamation auprès de la CNPD (Comissão Nacional de Proteção de Dados, Portugal) ou, si vous résidez en France, de la CNIL.",
         ],
@@ -164,8 +167,11 @@ const COPY = {
             value: "Sociedade por Quotas (Lda), limited liability company under Portuguese law",
           },
           { label: "Tax ID (NIF / NIPC)", value: "518354750" },
-          { label: "Share capital", value: "{{CAPITAL_À_COMPLÉTER}}" },
-          { label: "Registered office", value: "{{ADRESSE_SIEGE_À_COMPLÉTER}}, Lisbon, Portugal" },
+          { label: "Share capital", value: "€2,000" },
+          {
+            label: "Registered office",
+            value: "Rua Pinheiro Chagas, 17, 3.º Esq., 1050-174 Lisboa, Portugal",
+          },
           {
             label: "Phone",
             value: "+351 937 424 708 (Monday to Friday, 9 a.m.-7 p.m.)",
@@ -217,7 +223,7 @@ const COPY = {
         heading: "Personal data",
         body: [
           "The processing of personal data collected through the website is governed by the GDPR (Regulation EU 2016/679).",
-          "Data controller: Lovelyparallel, Lda (Business Portugal), Tax ID 518354750, {{ADRESSE_SIEGE_À_COMPLÉTER}}, Lisbon, Portugal, contact: audrey.marques@portugal-business.com.",
+          "Data controller: Lovelyparallel, Lda (Business Portugal), Tax ID 518354750, Rua Pinheiro Chagas, 17, 3.º Esq., 1050-174 Lisboa, Portugal, contact: audrey.marques@portugal-business.com.",
           "The purposes, legal bases, retention periods, recipients and the exercise of your rights (access, rectification, erasure, restriction, objection, portability) are detailed in our {{LIEN_CONFIDENTIALITE}}.",
           "You may lodge a complaint with the CNPD (Comissão Nacional de Proteção de Dados, Portugal) or, if you reside in France, with the CNIL.",
         ],
