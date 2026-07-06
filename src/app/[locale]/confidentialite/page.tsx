@@ -38,7 +38,7 @@ const COPY = {
       "Comment Lovelyparallel, Lda (Business Portugal) collecte, utilise et protège vos données personnelles, conformément au RGPD et à la loi portugaise n° 58/2019.",
     eyebrow: "Protection des données",
     title: "Politique de confidentialité",
-    updated: "Dernière mise à jour : {{À_COMPLÉTER, date de mise en ligne}}",
+    updated: "Dernière mise à jour : juillet 2026",
     lede: "La présente politique explique comment Lovelyparallel, Lda, exerçant sous le nom commercial « Business Portugal », collecte, utilise et protège vos données personnelles lorsque vous utilisez le site et ses formulaires, conformément au Règlement général sur la protection des données (RGPD, Règlement UE 2016/679) et à la loi portugaise n° 58/2019.",
     noticeLink: { label: "Mentions légales", href: "/mentions-legales" },
     contactCta: { label: "Réserver un diagnostic gratuit", href: "/contact" },
@@ -65,7 +65,7 @@ const COPY = {
           { label: "Gérante / Directrice de la publication", value: "Audrey Marques" },
           {
             label: "Email de contact (protection des données)",
-            value: "{{À_COMPLÉTER, email pro sur le domaine retenu}}",
+            value: "audrey.marques@portugal-business.com",
           },
           {
             label: "Téléphone",
@@ -200,7 +200,7 @@ const COPY = {
               },
               {
                 term: "Durée de conservation",
-                desc: "statistiques agrégées conservées {{À_COMPLÉTER, durée, ex. 24 mois}} ; aucune donnée individuelle identifiable n'est stockée.",
+                desc: "statistiques agrégées conservées 24 mois ; aucune donnée individuelle identifiable n'est stockée.",
               },
             ],
           },
@@ -261,15 +261,11 @@ const COPY = {
             [
               "Supabase",
               "Base de données hébergeant la table « leads » (avec RLS)",
-              "{{À_COMPLÉTER, région du projet, ex. UE (Francfort)}}",
+              "Union européenne (Francfort)",
             ],
             ["Calendly", "Prise de rendez-vous", "États-Unis (voir §5)"],
             ["Plausible Analytics", "Mesure d'audience sans cookie", "Union européenne"],
-            [
-              "{{HÉBERGEUR_À_CONFIRMER, défaut : Coolify sur VPS Propul'SEO}}",
-              "Hébergement du site et des données",
-              "{{À_COMPLÉTER, pays du datacenter, ex. UE}}",
-            ],
+            ["Vercel Inc.", "Hébergement du site (infrastructure edge)", "Union européenne"],
           ],
         },
         body: [
@@ -307,7 +303,7 @@ const COPY = {
           "Droit de définir des directives relatives au sort de vos données après votre décès.",
         ],
         body: [
-          "Comment exercer vos droits : adressez votre demande par email à {{À_COMPLÉTER, email pro}}, en précisant votre demande. Nous pourrons vous demander un justificatif d'identité en cas de doute raisonnable. Nous répondons dans un délai d'un mois (prolongeable de deux mois pour les demandes complexes).",
+          "Comment exercer vos droits : adressez votre demande par email à audrey.marques@portugal-business.com, en précisant votre demande. Nous pourrons vous demander un justificatif d'identité en cas de doute raisonnable. Nous répondons dans un délai d'un mois (prolongeable de deux mois pour les demandes complexes).",
           "Réclamation auprès d'une autorité de contrôle : si vous estimez que vos droits ne sont pas respectés, vous pouvez introduire une réclamation auprès de l'autorité chef de file, la CNPD, Comissão Nacional de Proteção de Dados (Portugal, www.cnpd.pt), et, si vous résidez en France, auprès de la CNIL, Commission Nationale de l'Informatique et des Libertés (www.cnil.fr).",
         ],
       },
@@ -390,7 +386,7 @@ const COPY = {
       "How Lovelyparallel, Lda (Business Portugal) collects, uses and protects your personal data, in accordance with the GDPR and Portuguese Law No. 58/2019.",
     eyebrow: "Data protection",
     title: "Privacy Policy",
-    updated: "Last updated: {{À_COMPLÉTER, go-live date}}",
+    updated: "Last updated: July 2026",
     lede: "This policy explains how Lovelyparallel, Lda, trading as « Business Portugal », collects, uses and protects your personal data when you use the website and its forms, in accordance with the General Data Protection Regulation (GDPR, EU Regulation 2016/679) and Portuguese Law No. 58/2019.",
     noticeLink: { label: "Legal notice", href: "/mentions-legales" },
     contactCta: { label: "Book a free consultation", href: "/contact" },
@@ -414,7 +410,7 @@ const COPY = {
           { label: "Manager / Publication director", value: "Audrey Marques" },
           {
             label: "Contact email (data protection)",
-            value: "{{À_COMPLÉTER, business email on the chosen domain}}",
+            value: "audrey.marques@portugal-business.com",
           },
           {
             label: "Phone",
@@ -546,7 +542,7 @@ const COPY = {
               },
               {
                 term: "Retention period",
-                desc: "aggregated statistics kept for {{À_COMPLÉTER, period, e.g. 24 months}}; no identifiable individual data is stored.",
+                desc: "aggregated statistics kept for 24 months; no identifiable individual data is stored.",
               },
             ],
           },
@@ -607,15 +603,11 @@ const COPY = {
             [
               "Supabase",
               "Database hosting the « leads » table (with RLS)",
-              "{{À_COMPLÉTER, project region, e.g. EU (Frankfurt)}}",
+              "European Union (Frankfurt)",
             ],
             ["Calendly", "Appointment booking", "United States (see §5)"],
             ["Plausible Analytics", "Cookieless audience measurement", "European Union"],
-            [
-              "{{HÉBERGEUR_À_CONFIRMER, default: Coolify on Propul'SEO VPS}}",
-              "Website and data hosting",
-              "{{À_COMPLÉTER, datacenter country, e.g. EU}}",
-            ],
+            ["Vercel Inc.", "Website hosting (edge infrastructure)", "European Union"],
           ],
         },
         body: [
@@ -651,7 +643,7 @@ const COPY = {
           "Right to set instructions regarding the fate of your data after your death.",
         ],
         body: [
-          "How to exercise your rights: send your request by email to {{À_COMPLÉTER, business email}}, stating your request. We may ask for proof of identity in case of reasonable doubt. We respond within one month (extendable by two months for complex requests).",
+          "How to exercise your rights: send your request by email to audrey.marques@portugal-business.com, stating your request. We may ask for proof of identity in case of reasonable doubt. We respond within one month (extendable by two months for complex requests).",
           "Complaint to a supervisory authority: if you believe your rights are not respected, you may lodge a complaint with the lead authority, the CNPD, Comissão Nacional de Proteção de Dados (Portugal, www.cnpd.pt), and, if you reside in France, with the CNIL, Commission Nationale de l'Informatique et des Libertés (www.cnil.fr).",
         ],
       },

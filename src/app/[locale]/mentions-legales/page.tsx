@@ -4,7 +4,7 @@ import { setRequestLocale } from "next-intl/server";
 import { Reveal } from "@/components/motion/reveal";
 import { buttonVariants } from "@/components/ui/button";
 import { Link } from "@/i18n/navigation";
-import { languagesFor, urlFor } from "@/lib/site";
+import { LEGAL_CONTACT_EMAIL, languagesFor, urlFor } from "@/lib/site";
 import { cn } from "@/lib/utils";
 
 const PATH = "/mentions-legales";
@@ -59,7 +59,7 @@ const COPY = {
             label: "Téléphone",
             value: "+351 937 424 708 (du lundi au vendredi, 9h-19h)",
           },
-          { label: "Email", value: "{{EMAIL_À_COMPLÉTER}}" },
+          { label: "Email", value: LEGAL_CONTACT_EMAIL },
           { label: "Gérante et directrice de la publication", value: "Audrey Marques" },
         ],
         callout:
@@ -73,12 +73,12 @@ const COPY = {
         fields: [
           {
             label: "Hébergeur",
-            value:
-              "{{HÉBERGEUR_À_CONFIRMER, défaut : Coolify sur VPS, infrastructure Propul'SEO, France / Union européenne}}",
+            value: "Vercel Inc.",
           },
           {
             label: "Coordonnées de l'hébergeur",
-            value: "{{COORDONNÉES_HÉBERGEUR_À_COMPLÉTER}}",
+            value:
+              "440 N Barranca Ave #4133, Covina, CA 91723, États-Unis — vercel.com. Hébergement sur infrastructure edge, données servies depuis des centres situés en Union européenne.",
           },
         ],
       },
@@ -106,7 +106,7 @@ const COPY = {
         heading: "Données personnelles",
         body: [
           "Le traitement des données personnelles collectées via le site est régi par le RGPD (Règlement UE 2016/679).",
-          "Responsable du traitement : Lovelyparallel, Lda (Business Portugal), NIF/NIPC 518354750, {{ADRESSE_SIEGE_À_COMPLÉTER}}, Lisbonne, Portugal, contact : {{EMAIL_À_COMPLÉTER}}.",
+          "Responsable du traitement : Lovelyparallel, Lda (Business Portugal), NIF/NIPC 518354750, {{ADRESSE_SIEGE_À_COMPLÉTER}}, Lisbonne, Portugal, contact : audrey.marques@portugal-business.com.",
           "Les finalités, bases légales, durées de conservation, destinataires et l'exercice de vos droits (accès, rectification, effacement, limitation, opposition, portabilité) sont détaillés dans notre {{LIEN_CONFIDENTIALITE}}.",
           "Vous pouvez introduire une réclamation auprès de la CNPD (Comissão Nacional de Proteção de Dados, Portugal) ou, si vous résidez en France, de la CNIL.",
         ],
@@ -170,7 +170,7 @@ const COPY = {
             label: "Phone",
             value: "+351 937 424 708 (Monday to Friday, 9 a.m.-7 p.m.)",
           },
-          { label: "Email", value: "{{EMAIL_À_COMPLÉTER}}" },
+          { label: "Email", value: LEGAL_CONTACT_EMAIL },
           { label: "Manager and publication director", value: "Audrey Marques" },
         ],
         callout:
@@ -184,12 +184,12 @@ const COPY = {
         fields: [
           {
             label: "Host",
-            value:
-              "{{HÉBERGEUR_À_CONFIRMER, default: Coolify on VPS, Propul'SEO infrastructure, France / European Union}}",
+            value: "Vercel Inc.",
           },
           {
             label: "Host contact details",
-            value: "{{COORDONNÉES_HÉBERGEUR_À_COMPLÉTER}}",
+            value:
+              "440 N Barranca Ave #4133, Covina, CA 91723, United States — vercel.com. Hosted on edge infrastructure, with data served from data centres located in the European Union.",
           },
         ],
       },
@@ -217,7 +217,7 @@ const COPY = {
         heading: "Personal data",
         body: [
           "The processing of personal data collected through the website is governed by the GDPR (Regulation EU 2016/679).",
-          "Data controller: Lovelyparallel, Lda (Business Portugal), Tax ID 518354750, {{ADRESSE_SIEGE_À_COMPLÉTER}}, Lisbon, Portugal, contact: {{EMAIL_À_COMPLÉTER}}.",
+          "Data controller: Lovelyparallel, Lda (Business Portugal), Tax ID 518354750, {{ADRESSE_SIEGE_À_COMPLÉTER}}, Lisbon, Portugal, contact: audrey.marques@portugal-business.com.",
           "The purposes, legal bases, retention periods, recipients and the exercise of your rights (access, rectification, erasure, restriction, objection, portability) are detailed in our {{LIEN_CONFIDENTIALITE}}.",
           "You may lodge a complaint with the CNPD (Comissão Nacional de Proteção de Dados, Portugal) or, if you reside in France, with the CNIL.",
         ],

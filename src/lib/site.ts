@@ -15,6 +15,10 @@ export const PHONE = "+351 937 424 708";
 export const PHONE_E164 = "+351937424708";
 export const CONTACT_EMAIL =
   process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "contact@portugal-business.com";
+// Email affiché sur les pages légales (éditeur, responsable de traitement,
+// exercice des droits RGPD). Boîte d'Audrey, gérante et directrice de publication.
+export const LEGAL_CONTACT_EMAIL =
+  process.env.NEXT_PUBLIC_LEGAL_EMAIL ?? "audrey.marques@portugal-business.com";
 export const CALENDLY_URL = "https://calendly.com/businessportugal";
 export const LINKEDIN_URL = "https://www.linkedin.com/in/audrey-marques-97728114b/";
 
